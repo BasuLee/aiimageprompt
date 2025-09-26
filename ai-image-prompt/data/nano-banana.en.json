@@ -1,0 +1,2903 @@
+[
+  {
+    "id": "nano-1",
+    "caseNumber": 1,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-1",
+    "title": "Illustration to Figure",
+    "prompt": "turn this photo into a character figure. Behind it, place a box with the character's image printed on it, and a computer showing the Blender modeling process on its screen. In front of the box, add a round plastic base with the character figure standing on it. set the scene indoors if possible",
+    "inputRequirement": "Need to upload a reference image as the object for generating the figure",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1958539464994959715",
+      "https://x.com/ZHO_ZHO_ZHO"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case1/input0.jpg",
+        "alt": "AI image prompt – Illustration to Figure input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case1/output0.jpg",
+        "alt": "AI image prompt – Illustration to Figure output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-2",
+    "caseNumber": 2,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-2",
+    "title": "Generate Ground View from Map Arrow",
+    "prompt": "draw what the red arrow sees \n/ \ndraw the real world view from the red circle in the direction of the arrow.",
+    "inputRequirement": "Need to upload a Google Maps image containing a red arrow",
+    "notes": [],
+    "author": "@tokumin",
+    "authorUrl": "https://x.com/tokumin",
+    "sourceLinks": [
+      "https://x.com/tokumin/status/**1960583251460022626**",
+      "https://x.com/tokumin"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case2/input.jpg",
+        "alt": "AI image prompt – Generate Ground View from Map Arrow input reference"
+      },
+      {
+        "src": "/assets/nano-banana/case2/input3.jpg",
+        "alt": "AI image prompt – Generate Ground View from Map Arrow 2 input reference"
+      },
+      {
+        "src": "/assets/nano-banana/case2/input2.jpg",
+        "alt": "AI image prompt – Generate Ground View from Map Arrow 3 input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case2/output.jpg",
+        "alt": "AI image prompt – Generate Ground View from Map Arrow output image"
+      },
+      {
+        "src": "/assets/nano-banana/case2/output3.jpg",
+        "alt": "AI image prompt – Generate Ground View from Map Arrow 2 output image"
+      },
+      {
+        "src": "/assets/nano-banana/case2/output2.jpg",
+        "alt": "AI image prompt – Generate Ground View from Map Arrow 3 output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-3",
+    "caseNumber": 3,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-3",
+    "title": "Real World AR Information",
+    "prompt": "you are a location-based AR experience generator. highlight [point of interest] in this image and annotate relevant information about it.",
+    "inputRequirement": "Need to upload a reference image",
+    "notes": [
+      "Need to input the point of interest to be annotated in the prompt [POI]"
+    ],
+    "author": "@bilawalsidhu",
+    "authorUrl": "https://x.com/bilawalsidhu",
+    "sourceLinks": [
+      "https://x.com/bilawalsidhu/status/1960529167742853378",
+      "https://x.com/bilawalsidhu"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case3/output.jpg",
+        "alt": "AI image prompt – Real World AR Information output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-4",
+    "caseNumber": 4,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-4",
+    "title": "Extract 3D Buildings/Make Isometric Models",
+    "prompt": "Make Image Daytime and Isometric [Building Only]",
+    "inputRequirement": "Need to upload an image containing the corresponding object",
+    "notes": [
+      "Modify the information in [brackets] as needed (can be set to vehicles, people, etc.)"
+    ],
+    "author": "@Zieeett",
+    "authorUrl": "https://x.com/Zieeett",
+    "sourceLinks": [
+      "https://x.com/Zieeett/status/1960420874806247762",
+      "https://x.com/Zieeett"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case4/input.jpg",
+        "alt": "AI image prompt – Extract 3D Buildings/Make Isometric Models input reference"
+      },
+      {
+        "src": "/assets/nano-banana/case4/input2.jpg",
+        "alt": "AI image prompt – Extract 3D Buildings/Make Isometric Models 2 input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case4/output.jpg",
+        "alt": "AI image prompt – Extract 3D Buildings/Make Isometric Models output image"
+      },
+      {
+        "src": "/assets/nano-banana/case4/output2.jpg",
+        "alt": "AI image prompt – Extract 3D Buildings/Make Isometric Models 2 output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-5",
+    "caseNumber": 5,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-5",
+    "title": "Photos of Yourself in Different Eras",
+    "prompt": "Change the characer's style to [1970]'s classical [male] style\n\nAdd [long curly] hair, \n[long mustache], \nchange the background to the iconic [californian summer landscape]\n\nDon't change the character's face",
+    "inputRequirement": "Need to upload a photo of a person",
+    "notes": [
+      "Change the text in [brackets] to your era and detail information"
+    ],
+    "author": "@AmirMushich",
+    "authorUrl": "https://x.com/AmirMushich",
+    "sourceLinks": [
+      "https://x.com/AmirMushich/status/1960810850224091439",
+      "https://x.com/AmirMushich"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case5/input.jpg",
+        "alt": "AI image prompt – Photos of Yourself in Different Eras input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case5/output.jpg",
+        "alt": "AI image prompt – Photos of Yourself in Different Eras output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-6",
+    "caseNumber": 6,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-6",
+    "title": "Multi-Reference Image Generation",
+    "prompt": "A model is posing and leaning against a pink bmw. She is wearing the following items, the scene is against a light grey background. The green alien is a keychain and it's attached to the pink handbag. The model also has a pink parrot on her shoulder. There is a pug sitting next to her wearing a pink collar and gold headphones.",
+    "inputRequirement": "Need to upload multiple reference images",
+    "notes": [
+      "The prompt needs to describe in detail and include multiple reference objects"
+    ],
+    "author": "@MrDavids1",
+    "authorUrl": "https://x.com/MrDavids1",
+    "sourceLinks": [
+      "https://x.com/MrDavids1/status/1960783672665128970",
+      "https://x.com/MrDavids1"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case6/input.jpg",
+        "alt": "AI image prompt – Multi-Reference Image Generation input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case6/output.jpg",
+        "alt": "AI image prompt – Multi-Reference Image Generation output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-7",
+    "caseNumber": 7,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-7",
+    "title": "Automatic Photo Editing",
+    "prompt": "This photo is very boring and plain. Enhance it! Increase the contrast, boost the colors, and improve the lighting to make it richer,You can crop and delete details that affect the composition.",
+    "inputRequirement": "Need to upload an image that needs correction",
+    "notes": [],
+    "author": "@op7418",
+    "authorUrl": "https://x.com/op7418",
+    "sourceLinks": [
+      "https://x.com/op7418/status/1960528616573558864",
+      "https://x.com/op7418"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case7/input.jpg",
+        "alt": "AI image prompt – Automatic Photo Editing input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case7/output.jpg",
+        "alt": "AI image prompt – Automatic Photo Editing output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-8",
+    "caseNumber": 8,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-8",
+    "title": "Hand Drawing Controls Multi-Character Poses",
+    "prompt": "Have these two characters fight using the pose from Figure 3. Add appropriate visual backgrounds and scene interactions,Generated image ratio is 16:9",
+    "inputRequirement": "Need to upload character images and hand-drawn sketches",
+    "notes": [],
+    "author": "@op7418",
+    "authorUrl": "https://x.com/op7418",
+    "sourceLinks": [
+      "https://x.com/op7418/status/1960536717242573181",
+      "https://x.com/op7418"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case8/input.jpg",
+        "alt": "AI image prompt – Hand Drawing Controls Multi-Character Poses input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case8/output.jpg",
+        "alt": "AI image prompt – Hand Drawing Controls Multi-Character Poses output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-9",
+    "caseNumber": 9,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-9",
+    "title": "Cross-View Image Generation",
+    "prompt": "Convert the photo to a top-down view and mark the location of the photographer.",
+    "inputRequirement": "Need to upload a photo taken from the ground",
+    "notes": [],
+    "author": "@op7418",
+    "authorUrl": "https://x.com/op7418",
+    "sourceLinks": [
+      "https://x.com/op7418/status/1960896630586310656",
+      "https://x.com/op7418"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case9/input.jpg",
+        "alt": "AI image prompt – Cross-View Image Generation input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case9/output.jpg",
+        "alt": "AI image prompt – Cross-View Image Generation output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-10",
+    "caseNumber": 10,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-10",
+    "title": "Custom Character Stickers",
+    "prompt": "Help me turn the character into a white outline sticker similar to Figure 2. The character needs to be transformed into a web illustration style, and add a playful white outline short phrase describing Figure 1.",
+    "inputRequirement": "Need to upload a sticker reference image and a character image",
+    "notes": [],
+    "author": "@op7418",
+    "authorUrl": "https://x.com/op7418",
+    "sourceLinks": [
+      "https://x.com/op7418/status/1960385812132192509",
+      "https://x.com/op7418"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case10/input.jpg",
+        "alt": "AI image prompt – Custom Character Stickers input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case10/output.jpg",
+        "alt": "AI image prompt – Custom Character Stickers output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-11",
+    "caseNumber": 11,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-11",
+    "title": "Anime to Real Coser",
+    "prompt": "Generate a photo of a girl cosplaying this illustration, with the background set at Comiket",
+    "inputRequirement": "Need to upload an illustration image",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1960946893971706306",
+      "https://x.com/ZHO_ZHO_ZHO"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case11/input.jpg",
+        "alt": "AI image prompt – Anime to Real Coser input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case11/output.jpg",
+        "alt": "AI image prompt – Anime to Real Coser output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-12",
+    "caseNumber": 12,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-12",
+    "title": "Generate Character Design",
+    "prompt": "Generate character design for me (Character Design)\n\nProportion design (different height comparisons, head-to-body ratio, etc.)\n\nThree views (front, side, back)\n\nExpression design (Expression Sheet) → like the image you sent\n\nPose design (Pose Sheet) → various common poses\n\nCostume design (Costume Design)",
+    "inputRequirement": "Need to upload a character reference image",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1960669234276753542",
+      "https://x.com/ZHO_ZHO_ZHO"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case12/input.jpg",
+        "alt": "AI image prompt – Generate Character Design input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case12/output.jpg",
+        "alt": "AI image prompt – Generate Character Design output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-13",
+    "caseNumber": 13,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-13",
+    "title": "Color Line Art with Color Palette",
+    "prompt": "Accurately use the color palette from Figure 2 to color the character in Figure 1",
+    "inputRequirement": "Need to upload a line art image and a color palette image",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1960652077891510752",
+      "https://x.com/ZHO_ZHO_ZHO"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case13/input.jpg",
+        "alt": "AI image prompt – Color Line Art with Color Palette input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case13/output.jpg",
+        "alt": "AI image prompt – Color Line Art with Color Palette output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-14",
+    "caseNumber": 14,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-14",
+    "title": "Article Infographic",
+    "prompt": "Generate an infographic for the article content\nRequirements:\n1. Translate the content into English and extract key information from the article\n2. Keep the content in the image concise, only retaining the main title\n3. Use English text in the image\n4. Add rich and cute cartoon characters and elements",
+    "inputRequirement": "Need to upload a blog/article",
+    "notes": [],
+    "author": "@黄建同学",
+    "authorUrl": "https://weibo.com/u/5648162302",
+    "sourceLinks": [
+      "https://weibo.com/5648162302/5204549851155423?wm=3333_2001&from=10F8393010&sourcetype=weixin&s_trans=7836809604_5204549851155423&s_channel=4",
+      "https://weibo.com/u/5648162302"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case14/output.jpg",
+        "alt": "AI image prompt – Article Infographic output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-15",
+    "caseNumber": 15,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-15",
+    "title": "Change Multiple Hairstyles",
+    "prompt": "Generate avatars of this person with different hairstyles in a 3x3 grid format",
+    "inputRequirement": "Need to upload a portrait image that needs hairstyle changes",
+    "notes": [],
+    "author": "@balconychy",
+    "authorUrl": "https://x.com/balconychy",
+    "sourceLinks": [
+      "https://x.com/balconychy/status/1960665038504779923",
+      "https://x.com/balconychy"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case15/output.jpg",
+        "alt": "AI image prompt – Change Multiple Hairstyles output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-16",
+    "caseNumber": 16,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-16",
+    "title": "Model Annotation Explanation Diagram",
+    "prompt": "Draw [3D human organ model display example heart] for academic presentation, with annotations and explanations, suitable for showcasing its principles and [each organ's] functions, very realistic, highly detailed, with extremely fine design.",
+    "inputRequirement": "",
+    "notes": [
+      "[!CAUTION]\nThere are a considerable number of errors in the annotation results ⚠️. Please note that the Nano-Banana annotations are not entirely accurate, and you should carefully verify the correctness of the information before using it.",
+      "Change the text in [brackets] to the model you want to showcase"
+    ],
+    "author": "@berryxia_ai",
+    "authorUrl": "https://x.com/berryxia_ai",
+    "sourceLinks": [
+      "https://x.com/berryxia_ai/status/1960708465586004305",
+      "https://x.com/berryxia_ai"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case16/output.jpg",
+        "alt": "AI image prompt – Model Annotation Explanation Diagram output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-17",
+    "caseNumber": 17,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-17",
+    "title": "Custom Marble Sculpture",
+    "prompt": "A photorealistic image of an ultra-detailed sculpture of the subject in image made of shining marble. The sculpture should display smooth and reflective marble surface, emphasizing its luster and artistic craftsmanship. The design is elegant, highlighting the beauty and depth of marble. The lighting in the image should enhance the sculpture's contours and textures, creating a visually stunning and mesmerizing effect",
+    "inputRequirement": "",
+    "notes": [],
+    "author": "@umesh_ai",
+    "authorUrl": "https://x.com/umesh_ai",
+    "sourceLinks": [
+      "https://x.com/umesh_ai/status/1960370946562564353",
+      "https://x.com/umesh_ai"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case17/output.jpg",
+        "alt": "AI image prompt – Custom Marble Sculpture output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-18",
+    "caseNumber": 18,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-18",
+    "title": "Cook Based on Ingredients",
+    "prompt": "make me a delicious lunch with these ingredients, and put it on a plate , zoomed in view of the plate, remove the other plates and ingredients.",
+    "inputRequirement": "Need to upload a photo with various ingredients",
+    "notes": [],
+    "author": "@Gdgtify",
+    "authorUrl": "https://x.com/Gdgtify",
+    "sourceLinks": [
+      "https://x.com/Gdgtify/status/1960907695348691075",
+      "https://x.com/Gdgtify"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case18/input1.jpg",
+        "alt": "AI image prompt – Cook Based on Ingredients input reference"
+      },
+      {
+        "src": "/assets/nano-banana/case18/input2.jpg",
+        "alt": "AI image prompt – Cook Based on Ingredients 2 input reference"
+      },
+      {
+        "src": "/assets/nano-banana/case18/input3.jpg",
+        "alt": "AI image prompt – Cook Based on Ingredients 3 input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case18/output1.jpg",
+        "alt": "AI image prompt – Cook Based on Ingredients output image"
+      },
+      {
+        "src": "/assets/nano-banana/case18/output2.jpg",
+        "alt": "AI image prompt – Cook Based on Ingredients 2 output image"
+      },
+      {
+        "src": "/assets/nano-banana/case18/output3.jpg",
+        "alt": "AI image prompt – Cook Based on Ingredients 3 output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-19",
+    "caseNumber": 19,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-19",
+    "title": "Math Problem Reasoning",
+    "prompt": "Write the answer to the problem in the corresponding position based on the question",
+    "inputRequirement": "Need to upload a math problem",
+    "notes": [],
+    "author": "@Gorden Sun",
+    "authorUrl": "https://www.xiaohongshu.com/user/profile/632e72f900000000230397fe?xsec_token=ABeSWJqqsTwTtj3KG1HSTt_vwRcODR4jDJnj2dp0k42YI%3D&xsec_source=pc_note",
+    "sourceLinks": [
+      "https://www.xiaohongshu.com/explore/68ade0e7000000001d036677?note_flow_source=wechat&xsec_token=AB4tWI6xCrE2v5euckYXKCBlbQbA-YNoqI5iKKqqQwWpY=",
+      "https://www.xiaohongshu.com/user/profile/632e72f900000000230397fe?xsec_token=ABeSWJqqsTwTtj3KG1HSTt_vwRcODR4jDJnj2dp0k42YI%3D&xsec_source=pc_note"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case19/input.jpg",
+        "alt": "AI image prompt – Math Problem Reasoning input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case19/output.jpg",
+        "alt": "AI image prompt – Math Problem Reasoning output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-20",
+    "caseNumber": 20,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-20",
+    "title": "Old Photo Colorization",
+    "prompt": "restore and colorize this photo.",
+    "inputRequirement": "Need to upload an old photo that needs restoration",
+    "notes": [],
+    "author": "@GeminiApp",
+    "authorUrl": "https://x.com/GeminiApp",
+    "sourceLinks": [
+      "https://x.com/GeminiApp/status/1960347483021959197",
+      "https://x.com/GeminiApp"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case20/input.jpg",
+        "alt": "AI image prompt – Old Photo Colorization input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case20/output.jpg",
+        "alt": "AI image prompt – Old Photo Colorization output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-21",
+    "caseNumber": 21,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-21",
+    "title": "OOTD Outfit",
+    "prompt": "Choose the person in Image 1 and dress them in all the clothing and accessories from Image 2. Shoot a series of realistic OOTD-style photos outdoors, using natural lighting, a stylish street style, and clear full-body shots. Keep the person's identity and pose from Image 1, but show the complete outfit and accessories from Image 2 in a cohesive, stylish way.",
+    "inputRequirement": "Need to upload a person image and clothing image",
+    "notes": [],
+    "author": "@302.AI",
+    "authorUrl": "https://medium.com/@302.AI",
+    "sourceLinks": [
+      "https://medium.com/%40302.AI/google-nano-banana-vs-qwen-gpt-flux-topping-the-image-editing-leaderboard-96038b01bdcd",
+      "https://medium.com/@302.AI"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case21/input.jpg",
+        "alt": "AI image prompt – OOTD Outfit input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case21/output.jpg",
+        "alt": "AI image prompt – OOTD Outfit output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-22",
+    "caseNumber": 22,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-22",
+    "title": "Character Clothing Change",
+    "prompt": "Replace the person's clothing in the input image with the target clothing shown in the reference image. Keep the person's pose, facial expression, background, and overall realism unchanged. Make the new outfit look natural, well-fitted, and consistent with lighting and shadows. Do not alter the person's identity or the environment — only change the clothes.",
+    "inputRequirement": "Need to upload person image and clothing image",
+    "notes": [],
+    "author": "@skirano",
+    "authorUrl": "https://x.com/skirano",
+    "sourceLinks": [
+      "https://x.com/skirano/status/1960343968320737397",
+      "https://x.com/skirano"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case22/input.jpg",
+        "alt": "AI image prompt – Character Clothing Change input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case22/output.jpg",
+        "alt": "AI image prompt – Character Clothing Change output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-23",
+    "caseNumber": 23,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-23",
+    "title": "Multi-View Result Generation",
+    "prompt": "Generate the Front, Rear, Left, Right, Top, Bottom views on white. Evenly spaced. Consistent subject. Isometric Perspective Equivalence.",
+    "inputRequirement": "Need to upload reference image",
+    "notes": [],
+    "author": "@Error_HTTP_404",
+    "authorUrl": "https://x.com/Error_HTTP_404",
+    "sourceLinks": [
+      "https://x.com/Error_HTTP_404/status/1960405116701303294",
+      "https://x.com/Error_HTTP_404"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case23/input.jpg",
+        "alt": "AI image prompt – Multi-View Result Generation input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case23/output.jpg",
+        "alt": "AI image prompt – Multi-View Result Generation output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-24",
+    "caseNumber": 24,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-24",
+    "title": "Movie Storyboard(by [@GeminiApp](@GeminiApp))",
+    "prompt": "Create an addictively intriguing 12 part story with 12 images with these two characters in a classic black and white film noir detective story. Make it about missing treasure that they get clues for throughout and then finally discover. The story is thrilling throughout with emotional highs and lows and ending on a great twist and high note. Do not include any words or text on the images but tell the story purely through the imagery itself.",
+    "inputRequirement": "Need to upload reference image",
+    "notes": [],
+    "author": "",
+    "sourceLinks": [],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case24/input.jpg",
+        "alt": "AI image prompt – Movie Storyboard(by [@GeminiApp](@GeminiApp)) input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case24/output.jpg",
+        "alt": "AI image prompt – Movie Storyboard(by [@GeminiApp](@GeminiApp)) output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-25",
+    "caseNumber": 25,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-25",
+    "title": "Character Pose Modification",
+    "prompt": "Have the person in the picture look straight ahead",
+    "inputRequirement": "Need to upload reference image",
+    "notes": [],
+    "author": "@arrakis_ai",
+    "authorUrl": "https://x.com/arrakis_ai",
+    "sourceLinks": [
+      "https://x.com/arrakis_ai/status/1955901155726516652",
+      "https://x.com/arrakis_ai"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case25/input.jpg",
+        "alt": "AI image prompt – Character Pose Modification input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case25/output.jpg",
+        "alt": "AI image prompt – Character Pose Modification output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-26",
+    "caseNumber": 26,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-26",
+    "title": "Generate image from line drawing",
+    "prompt": "Change the pose of the person in Figure 1 to that of Figure 2, and shoot in a professional studio",
+    "inputRequirement": "Need to upload line drawings and reference images",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1961024423596872184",
+      "https://x.com/ZHO_ZHO_ZHO"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case26/input.jpg",
+        "alt": "AI image prompt – Generate image from line drawing input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case26/output.jpg",
+        "alt": "AI image prompt – Generate image from line drawing output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-27",
+    "caseNumber": 27,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-27",
+    "title": "Add Watermark to Image",
+    "prompt": "Watermark the word ‘TRUMP’ over and over again across the whole image.",
+    "inputRequirement": "Need to upload a reference image",
+    "notes": [],
+    "author": "@AiMachete",
+    "authorUrl": "https://x.com/AiMachete",
+    "sourceLinks": [
+      "https://x.com/AiMachete/status/1963038793705128219",
+      "https://x.com/AiMachete"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case27/input.jpg",
+        "alt": "AI image prompt – Add Watermark to Image input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case27/output.jpg",
+        "alt": "AI image prompt – Add Watermark to Image output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-28",
+    "caseNumber": 28,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-28",
+    "title": "Knowledge Reasoning Image Generation",
+    "prompt": "Make me an infographic of 5 tallest buildings in the world / Make a colorful infographic of the sweetest things on Earth",
+    "inputRequirement": "",
+    "notes": [],
+    "author": "@icreatelife",
+    "authorUrl": "https://x.com/icreatelife",
+    "sourceLinks": [
+      "https://x.com/icreatelife/status/1962998951948517428",
+      "https://x.com/icreatelife"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case28/output.jpg",
+        "alt": "AI image prompt – Knowledge Reasoning Image Generation output image"
+      },
+      {
+        "src": "/assets/nano-banana/case28/output1.jpg",
+        "alt": "AI image prompt – Knowledge Reasoning Image Generation 2 output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-29",
+    "caseNumber": 29,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-29",
+    "title": "Red Pen Annotations",
+    "prompt": "Analyze this image. Use red pen to denote where you can improve.",
+    "inputRequirement": "Need to upload a reference image",
+    "notes": [],
+    "author": "@AiMachete",
+    "authorUrl": "https://x.com/AiMachete",
+    "sourceLinks": [
+      "https://x.com/AiMachete/status/1962356993550643355",
+      "https://x.com/AiMachete"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case29/input.jpg",
+        "alt": "AI image prompt – Red Pen Annotations input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case29/output.jpg",
+        "alt": "AI image prompt – Red Pen Annotations output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-30",
+    "caseNumber": 30,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-30",
+    "title": "Explosive Food",
+    "prompt": "Photograph this product in a dramatic modern scene accompanied by explosive outward dynamic arrangement of the key ingredients fresh and raw flying around the product signifying its freshness and nutritional value. promo ad shot, without text, product is emphasized, with the key brand colors as background.",
+    "inputRequirement": "Need to upload a reference image",
+    "notes": [],
+    "author": "@icreatelife",
+    "authorUrl": "https://x.com/icreatelife",
+    "sourceLinks": [
+      "https://x.com/icreatelife/status/1962724040205803773",
+      "https://x.com/icreatelife"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case30/output.jpg",
+        "alt": "AI image prompt – Explosive Food output image"
+      },
+      {
+        "src": "/assets/nano-banana/case30/output1.jpg",
+        "alt": "AI image prompt – Explosive Food 2 output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-31",
+    "caseNumber": 31,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-31",
+    "title": "Create Comic Book",
+    "prompt": "Based on the uploaded image, make a comic book strip, add text, write a compelling story. I want a superhero comic book.",
+    "inputRequirement": "Need to upload a reference image",
+    "notes": [],
+    "author": "@icreatelife",
+    "authorUrl": "https://x.com/icreatelife",
+    "sourceLinks": [
+      "https://x.com/icreatelife/status/1961977580849873169",
+      "https://x.com/icreatelife"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case31/input.jpg",
+        "alt": "AI image prompt – Create Comic Book input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case31/output.jpg",
+        "alt": "AI image prompt – Create Comic Book output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-32",
+    "caseNumber": 32,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-32",
+    "title": "Action Figure",
+    "prompt": "make an action figure of me that says [“AI Evangelist - Kris”] and features [coffee, turtle, laptop, phone and headphones]",
+    "inputRequirement": "Need to upload a reference image",
+    "notes": [
+      "Change the text in [brackets] to the items you want to add"
+    ],
+    "author": "@icreatelife",
+    "authorUrl": "https://x.com/icreatelife",
+    "sourceLinks": [
+      "https://x.com/icreatelife/status/1961653618529935720",
+      "https://x.com/icreatelife"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case32/input.jpg",
+        "alt": "AI image prompt – Action Figure input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case32/output.jpg",
+        "alt": "AI image prompt – Action Figure output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-33",
+    "caseNumber": 33,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-33",
+    "title": "Map to Isometric Buildings",
+    "prompt": "Take this location and make the landmark an isometric image (building only), in the stvle of the game Theme Park",
+    "inputRequirement": "Need to upload a map reference image",
+    "notes": [],
+    "author": "@demishassabis",
+    "authorUrl": "https://x.com/demishassabis",
+    "sourceLinks": [
+      "https://x.com/demishassabis/status/1961077016830083103",
+      "https://x.com/demishassabis"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case33/input.jpg",
+        "alt": "AI image prompt – Map to Isometric Buildings input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case33/output.jpg",
+        "alt": "AI image prompt – Map to Isometric Buildings output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-34",
+    "caseNumber": 34,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-34",
+    "title": "Reference Image Controls Character Expression",
+    "prompt": "Character reference from Image 1 / Change to the expression from Image 2",
+    "inputRequirement": "Need to upload a character reference image and an expression reference image",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1963156830458085674",
+      "https://x.com/ZHO_ZHO_ZHO"
+    ],
+    "inputImages": [],
+    "outputImages": []
+  },
+  {
+    "id": "nano-35",
+    "caseNumber": 35,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-35",
+    "title": "Illustration Drawing Process Four-Panel",
+    "prompt": "Generate a four-panel drawing process for the character: Step 1: Line art, Step 2: Flat colors, Step 3: Add shadows, Step 4: Refine and complete. No text.",
+    "inputRequirement": "Need to upload a character reference image",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1961772524611768452",
+      "https://x.com/ZHO_ZHO_ZHO"
+    ],
+    "inputImages": [],
+    "outputImages": []
+  },
+  {
+    "id": "nano-36",
+    "caseNumber": 36,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-36",
+    "title": "Virtual Makeup Try-On",
+    "prompt": "Apply the makeup from Image 2 to the character in Image 1, while maintaining the pose from Image 1.",
+    "inputRequirement": "Need to upload a character reference image and a makeup reference image",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1962778069242126824",
+      "https://x.com/ZHO_ZHO_ZHO"
+    ],
+    "inputImages": [],
+    "outputImages": []
+  },
+  {
+    "id": "nano-37",
+    "caseNumber": 37,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-37",
+    "title": "Makeup Analysis",
+    "prompt": "Analyze this image. Use a red pen to mark areas that can be improved\nAnalyze this image. Use a red pen to denote where you can improve",
+    "inputRequirement": "Need to upload a character reference image",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1962784384693739621",
+      "https://x.com/ZHO_ZHO_ZHO"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case37/input.jpg",
+        "alt": "AI image prompt – Makeup Analysis input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case37/output.jpg",
+        "alt": "AI image prompt – Makeup Analysis output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-38",
+    "caseNumber": 38,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-38",
+    "title": "Google Maps View of Middle-earth",
+    "prompt": "Dashcam Google Street View shot | [Hobbiton Street] | [hobbits carrying out daily tasks like gardening and smoking pipes] | [Sunny weather]",
+    "inputRequirement": "",
+    "notes": [
+      "Change the text in [brackets] to the desired location and weather"
+    ],
+    "author": "@TechHallo",
+    "authorUrl": "https://x.com/techhalla",
+    "sourceLinks": [
+      "https://x.com/techhalla/status/1962292272227102941",
+      "https://x.com/techhalla"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case38/output.jpg",
+        "alt": "AI image prompt – Google Maps View of Middle-earth output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-39",
+    "caseNumber": 39,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-39",
+    "title": "Typographic Illustration Generation",
+    "prompt": "Create a minimalist black-and-white typographic illustration of the scene riding a bicycle using only the letters in the phrase ['riding a bicycle'] . Each letter should be creatively shaped or positioned to form the rider, the bicycle, and a sense of motion. The design should be clean, ultra-minimalist, and entirely composed of the modified ['riding a bicycle'] letters without adding any extra shapes or lines. The letters should flow or curve to mimic the natural form of the scene, while still remaining legible.",
+    "inputRequirement": "",
+    "notes": [
+      "Change the text in [brackets] to the desired text"
+    ],
+    "author": "@Umesh",
+    "authorUrl": "https://x.com/umesh_ai",
+    "sourceLinks": [
+      "https://x.com/umesh_ai/status/1961110485543371145",
+      "https://x.com/umesh_ai"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case39/output.jpg",
+        "alt": "AI image prompt – Typographic Illustration Generation output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-40",
+    "caseNumber": 40,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-40",
+    "title": "Multiple Character Poses Generation",
+    "prompt": "Please create a pose sheet for this illustration, making various poses!",
+    "inputRequirement": "Need to upload a character reference image",
+    "notes": [],
+    "author": "@tapehead_Lab",
+    "authorUrl": "https://x.com/tapehead_Lab",
+    "sourceLinks": [
+      "https://x.com/tapehead_Lab/status/1960878455299694639",
+      "https://x.com/tapehead_Lab"
+    ],
+    "inputImages": [],
+    "outputImages": []
+  },
+  {
+    "id": "nano-41",
+    "caseNumber": 41,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-41",
+    "title": "Product Packaging Generation",
+    "prompt": "Apply the design from Image 1 to the can in Image 2, and place it in a minimalist design setting, professional photography",
+    "inputRequirement": "Need to upload a product reference image and a packaging reference image",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1962763864875167971",
+      "https://x.com/ZHO_ZHO_ZHO"
+    ],
+    "inputImages": [],
+    "outputImages": []
+  },
+  {
+    "id": "nano-42",
+    "caseNumber": 42,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-42",
+    "title": "Overlay Filter/Material",
+    "prompt": "Overlay the [glass] effect from Image 2 onto the photo in Image 1",
+    "inputRequirement": "Need to upload a reference image and a filter/material reference image",
+    "notes": [
+      "Change the text in [brackets] to the desired filter/material"
+    ],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1962520937011855793",
+      "https://x.com/ZHO_ZHO_ZHO"
+    ],
+    "inputImages": [],
+    "outputImages": []
+  },
+  {
+    "id": "nano-43",
+    "caseNumber": 43,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-43",
+    "title": "Control Character Face Shape",
+    "prompt": "Design the character from Image 1 as a chibi version according to the face shape from Image 2",
+    "inputRequirement": "Need to upload a reference image and a face shape reference image",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1961802767493939632",
+      "https://x.com/ZHO_ZHO_ZHO"
+    ],
+    "inputImages": [],
+    "outputImages": []
+  },
+  {
+    "id": "nano-44",
+    "caseNumber": 44,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-44",
+    "title": "Lighting Control",
+    "prompt": "Change the character from Image 1 to the lighting from Image 2, with dark areas as shadows",
+    "inputRequirement": "Need to upload a reference image and a lighting reference image",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1961779457372602725",
+      "https://x.com/ZHO_ZHO_ZHO"
+    ],
+    "inputImages": [],
+    "outputImages": []
+  },
+  {
+    "id": "nano-45",
+    "caseNumber": 45,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-45",
+    "title": "LEGO Minifigure",
+    "prompt": "Transform the person in the photo into a LEGO minifigure packaging box style, presented in isometric perspective. Label the box with the title \"ZHOGUE\". Inside the box, display the LEGO minifigure based on the person in the photo, along with their essential items (such as makeup, bags, or other items) as LEGO accessories. Beside the box, also display the actual LEGO minifigure itself, unpackaged, rendered in a realistic and vivid style.",
+    "inputRequirement": "Need to upload a reference image",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1961395526198595771",
+      "https://x.com/ZHO_ZHO_ZHO"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case45/input.jpg",
+        "alt": "AI image prompt – LEGO Minifigure input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case45/output.jpg",
+        "alt": "AI image prompt – LEGO Minifigure output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-46",
+    "caseNumber": 46,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-46",
+    "title": "Gundam Model Figure",
+    "prompt": "Transform the person in the photo into a Gundam model kit packaging box style, presented in isometric perspective. Label the box with the title \"ZHOGUE\". Inside the box, display a Gundam-style mechanical version of the person from the photo, along with their essentials (such as makeup, bags, or other items) redesigned as futuristic mechanical accessories. The packaging should resemble real Gunpla boxes, including technical illustrations, instruction manual-style details, and sci-fi fonts. Beside the box, also display the actual Gundam-style mechanical figure itself, outside the packaging, rendered in a realistic and lifelike style, similar to official Bandai promotional renders.",
+    "inputRequirement": "Need to upload a reference image",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1961412823340265509",
+      "https://x.com/ZHO_ZHO_ZHO"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case46/input.jpg",
+        "alt": "AI image prompt – Gundam Model Figure input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case46/output.jpg",
+        "alt": "AI image prompt – Gundam Model Figure output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-47",
+    "caseNumber": 47,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-47",
+    "title": "Hardware Exploded View",
+    "prompt": "Exploded view of a DSLR showing all its accessories and internal components such as lens, filter,  internal components, lens, sensor, screws, buttons, viewfinder, housing, and circuit board. Maintain red accents of the DSLR",
+    "inputRequirement": "",
+    "notes": [],
+    "author": "@AIimagined",
+    "authorUrl": "https://x.com/AIimagined",
+    "sourceLinks": [
+      "https://x.com/AIimagined/status/1961431851245211958",
+      "https://x.com/AIimagined"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case47/output.jpg",
+        "alt": "AI image prompt – Hardware Exploded View output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-48",
+    "caseNumber": 48,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-48",
+    "title": "Food Calorie Annotation",
+    "prompt": "annotate this meal with names of food and calorie density and approximate calories",
+    "inputRequirement": "Need to upload a food reference image",
+    "notes": [],
+    "author": "@icreatelife",
+    "authorUrl": "https://x.com/icreatelife",
+    "sourceLinks": [
+      "https://x.com/icreatelife/status/1963646757222715516",
+      "https://x.com/icreatelife"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case48/output.jpg",
+        "alt": "AI image prompt – Food Calorie Annotation output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-49",
+    "caseNumber": 49,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-49",
+    "title": "Extract Subject and Place on Transparent Layer",
+    "prompt": "extract the [samurai] and put transparent background",
+    "inputRequirement": "Need to upload a reference image",
+    "notes": [
+      "Replace the text in [brackets] with the object you need to extract."
+    ],
+    "author": "@nglprz",
+    "authorUrl": "https://x.com/icreatelife",
+    "sourceLinks": [
+      "https://x.com/nglprz/status/1961494974555394068",
+      "https://x.com/icreatelife"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case49/input.jpg",
+        "alt": "AI image prompt – Extract Subject and Place on Transparent Layer input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case49/output.jpg",
+        "alt": "AI image prompt – Extract Subject and Place on Transparent Layer output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-50",
+    "caseNumber": 50,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-50",
+    "title": "Image Outpainting Repair",
+    "prompt": "Repair the checkerboard (transparent) parts of the image and restore a complete, coherent photo.",
+    "inputRequirement": "Need to upload an image containing transparent checkerboard areas",
+    "notes": [],
+    "author": "@bwabbage",
+    "authorUrl": "https://x.com/bwabbage",
+    "sourceLinks": [
+      "https://x.com/bwabbage/status/1962903212937130450",
+      "https://x.com/bwabbage"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case50/input.jpg",
+        "alt": "AI image prompt – Image Outpainting Repair input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case50/output.jpg",
+        "alt": "AI image prompt – Image Outpainting Repair output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-51",
+    "caseNumber": 51,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-51",
+    "title": "Ancient Map → Historical Scene Photo",
+    "prompt": "full colour photograph. New Amsterdam in 1660. make sure it's full modern colors as if it's a photograph taken today.",
+    "inputRequirement": "Need to upload a historical reference image",
+    "notes": [],
+    "author": "@levelsio",
+    "authorUrl": "https://x.com/levelsio",
+    "sourceLinks": [
+      "https://x.com/levelsio/status/1961595333034598487",
+      "https://x.com/levelsio"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case51/input.jpg",
+        "alt": "AI image prompt – Ancient Map → Historical Scene Photo input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case51/output.jpg",
+        "alt": "AI image prompt – Ancient Map → Historical Scene Photo output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-52",
+    "caseNumber": 52,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-52",
+    "title": "Fashion Moodboard Collage",
+    "prompt": "A fashion mood board collage. Surround a portrait with cutouts of the individual items the model is wearing. Add handwritten notes and sketches in a playful, marker-style font, and include the brand name and source of each item in English. The overall aesthetic should be creative and cute.",
+    "inputRequirement": "Need to upload a reference image",
+    "notes": [],
+    "author": "@tetumemo",
+    "authorUrl": "https://x.com/tetumemo",
+    "sourceLinks": [
+      "https://x.com/tetumemo/status/1962480699904282861",
+      "https://x.com/tetumemo"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case52/input.jpg",
+        "alt": "AI image prompt – Fashion Moodboard Collage input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case52/output.jpg",
+        "alt": "AI image prompt – Fashion Moodboard Collage output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-53",
+    "caseNumber": 53,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-53",
+    "title": "Delicate Cute Product Photo",
+    "prompt": "A high-resolution advertising photograph of a realistic, miniature [PRODUCT] held delicately between a person's thumb and index finger.  clean and white background, studio lighting, soft shadows. The hand is well-groomed, natural skin tone, and positioned to highlight the product’s shape and details. The product appears extremely small but hyper-detailed and brand-accurate, centered in the frame with a shallow depth of field. Emulates luxury product photography and minimalist commercial style.",
+    "inputRequirement": "",
+    "notes": [
+      "Replace the text in [brackets] with the product you want to showcase."
+    ],
+    "author": "@azed_ai",
+    "authorUrl": "https://x.com/azed_ai",
+    "sourceLinks": [
+      "https://x.com/azed_ai/status/1962878353784066342",
+      "https://x.com/azed_ai"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case53/output.jpg",
+        "alt": "AI image prompt – Delicate Cute Product Photo output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-54",
+    "caseNumber": 54,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-54",
+    "title": "Place Anime Statue in Real Life",
+    "prompt": "A realistic photographic work. A gigantic statue of this person has been placed in a square in the center of Tokyo, with people looking up at it.",
+    "inputRequirement": "Need to upload a reference image",
+    "notes": [],
+    "author": "@riddi0908",
+    "authorUrl": "https://x.com/riddi0908",
+    "sourceLinks": [
+      "https://x.com/riddi0908/status/1963758463135412699",
+      "https://x.com/riddi0908"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case54/input.jpg",
+        "alt": "AI image prompt – Place Anime Statue in Real Life input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case54/output.jpg",
+        "alt": "AI image prompt – Place Anime Statue in Real Life output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-55",
+    "caseNumber": 55,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-55",
+    "title": "Create an Itasha Car",
+    "prompt": "Create a professional photograph of a sporty car with anime-style character artwork as itasha (painted car) design, shot at a famous tourist destination or scenic landmark. The car features large, prominently displayed anime character illustrations with simple, clean design composition. The character artwork should be painted in vibrant anime art style with bold colors and clear details. Position the vehicle at a recognizable tourist spot or scenic location with good natural lighting that showcases both the car's sporty appearance and the character artwork. Use professional automotive photography techniques with proper depth of field to highlight the itasha design while incorporating the scenic background for tourism appeal, suitable for promotional or enthusiast marketing materials.",
+    "inputRequirement": "Need to upload a reference image",
+    "notes": [],
+    "author": "@riddi0908",
+    "authorUrl": "https://x.com/riddi0908",
+    "sourceLinks": [
+      "https://x.com/riddi0908/status/1963422536819249239",
+      "https://x.com/riddi0908"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case55/input.jpg",
+        "alt": "AI image prompt – Create an Itasha Car input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case55/output.jpg",
+        "alt": "AI image prompt – Create an Itasha Car output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-56",
+    "caseNumber": 56,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-56",
+    "title": "Manga Composition",
+    "prompt": "",
+    "inputRequirement": "Need to upload a character reference image and a scene composition reference image",
+    "notes": [],
+    "author": "@namaedousiyoka",
+    "authorUrl": "https://x.com/namaedousiyoka",
+    "sourceLinks": [
+      "https://x.com/namaedousiyoka/status/1962461786181161340",
+      "https://x.com/namaedousiyoka"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case56/input.jpg",
+        "alt": "AI image prompt – Manga Composition input reference"
+      },
+      {
+        "src": "/assets/nano-banana/case56/input2.jpg",
+        "alt": "AI image prompt – Manga Composition 2 input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case56/output.jpg",
+        "alt": "AI image prompt – Manga Composition output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-57",
+    "caseNumber": 57,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-57",
+    "title": "Manga Style Conversion",
+    "prompt": "Convert the input photo into a black-and-white manga-style line drawing.",
+    "inputRequirement": "Need to upload a reference image",
+    "notes": [],
+    "author": "@nobisiro_2023",
+    "authorUrl": "https://x.com/nobisiro_2023",
+    "sourceLinks": [
+      "https://x.com/nobisiro_2023/status/1961231347986698371",
+      "https://x.com/nobisiro_2023"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case57/input.jpg",
+        "alt": "AI image prompt – Manga Style Conversion input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case57/output.jpg",
+        "alt": "AI image prompt – Manga Style Conversion output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-58",
+    "caseNumber": 58,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-58",
+    "title": "Isometric Holographic Wireframe",
+    "prompt": "Based on the uploaded image, convert it into a holographic depiction using wireframe lines only.",
+    "inputRequirement": "Need to upload a line-art reference image",
+    "notes": [],
+    "author": "@tetumemo",
+    "authorUrl": "https://x.com/tetumemo",
+    "sourceLinks": [
+      "https://x.com/tetumemo/status/1964574226155000312",
+      "https://x.com/tetumemo"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case58/input.jpg",
+        "alt": "AI image prompt – Isometric Holographic Wireframe input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case58/output.jpg",
+        "alt": "AI image prompt – Isometric Holographic Wireframe output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-59",
+    "caseNumber": 59,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-59",
+    "title": "Minecraft-Style Scene Generation",
+    "prompt": "Using this location, create an isometric HD-2D Minecraft-style image of the landmark (buildings only).",
+    "inputRequirement": "Need to upload a Google Maps reference image",
+    "notes": [],
+    "author": "@tetumemo",
+    "authorUrl": "https://x.com/tetumemo",
+    "sourceLinks": [
+      "https://x.com/tetumemo/status/1964860047705743700",
+      "https://x.com/tetumemo"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case59/input.jpg",
+        "alt": "AI image prompt – Minecraft-Style Scene Generation input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case59/output.jpg",
+        "alt": "AI image prompt – Minecraft-Style Scene Generation output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-60",
+    "caseNumber": 60,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-60",
+    "title": "Apply Material Sphere to Logo",
+    "prompt": "Apply the material from Image 2 to the logo in Image 1, present it as a 3D object, render in a C4D-like style, with a solid-color background.",
+    "inputRequirement": "Need to upload a reference image and a material-sphere image",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1964995347505352794",
+      "https://x.com/ZHO_ZHO_ZHO"
+    ],
+    "inputImages": [],
+    "outputImages": []
+  },
+  {
+    "id": "nano-61",
+    "caseNumber": 61,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-61",
+    "title": "Floor Plan 3D Render",
+    "prompt": "Convert this residential floor plan into an isometric, photo-realistic 3D rendering of the house.",
+    "inputRequirement": "Need to upload a floor-plan reference image",
+    "notes": [],
+    "author": "@op7418",
+    "authorUrl": "https://x.com/op7418",
+    "sourceLinks": [
+      "https://x.com/op7418/status/1961329148271513695",
+      "https://x.com/op7418"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case61/input.jpg",
+        "alt": "AI image prompt – Floor Plan 3D Render input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case61/output.jpg",
+        "alt": "AI image prompt – Floor Plan 3D Render output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-62",
+    "caseNumber": 62,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-62",
+    "title": "Reset Camera Parameters",
+    "prompt": "RAW-ISO [100] - [F2.8-1/200 24mm] settings",
+    "inputRequirement": "Need to upload a reference image",
+    "notes": [
+      "Replace the values in [brackets] with your desired camera parameters."
+    ],
+    "author": "@hckinz",
+    "authorUrl": "https://x.com/hckinz",
+    "sourceLinks": [
+      "https://x.com/hckinz/status/1962803203063586895",
+      "https://x.com/hckinz"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case62/input.jpg",
+        "alt": "AI image prompt – Reset Camera Parameters input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case62/output.jpg",
+        "alt": "AI image prompt – Reset Camera Parameters output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-63",
+    "caseNumber": 63,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-63",
+    "title": "Create an ID Photo",
+    "prompt": "Crop the head and create a 2-inch ID photo with:\n  1. Blue background\n  2. Professional business attire\n  3. Frontal face\n  4. Slight smile",
+    "inputRequirement": "Need to upload a portrait reference image",
+    "notes": [],
+    "author": "@songguoxiansen",
+    "authorUrl": "https://x.com/songguoxiansen",
+    "sourceLinks": [
+      "https://x.com/songguoxiansen/status/1963602241610551609",
+      "https://x.com/songguoxiansen"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case63/input.jpg",
+        "alt": "AI image prompt – Create an ID Photo input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case63/output.jpg",
+        "alt": "AI image prompt – Create an ID Photo output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-64",
+    "caseNumber": 64,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-64",
+    "title": "Scene A6 Folding Card",
+    "prompt": "Draw an A6 folding card: when opened, it reveals a complete 3D spherical tiny house with a miniature paper garden and a bonsai tree inside.",
+    "inputRequirement": "Need to upload a reference image",
+    "notes": [],
+    "author": "@Gdgtify",
+    "authorUrl": "https://x.com/Gdgtify",
+    "sourceLinks": [
+      "https://x.com/Gdgtify/status/19649795223709287319",
+      "https://x.com/Gdgtify"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case64/input.jpg",
+        "alt": "AI image prompt – Scene A6 Folding Card input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case64/output.jpg",
+        "alt": "AI image prompt – Scene A6 Folding Card output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-65",
+    "caseNumber": 65,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-65",
+    "title": "Design a Chess Set",
+    "prompt": "Draw a chessboard and a set of 3D-printable chess pieces inspired by this image.",
+    "inputRequirement": "Need to upload a reference image",
+    "notes": [],
+    "author": "@Gdgtify",
+    "authorUrl": "https://x.com/Gdgtify",
+    "sourceLinks": [
+      "https://x.com/Gdgtify/status/1964679042994442454",
+      "https://x.com/Gdgtify"
+    ],
+    "inputImages": [],
+    "outputImages": []
+  },
+  {
+    "id": "nano-66",
+    "caseNumber": 66,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-66",
+    "title": "Split-Contrast Style Photo",
+    "prompt": "A photo of a bedroom split down the middle: the left side is 2018 and the right side is 1964, in the same room.",
+    "inputRequirement": "",
+    "notes": [],
+    "author": "@fofrAI",
+    "authorUrl": "https://x.com/fofrAI",
+    "sourceLinks": [
+      "https://x.com/fofrAI/status/1964818395381248397",
+      "https://x.com/fofrAI"
+    ],
+    "inputImages": [],
+    "outputImages": []
+  },
+  {
+    "id": "nano-67",
+    "caseNumber": 67,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-67",
+    "title": "Jewelry Collection Design",
+    "prompt": "Transform this image into a 5-piece jewelry collection.",
+    "inputRequirement": "Need to upload a reference image",
+    "notes": [],
+    "author": "@Gdgtify",
+    "authorUrl": "https://x.com/Gdgtify",
+    "sourceLinks": [
+      "https://x.com/Gdgtify/status/1964419331342909777",
+      "https://x.com/Gdgtify"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case67/input.jpg",
+        "alt": "AI image prompt – Jewelry Collection Design input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case67/output.jpg",
+        "alt": "AI image prompt – Jewelry Collection Design output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-68",
+    "caseNumber": 68,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-68",
+    "title": "Merchandise Design",
+    "prompt": "Create merchandise using this character image.",
+    "inputRequirement": "Need to upload a reference image",
+    "notes": [],
+    "author": "@0xFramer",
+    "authorUrl": "https://x.com/0xFramer",
+    "sourceLinks": [
+      "https://x.com/0xFramer/status/1964992117324886349",
+      "https://x.com/0xFramer"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case68/input.jpg",
+        "alt": "AI image prompt – Merchandise Design input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case68/output.jpg",
+        "alt": "AI image prompt – Merchandise Design output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-69",
+    "caseNumber": 69,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-69",
+    "title": "Model Holographic Projection",
+    "prompt": "Ultra-realistic product photo.  \nSubject: virtual holographic character [CHARACTER], floating above a circular hologram projector Ø120 mm placed on a modern desk.  \n\nProjection source rules:  \n- If input reference is a 3D object → show a desktop 3D scanner beside the projector.  \n  Place the reference object on the scanner plate.  \n  The hologram above the projector is generated from this scanned object.  \n- If input reference is a 2D image → show a modern PC with monitor on the desk.  \n  Display the reference image on the monitor screen.  \n  The hologram above the projector is generated from this screen content.  \n\nHologram rendering rules:  \n- Character always appears as a semi-transparent volumetric image, background faintly visible through.  \n- No beams, no particles, no solid statue surfaces.  \n- Balanced anatomy (1/7–1/8 head-to-body ratio), correct proportions.  \n- Natural pose with clear silhouette.  \n- Hair, outfit folds, and accessories visible but translucent.  \n- Face crisp and expressive, readable at 1000 px crop.  \n- No copyrighted characters, no branded designs, no IP logos.  \n\nEnvironment: modern desk with projector base + conditional device (scanner or monitor).  \nCamera: 85–100 mm lens, 3/4 hero angle, eye-level, f/11–f/16, ISO100, tripod.  \nLighting: desk softly illuminated; holographic figure defined only by volumetric light.  \nBackground: seamless black studio with subtle reflections.  \n\nOutput: 4:5, 2048×2560.  \n\nNegative: text-free, watermark-free, logo-free, brand-free, copyrighted characters, franchise IP, trademarked designs, resin, PVC, physical statue, opaque surfaces, toy gloss, beams, scanlines, dots, distortion, extra digits.  \nSampling: deterministic, seed=12345, temperature=0.",
+    "inputRequirement": "",
+    "notes": [
+      "Replace the text inside [brackets] with your input character"
+    ],
+    "author": "@UNIBRACITY",
+    "authorUrl": "https://x.com/UNIBRACITY",
+    "sourceLinks": [
+      "https://x.com/UNIBRACITY/status/1966122746288681461",
+      "https://x.com/UNIBRACITY"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case69/output.png",
+        "alt": "AI image prompt – Model Holographic Projection output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-70",
+    "caseNumber": 70,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-70",
+    "title": "Giant Figure Scaffolding",
+    "prompt": "A hyper-realistic 3D render of the person in the image standing and taking a selfie. \nThe giant figure is surrounded by massive scaffolding, with many tiny construction workers working on it. \nThe scene is set in a city square, surrounded by modern buildings, moving vehicles (cars, buses), pedestrians, \nand a bright clear blue sky. The overall details are rich, presenting a photo-realistic texture with cinematic lighting effects.",
+    "inputRequirement": "A reference photo of a person must be uploaded.",
+    "notes": [],
+    "author": "@songguoxiansen",
+    "authorUrl": "https://x.com/songguoxiansen",
+    "sourceLinks": [
+      "https://x.com/songguoxiansen/status/1965960484684968234",
+      "https://x.com/songguoxiansen"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case70/input.png",
+        "alt": "AI image prompt – Giant Figure Scaffolding input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case70/output.png",
+        "alt": "AI image prompt – Giant Figure Scaffolding output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-71",
+    "caseNumber": 71,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-71",
+    "title": "Building Extraction from Remote Sensing Image",
+    "prompt": "Remove everything in the image except the buildings.",
+    "inputRequirement": "A remote sensing image must be uploaded.",
+    "notes": [],
+    "author": "@lehua555",
+    "authorUrl": "https://x.com/lehua555",
+    "sourceLinks": [
+      "https://x.com/lehua555/status/1966124995949863310",
+      "https://x.com/lehua555"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case71/input.png",
+        "alt": "AI image prompt – Building Extraction from Remote Sensing Image input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case71/output.png",
+        "alt": "AI image prompt – Building Extraction from Remote Sensing Image output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-72",
+    "caseNumber": 72,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-72",
+    "title": "Component Extraction",
+    "prompt": "Cut out each component and create a model sheet that retains the hologram.",
+    "inputRequirement": "An image of a model must be uploaded.",
+    "notes": [],
+    "author": "@tetumemo",
+    "authorUrl": "https://x.com/tetumemo",
+    "sourceLinks": [
+      "https://x.com/tetumemo/status/1965721026849018141",
+      "https://x.com/tetumemo"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case72/input.png",
+        "alt": "AI image prompt – Component Extraction input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case72/output.png",
+        "alt": "AI image prompt – Component Extraction output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-73",
+    "caseNumber": 73,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-73",
+    "title": "Remove Burger Ingredients",
+    "prompt": "Remove all the ingredients from the burger and keep only the top and bottom buns. Leave a gap between them, keeping the same spacing as if the fillings were still inside.",
+    "inputRequirement": "An image of a burger must be uploaded.",
+    "notes": [],
+    "author": "@bind_lux",
+    "authorUrl": "https://x.com/bind_lux",
+    "sourceLinks": [
+      "https://x.com/bind_lux/status/1965869157125402654",
+      "https://x.com/bind_lux",
+      "https://github.com/jeanlucaslima"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case73/input.jpg",
+        "alt": "AI image prompt – Remove Burger Ingredients input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case73/output.jpg",
+        "alt": "AI image prompt – Remove Burger Ingredients output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-74",
+    "caseNumber": 74,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-74",
+    "title": "High-Resolution Image Restoration",
+    "prompt": "Enhance the resolution of this old image and add the appropriate texture details, reinterpreting it with modern anime techniques.",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [],
+    "author": "@op7418",
+    "authorUrl": "https://x.com/op7418",
+    "sourceLinks": [
+      "https://x.com/op7418/status/1960540798573011209",
+      "https://x.com/op7418"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case74/input.png",
+        "alt": "AI image prompt – High-Resolution Image Restoration input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case74/output.png",
+        "alt": "AI image prompt – High-Resolution Image Restoration output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-75",
+    "caseNumber": 75,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-75",
+    "title": "Generate Miniature Scene from Image",
+    "prompt": "Convert the image to isometric view",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [],
+    "author": "@techhalla",
+    "authorUrl": "https://x.com/techhalla",
+    "sourceLinks": [
+      "https://x.com/techhalla/status/1962088250199163285",
+      "https://x.com/techhalla"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case75/input.png",
+        "alt": "AI image prompt – Generate Miniature Scene from Image input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case75/output.png",
+        "alt": "AI image prompt – Generate Miniature Scene from Image output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-76",
+    "caseNumber": 76,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-76",
+    "title": "Educational Comic",
+    "prompt": "Help me generate multiple 16:9 doodle-style images to explain the concept of \"futures\" to middle school students. The images should have a consistent colorful, thick-pencil hand-drawn style, be rich in information, feature English text, use solid color backgrounds, have outlines around the cards, and include uniform titles, similar to a PowerPoint presentation.",
+    "inputRequirement": "",
+    "notes": [],
+    "author": "@op7418",
+    "authorUrl": "https://x.com/op7418",
+    "sourceLinks": [
+      "https://x.com/op7418/status/1961811274683310110",
+      "https://x.com/op7418"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case76/output.png",
+        "alt": "AI image prompt – Educational Comic output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-77",
+    "caseNumber": 77,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-77",
+    "title": "Custom Character Emoji Pack Generation",
+    "prompt": "Using the character from Image 2, generate [x] emoji stickers based on various poses from Image 1.",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [
+      "Replace the text inside [brackets] with the desired number of emoji stickers"
+    ],
+    "author": "@vista8",
+    "authorUrl": "https://x.com/vista8",
+    "sourceLinks": [
+      "https://x.com/vista8/status/1966164427243458977",
+      "https://x.com/vista8"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case77/input.png",
+        "alt": "AI image prompt – Custom Character Emoji Pack Generation input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case77/output.png",
+        "alt": "AI image prompt – Custom Character Emoji Pack Generation output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-78",
+    "caseNumber": 78,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-78",
+    "title": "Restore Partially Eaten Food",
+    "prompt": "Restore this half-eaten [XX] back to its original uneaten state.",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [
+      "Replace the text inside [brackets] with the name of the food"
+    ],
+    "author": "@googlejapan",
+    "authorUrl": "https://x.com/googlejapan",
+    "sourceLinks": [
+      "https://x.com/googlejapan/status/1965762180688584916",
+      "https://x.com/googlejapan"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case78/input.png",
+        "alt": "AI image prompt – Restore Partially Eaten Food input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case78/output.png",
+        "alt": "AI image prompt – Restore Partially Eaten Food output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-79",
+    "caseNumber": 79,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-79",
+    "title": "Fighting Game Interface Creation",
+    "prompt": "Create a mid motion actionscene where both subject are in focuswith aThree-Quarter Angle in martial artsfighting stances. They are in the samecinematic scene. Remove the line downthe centre with a blurred crumbling ruins ina purple alien world in the background. Thescene is shot at sunrise. Modern Fightinggame health bars MORDON V'S DEATHSEED. power move. Hud style screeneffects.Add a thumbnail of each characterto the health bars. ense flares!",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [],
+    "author": "@NanoBanana_labs",
+    "authorUrl": "https://x.com/NanoBanana_labs",
+    "sourceLinks": [
+      "https://x.com/NanoBanana_labs/status/1965827209534517654",
+      "https://x.com/NanoBanana_labs"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case79/input.png",
+        "alt": "AI image prompt – Fighting Game Interface Creation input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case79/output.png",
+        "alt": "AI image prompt – Fighting Game Interface Creation output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-80",
+    "caseNumber": 80,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-80",
+    "title": "Model Cross-Section",
+    "prompt": "Create a cutaway visualization of this car, show exterior intact on one side, and interior engine + seats exposed on the other side. Keep proportions accurate and details realistic.",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [],
+    "author": "@old_pgmrs_will",
+    "authorUrl": "https://x.com/old_pgmrs_will",
+    "sourceLinks": [
+      "https://x.com/old_pgmrs_will/status/1966053092371444029",
+      "https://x.com/old_pgmrs_will"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case80/input.png",
+        "alt": "AI image prompt – Model Cross-Section input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case80/output.png",
+        "alt": "AI image prompt – Model Cross-Section output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-81",
+    "caseNumber": 81,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-81",
+    "title": "Pirate Wanted Poster",
+    "prompt": "Using the original image, recreate a pirate's wanted poster drawn on parchment.\nBrown monochrome, with the texture of aged parchment.\nRetain the style and character design of the original image down to the smallest detail, and paste it large at the top of the wanted poster.\nA close-up of the face. Have the character wear a pirate hat.\nWrite the bounty amount at the bottom of the poster. The bounty amount will be random, and a fictitious currency unit will be used.\nBelow the bounty amount, write the crime in small letters. Use a fictitious language. English or Chinese characters may not be used.",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [],
+    "author": "@AI_Kei75",
+    "authorUrl": "https://x.com/AI_Kei75",
+    "sourceLinks": [
+      "https://x.com/old_pgmrs_will/status/1966053092371444029",
+      "https://x.com/AI_Kei75"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case81/input.png",
+        "alt": "AI image prompt – Pirate Wanted Poster input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case81/output.png",
+        "alt": "AI image prompt – Pirate Wanted Poster output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-82",
+    "caseNumber": 82,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-82",
+    "title": "Merchandise Display Shelf",
+    "prompt": "Remove the background from this illustration and turn it into merchandise like figurines.\nImage: Photorealistic\nLocation:\nThe shelves of a fictional convenience store that doesn't exist in Japan. The cute, pop atmosphere is complemented by neatly arranged merchandise featuring the illustration. The store's interior is dreamily bright and special, creating a special space that excites fans.\n\nCharacters:\nThese merchandise are displayed on the shelves.\n\nMerchandise Lineup:\nTwo large, approximately 50cm-long figures in the center of the screen (for a striking display)\nAcrylic stands (deformed versions of the original artwork)\n\nChibi figures (deformed versions of the original artwork)\n\nDakimakura pillows (large prints for a striking presence)\n\nJigsaw puzzles (visual art of the characters)\n\nStationery (notebooks, pens, clear files, etc., deformed versions of the original artwork)\n\nCardboards (deformed versions of the original artwork)\n\nPlush toys (deformed versions of the original artwork)\n\nDisplay:\nThe merchandise are neatly arranged on the shelves, maintaining the atmosphere of a convenience store while still filling the space with love for the characters. They're arranged in a way that teenage female fans can't help but want to pick them up.\n\nOverall tone:\nA dreamlike merchandise sales space. Cuteness and pop are at the forefront, and despite being a convenience store, it's presented as a \"holy land for fan activities.\"\nResolution: 4K, 4000px: 3000px",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [],
+    "author": "@tokyo_Valentine",
+    "authorUrl": "https://x.com/tokyo_Valentine",
+    "sourceLinks": [
+      "https://x.com/tokyo_Valentine/status/1966888938838298727",
+      "https://x.com/tokyo_Valentine"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case82/input.png",
+        "alt": "AI image prompt – Merchandise Display Shelf input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case82/output.png",
+        "alt": "AI image prompt – Merchandise Display Shelf output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-83",
+    "caseNumber": 83,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-83",
+    "title": "Comic Convention Booth",
+    "prompt": "Erase the background and replace the characters with the following:\n\nCosplayers and Character Goods\n\nCharacter/Motif:\nCharacter goods based on the illustration\n\nHairstyle, Eyes, and Appearance:\n(Focus on merchandise, not the character itself.)\n\nMain Character: A cosplayer is holding a figurine in the center of the screen.\n\nLocation:\nComic Market (a doujinshi sales event).\nA spacious booth is filled with merchandise lined up on tables and shelves. The atmosphere is filled with excitement and anticipation.\n\nMerchandise Lineup:\n• A large, approximately 100cm figure is displayed in the center of the booth, creating an eye-catching display.\n• The character is displayed on an 80-inch LCD panel.\n• Acrylic Stands\n• Chibi Figures (Deformed)\n• Body Pillows (Large, Full-Length Character Print)\n• Jigsaw Puzzles (Using Character Artwork)\n• Stationery (Notebooks, Pens, Clear Files, etc.)\n• Desk Pads\n• Plush Toys (Deformed)\nExhibition/Display:\n• Goods neatly arranged throughout the booth, creating a unified look.\n• Utilizing desks and shelves reminiscent of doujinshi sales events, the layout encourages fans to pick up items.\n• With the energy of the visitors as a backdrop, the venue is presented as a special \"fan sanctuary.\"\nOverall Tone:\nA dreamlike sales space.\nWhile emphasizing cuteness and pop, the space evokes the unique enthusiasm of doujin events and the feeling of a \"sanctuary for fan activities.\"\nSwarms of people.\n\nImage Quality:\nPhotorealistic, 4K (4000px x 3000px)",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [],
+    "author": "@tokyo_Valentine",
+    "authorUrl": "https://x.com/tokyo_Valentine",
+    "sourceLinks": [
+      "https://x.com/tokyo_Valentine/status/1967174466636792287",
+      "https://x.com/tokyo_Valentine"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case83/input.png",
+        "alt": "AI image prompt – Comic Convention Booth input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case83/output.png",
+        "alt": "AI image prompt – Comic Convention Booth output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-84",
+    "caseNumber": 84,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-84",
+    "title": "Line Art to Doodle Drawing",
+    "prompt": "Make the uploaded picture book look as if it was drawn by a five-year-old child.",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [],
+    "author": "@hAru_mAki_ch",
+    "authorUrl": "https://x.com/hAru_mAki_ch",
+    "sourceLinks": [
+      "https://x.com/hAru_mAki_ch/status/1966877088365113722",
+      "https://x.com/hAru_mAki_ch"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case84/input.png",
+        "alt": "AI image prompt – Line Art to Doodle Drawing input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case84/output.png",
+        "alt": "AI image prompt – Line Art to Doodle Drawing output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-85",
+    "caseNumber": 85,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-85",
+    "title": "Contemporary Art Exhibition Space",
+    "prompt": "An avant-garde contemporary art exhibition space themed around the reference image.\nThe entire exhibition hall (20.0 m x 20.0 m x 8.0 m) integrates architecture, lighting, flooring, walls, \nand ceiling into the artistic expression.\n\nAt the far end of the hall stands a massive wall 20 meters wide and 8 meters high. \nIn the center of this wall, the theme from the reference image is presented in a monumental artistic form. \nThe image is vivid and three-dimensional, rising toward the viewer, becoming the focal point of the entire space.\n\nA system-generated exhibition title plaque is installed below the central wall. \nThe title must be abstract, symbolic, and poetic, and must reflect a contemporary artwork. \nNo price display is provided.\n\nThe floor is polished granite with a reflectance of 0.35–0.40. \nPatterns and light derived from the reference image cascade across the surface of the work, \nresonating with the entire space as if responding to the footsteps of visitors. \nTactile paving bricks are in a similar color, seamlessly integrated, but only 5 mm high, providing a clear texture. \nThe work extends in a straight line from the entrance to the wall, creating a pause point before the artwork. \nAfter viewing, visitors are naturally guided to an opening on the right side (3 m wide x 3 m high). \nIn emergencies, floor-level emergency lighting ensures illumination of 1 lux.\n\nThe left and right walls and the ceiling each reinterpret an abstract element from the reference image, \ntransforming the entire space into a single artwork. \nThe flow of color, form, and light unifies the experience into an artistic whole.\n\nVisitor capacity is limited to 8–25 people. \nAll visitors face the large wall, moving in a straight line and pausing at the designated point. \nNo one looks back toward the entrance. \nOnly one staff member is stationed near the right-side entrance beside the wall. \nAll faces are blurred to ensure anonymity.\n\nThe composition is stable, with the central vanishing point always aligned with the center of the wall. \nVerticality is within ±0.5°. \nFloor reflections are precise, human figures appear natural. \nHands always show five fingers, eyes are symmetrical within a 3% margin. \nFabrics remain flat with no deformation.\n\nForbidden content: Elements unrelated to the reference image, missing or broken tactile paving, \nvisitors facing the entrance, logos or watermarks, overcrowding, toy-like gloss, 2D flat projections, \nneon glow, teal-orange tones, oversaturation, perspective collapse, mismatched reflections, \nanatomical anomalies, extra limbs, distorted faces, excessive outlines, banding, or vignetting.\n\nDoD: The entire venue will be a contemporary artwork centered on the theme of the reference image, \nwith the innermost structure forming a unified experience. \nThe tactile paving synchronizes perfectly with the flow of light, creating a clear pause point. \nVisitors are immersed in the space itself, and even in reproduction, SSIM will remain stable at 0.95 or above.",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [],
+    "author": "@UNIBRACITY",
+    "authorUrl": "https://x.com/UNIBRACITY",
+    "sourceLinks": [
+      "https://x.com/UNIBRACITY/status/1967129632093991164",
+      "https://x.com/UNIBRACITY"
+    ],
+    "inputImages": [],
+    "outputImages": []
+  },
+  {
+    "id": "nano-86",
+    "caseNumber": 86,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-86",
+    "title": "Dark Gothic Tarot Card",
+    "prompt": "Generate a dark gothic tarot card featuring me from this image. Include [“AI Artist - Shira”] and [coffee, white fluffy chubby cat with pink bow, laptop, phone, headphones] as symbols, with moody shadows, intricate gothic borders, and mystical dark fantasy vibes.",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [
+      "Replace the text inside [brackets] with your desired settings"
+    ],
+    "author": "@ImperfectEngel",
+    "authorUrl": "https://x.com/ImperfectEngel",
+    "sourceLinks": [
+      "https://x.com/ImperfectEngel/status/1961833518163481001",
+      "https://x.com/ImperfectEngel"
+    ],
+    "inputImages": [],
+    "outputImages": []
+  },
+  {
+    "id": "nano-87",
+    "caseNumber": 87,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-87",
+    "title": "Black and White Evolution Chart",
+    "prompt": "Generate an evolutionary progression chart in a minimalist black-and-white style, \nshowing the evolution from the earliest apes to humans and finally into a banana.",
+    "inputRequirement": "",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1965816445008548213",
+      "https://x.com/ZHO_ZHO_ZHO"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case87/output.png",
+        "alt": "AI image prompt – Black and White Evolution Chart output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-88",
+    "caseNumber": 88,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-88",
+    "title": "Glass Bottle Souvenir",
+    "prompt": "A 1/7 scale commercialized collectible figure of the character from the photo, crafted in a highly realistic style. The figure is placed in a detailed beach environment with sand, seashells, and gentle ocean waves. The entire toy display is enclosed inside a clear souvenir glass bottle, giving it a premium miniature diorama look, with realistic lighting and shadows",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [],
+    "author": "@NanoBanana_labs",
+    "authorUrl": "https://x.com/NanoBanana_labs",
+    "sourceLinks": [
+      "https://x.com/NanoBanana_labs/status/1967191346017673334",
+      "https://x.com/NanoBanana_labs"
+    ],
+    "inputImages": [],
+    "outputImages": []
+  },
+  {
+    "id": "nano-89",
+    "caseNumber": 89,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-89",
+    "title": "Miniature Store",
+    "prompt": "Tiny diorama shop for [BRAND]. Roof made of oversized [PRODUCT], big [BRAND] logo sign above the window, vendor handing a [PRODUCT] to a customer, ground covered with many [PRODUCT]. Hand-made polymer-clay look, studio macro photo, soft light, shallow depth of field, vertical 3:4",
+    "inputRequirement": "",
+    "notes": [
+      "Replace the text inside [brackets] with your desired product"
+    ],
+    "author": "@NanoBanana_labs",
+    "authorUrl": "https://x.com/NanoBanana_labs",
+    "sourceLinks": [
+      "https://x.com/NanoBanana_labs/status/1966791308321910922",
+      "https://x.com/NanoBanana_labs"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case89/output.png",
+        "alt": "AI image prompt – Miniature Store output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-90",
+    "caseNumber": 90,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-90",
+    "title": "Become a Vtuber",
+    "prompt": "Create a fictional Vtuber and their streaming screen using the original image.\nThe Vtuber's hairstyle and clothing will be faithfully reproduced from the original image.\nThe Vtuber image will be 2.5D-like, so it is not necessary to perfectly reproduce the style of the original image. A moderate sense of three-dimensionality is also necessary.\nThe Vtuber's facial expression and pose may be changed from the original image. Have the Vtuber hold a game controller.\nPlace only the Vtuber's upper body in the bottom right of the screen. Place the streaming screen of the game being played in the center of the screen. Place the chat screen on the left side of the screen.\nThe screen ratio is set to a larger size for the game screen, and the upper half of the Vtuber's body is displayed smaller.\nThe background of the original image is completely ignored, as well as the original image pose.\nAdd a fictional streaming platform and browser UI to the top and bottom of the screen.\nThe aspect ratio of the generated image is independent of that of the original image.",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [],
+    "author": "@AI_Kei75",
+    "authorUrl": "https://x.com/AI_Kei75",
+    "sourceLinks": [
+      "https://x.com/AI_Kei75/status/1967490141578236329",
+      "https://x.com/AI_Kei75"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case90/input.png",
+        "alt": "AI image prompt – Become a Vtuber input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case90/output.png",
+        "alt": "AI image prompt – Become a Vtuber output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-91",
+    "caseNumber": 91,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-91",
+    "title": "Train Station Movie Poster",
+    "prompt": "Create a movie poster using the original image. The genre of the movie will be determined based on the atmosphere of the original image.\nRegardless of whether the original image is anime or live-action, the style and character design of the original image will be maintained as perfectly as possible. However, poses and expressions may be changed to match the poster design. Other people and objects may also be added at this time.\nThe final generated image will be photorealistic. This does not apply to the poster design, as it will be based on the original image.\nThe scenery of the underground passage of a Japanese station where the poster is posted will be recreated in a realistic image. People passing through the underground passage will be added.\nThe reflection of the poster is angled to make it look more realistic.",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [],
+    "author": "@AI_Kei75",
+    "authorUrl": "https://x.com/AI_Kei75",
+    "sourceLinks": [
+      "https://x.com/AI_Kei75/status/1967498630467625127",
+      "https://x.com/AI_Kei75"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case91/input.png",
+        "alt": "AI image prompt – Train Station Movie Poster input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case91/output.png",
+        "alt": "AI image prompt – Train Station Movie Poster output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-92",
+    "caseNumber": 92,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-92",
+    "title": "Movie Lounge",
+    "prompt": "Illustration Processing:\nThe background is removed and the characters are turned into figurines and merchandise.\nTheme / Overview:\nA photorealistic movie theater lounge. A special event-themed space, set in a popcorn stand, is decorated with the world of the characters.\n\nLocation:\nA spacious popcorn stand in a large movie theater.\nThere is a cash register, with a popcorn machine inside.\nThere is a drink stand with a salesperson behind the counter.\nAbove the register are countless posters of showing movies.\n\nCharacters / Production:\nA character cosplayer is placed in the center of the screen.\nMerchandise such as figurines and acrylic stands are displayed on shelves.\nGiant stuffed animals and signboards are displayed realistically.\nA movie photo booth is set up and decorated with character designs.\n\nPlaces where characters are reflected:\nMovie posters currently being screened.\nPop-up advertisements for the collaboration menu.\nDrink cups and packaging.\nPopcorn buckets.\nLarge LED LCD panel.\n\nDesign / Advertising:\nCharacter illustrations are reflected on each poster in the lounge.\nVivid visuals of the collaboration food and drinks are displayed.\nAnimations and character footage are projected onto LED panels.\n\nCamera Angle:\nComposed from the front.\nEmphasis on the entire popcorn stand.\nA cosplayer is placed in the center, with merchandise and advertisements reflected around them.\nA slightly lower angle captures the LED panels and posters impressively.\n\nQuality / Atmosphere:\nPhotorealistic and detailed depiction.\nAn urban, realistic glossy feel, creating a cinema-like atmosphere with an event-like feel.\nResolution is 4K, aspect ratio is 4:3.",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [],
+    "author": "@tokyo_Valentine",
+    "authorUrl": "https://x.com/tokyo_Valentine",
+    "sourceLinks": [
+      "https://x.com/tokyo_Valentine/status/1968509703018922082",
+      "https://x.com/tokyo_Valentine"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case92/input.jpg",
+        "alt": "AI image prompt – Movie Lounge input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case92/output.jpg",
+        "alt": "AI image prompt – Movie Lounge output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-93",
+    "caseNumber": 93,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-93",
+    "title": "Slice Object with Cartoon Explosion Effect",
+    "prompt": "cut cleanly THE [OBJECT] in half across the middle, the top and bottom halves slightly separated and floating apart.  \nBetween the halves, instead of the natural inside, there is a stylized cartoon nuclear explosion effect: a central vertical column of glowing yellow-orange bubble smoke, with a wide horizontal shockwave ring of round bubbly clouds spreading to the sides, fiery glowing highlights above and below the shockwave, creating the impression of intense heat and energy\nThe outside of the [OBJECT] remains photorealistic with detailed texture and lighting, while the inner effect is highly graphic and playful, giving a striking contrast between realism and cartoon. Studio lighting, centered composition",
+    "inputRequirement": "",
+    "notes": [
+      "Replace the text inside [brackets] with your desired object"
+    ],
+    "author": "@Arminn_Ai",
+    "authorUrl": "https://x.com/Arminn_Ai",
+    "sourceLinks": [
+      "https://x.com/Arminn_Ai/status/1968375201739177984",
+      "https://x.com/Arminn_Ai"
+    ],
+    "inputImages": [],
+    "outputImages": []
+  },
+  {
+    "id": "nano-94",
+    "caseNumber": 94,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-94",
+    "title": "Character-Themed Train",
+    "prompt": "Illustration Processing:\nThe background is erased and characters are turned into figurines and merchandise.\nTheme / Overview:\nA photorealistic Tokyo train interior. The entire car is decorated with character advertisements and merchandise, creating a special space tailored for a collaboration event.\nCharacters / Production:\nSeveral character cosplayers are standing in the foreground of the screen.\nLife-size panels and life-size figures are displayed in the center and back of the train.\n100cm character figures are on display.\nMany character stuffed toys are lined up in empty seats.\nAdvertising / Display:\nCharacter illustrations are reflected in advertisements on the straps.\nCharacter illustrations are displayed on poster advertisements inside the train.\nCharacter illustrations and animations are displayed on additional LED displays installed inside the train.\nIllustration Processing:\nThe background is erased and characters are turned into figurines and merchandise.\nNear-life-size figures, 100cm figures, deformed figures, and stuffed toys are realistically depicted.\nCamera Angle:\nA frontal composition emphasizes the bustling atmosphere inside the train.\nA large shot of a cosplayer in the foreground, with figures, panels, and stuffed animals in the background.\nA low angle captures the strap advertisements and LED displays impressively.\nQuality / Atmosphere:\nPhotorealistic and detailed depiction.\nAn urban, realistic glossy feel.\nResolution is 4K, aspect ratio is 4:3.",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [],
+    "author": "@tokyo_Valentine",
+    "authorUrl": "https://x.com/tokyo_Valentine",
+    "sourceLinks": [
+      "https://x.com/tokyo_Valentine/status/1968419694920028552",
+      "https://x.com/tokyo_Valentine"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case94/output.jpg",
+        "alt": "AI image prompt – Character-Themed Train output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-95",
+    "caseNumber": 95,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-95",
+    "title": "Custom Theme Park",
+    "prompt": "Generates a photorealistic theme park image based on the original image.\nThe theme park and the people enjoying it are depicted in an extremely photorealistic style. Daytime. Sunny.\nThe color scheme and design are extracted from the original image and applied to the color scheme and design of various facilities.\nVehicles and buildings based on the original image, mascot costumes that are a distorted version of the original image, and signs with the original image printed on them are placed within the image.\nThe mascot costume design should use the original image as a motif, but be moderately distorted to create a photorealistic look.\nThe sizes of the people and mascot costumes must not be unrealistic.\nEven if the original image is anime-style, the final image must be a photorealistic theme park. Be sure to follow these rules.",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [],
+    "author": "@AI_Kei75",
+    "authorUrl": "https://x.com/AI_Kei75",
+    "sourceLinks": [
+      "https://x.com/AI_Kei75/status/1968188091237372043",
+      "https://x.com/AI_Kei75"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case95/input.jpg",
+        "alt": "AI image prompt – Custom Theme Park input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case95/output.jpg",
+        "alt": "AI image prompt – Custom Theme Park output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-96",
+    "caseNumber": 96,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-96",
+    "title": "Create Constellation Image",
+    "prompt": "Create an image depicting fictional constellations using the original image as a reference.\n- A photorealistic starry sky. This is maintained even if the original image is anime-style.\n- People, animals, and objects extracted from the original image are placed transparently against the starry sky background. In this case, the extracted target should be a single motif that is the main theme. Also, only one image should be placed.\n- The character design, style, and taste of the original image are faithfully reproduced. The background of the original image can be ignored.\n- An imaginary constellation is created based on the placed motif. This constellation is made up of approximately 5 to 10 stars.\n- The pose of the original image is analyzed, and the stars belonging to the constellation are appropriately positioned in distinctive parts.\n- The stars belonging to the constellation are highlighted, and the stars are connected with glowing lines.",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [],
+    "author": "@AI_Kei75",
+    "authorUrl": "https://x.com/AI_Kei75",
+    "sourceLinks": [
+      "https://x.com/AI_Kei75/status/1968181164243562665",
+      "https://x.com/AI_Kei75"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case96/input.jpg",
+        "alt": "AI image prompt – Create Constellation Image input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case96/output.jpg",
+        "alt": "AI image prompt – Create Constellation Image output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-97",
+    "caseNumber": 97,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-97",
+    "title": "Turn Image into Phone Wallpaper",
+    "prompt": "Transform the image into an iPhone lock screen wallpaper effect. The phone’s time (01:16), date (Sunday, September 16), and status bar details (battery, signal, etc.) appear overlaid on the image, with flashlight and camera icons at the bottom. The original picture is adapted to fit the elongated smartphone screen composition. The phone is placed against a background in the same color scheme.",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1967915300063695300",
+      "https://x.com/ZHO_ZHO_ZHO"
+    ],
+    "inputImages": [],
+    "outputImages": []
+  },
+  {
+    "id": "nano-98",
+    "caseNumber": 98,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-98",
+    "title": "Make a Movie Poster",
+    "prompt": "Analyze the uploaded photo and detect the subject, mood, and atmosphere.  \nAutomatically classify the photo into a suitable movie genre (romance, action, mystery, horror, etc.).  \n\nBased on the detected genre and mood, generate all the following elements in English:  \n- A cinematic movie title (impactful, authentic to the genre).  \n- A short tagline or catchphrase (1–2 lines, dramatic or emotional).  \n- A credit block at the bottom (with fake names for director, producer, music, etc., styled like real movie posters).  \n- A release note such as “COMING SOON” or “In Theaters 2025.”  \n\nOverlay these elements on the image in a movie-poster style layout:  \n- Place the title prominently in the center or lower third.  \n- Place the tagline above or below the title.  \n- Add a credit block at the bottom in small text.  \n- Add the release note at the bottom center.  \n\nFinally, add the starring section at the bottom, always formatted as:  \n“Starring: ”  \n\nTypography should be bold, dramatic, and genre-appropriate.  \nThe final result must look like a genuine movie poster ready for theaters, with all elements harmonized to the photo’s mood.",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [],
+    "author": "@aiehon_aya",
+    "authorUrl": "https://x.com/aiehon_aya",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1967915300063695300",
+      "https://x.com/aiehon_aya"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case98/output.jpg",
+        "alt": "AI image prompt – Make a Movie Poster output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-99",
+    "caseNumber": 99,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-99",
+    "title": "Turn X Account into Floppy Disk",
+    "prompt": "Make my X account into a floppy disk in the 90s",
+    "inputRequirement": "Upload a reference image of the X account.",
+    "notes": [],
+    "author": "@icreatelife",
+    "authorUrl": "https://x.com/icreatelife",
+    "sourceLinks": [
+      "https://x.com/icreatelife/status/1968020098515636635",
+      "https://x.com/icreatelife"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case99/output.jpg",
+        "alt": "AI image prompt – Turn X Account into Floppy Disk output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-100",
+    "caseNumber": 100,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-100",
+    "title": "Make Reference Image Object Transparent",
+    "prompt": "Make this object transparent.",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [],
+    "author": "@icreatelife",
+    "authorUrl": "https://x.com/icreatelife",
+    "sourceLinks": [
+      "https://x.com/icreatelife/status/1967759082544332817",
+      "https://x.com/icreatelife"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case100/input.jpg",
+        "alt": "AI image prompt – Make Reference Image Object Transparent input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case100/output.jpg",
+        "alt": "AI image prompt – Make Reference Image Object Transparent output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-101",
+    "caseNumber": 101,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-101",
+    "title": "Fisheye Peephole Illustration",
+    "prompt": "ultra-detailed anime illustration, fisheye lens peephole perspective, circular distorted view as if looking through a door peephole, warped wide-angle effect with curved edges, darkened vignette around the circular\nframe, two people leaning their faces close to the peephole trying to peek through, both with mischievous playful smiles, exaggerated perspective distortion making their features appear larger and curved, faces\napproaching the peephole lens, hallway or room interior bent by the lens effect, slightly blurry edges mimicking actual peephole optics, playful atmosphere, 8k resolution",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [],
+    "author": "@emakiscroll",
+    "authorUrl": "https://x.com/emakiscroll",
+    "sourceLinks": [
+      "https://x.com/emakiscroll/status/1970322227729191013",
+      "https://x.com/emakiscroll"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case101/input.jpg",
+        "alt": "AI image prompt – Fisheye Peephole Illustration input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case101/output.jpg",
+        "alt": "AI image prompt – Fisheye Peephole Illustration output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-102",
+    "caseNumber": 102,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-102",
+    "title": "Superhero Interior Design",
+    "prompt": "A hyper-realistic, professional interior design photograph of a modern living room inspired by a [Superhero]. The room has clean lines, a neutral color palette of greys, blacks, and whites, with accents of [Theme Color]. A large, stylized 3D wall sculpture of the [Superhero] dominates the main wall. Subtle thematic details are placed throughout the room, such as framed art prints of blueprints, a floor lamp designed to resemble a specific motif (e.g., a shield or logo), and a side table with a few well-placed props (e.g., a stylized helmet). The furniture is contemporary and minimalist, with a large, comfortable sofa and a low coffee table. Dramatic, focused lighting highlights the main wall sculpture, while warm ambient light from windows and lamps creates an inviting atmosphere. The overall style is sophisticated and elegant, a subtle homage rather than an overt fan-tribute.",
+    "inputRequirement": "",
+    "notes": [
+      "Replace the text inside [brackets] with the information you need"
+    ],
+    "author": "@IqraSaifiii",
+    "authorUrl": "https://x.com/IqraSaifiii",
+    "sourceLinks": [
+      "https://x.com/IqraSaifiii/status/1969868863522423034",
+      "https://x.com/IqraSaifiii"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case102/output.jpg",
+        "alt": "AI image prompt – Superhero Interior Design output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-103",
+    "caseNumber": 103,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-103",
+    "title": "Custom Claw Machine",
+    "prompt": "Generate an image showing this animal as a simplified and deformed as an anime-like plush toy (made of short-pile, soft-touch polyester knit fabric), with multiple units inside a UFO catcher machine. On either side are additional UFO Catcher machines containing multiple plush toys of different animals, distinct from the main image. The setting is a Japanese game center, with an overall very bright impression. Only the top section of the UFO catcher is painted in vibrant colors. The lower section is painted white. The background is a wall, and the area behind the UFO catcher is quite blurred.　The floor is carpeted. The shooting angle is from the front. Most importantly, absolutely no text or logos should appear in the output.",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [],
+    "author": "@googlejapan",
+    "authorUrl": "https://x.com/googlejapan",
+    "sourceLinks": [
+      "https://x.com/googlejapan/status/1969733348852433316",
+      "https://x.com/googlejapan"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case103/input.jpg",
+        "alt": "AI image prompt – Custom Claw Machine input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case103/output.jpg",
+        "alt": "AI image prompt – Custom Claw Machine output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-104",
+    "caseNumber": 104,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-104",
+    "title": "Typography Logo Design",
+    "prompt": "Create a typographic illustration shaped like a {OBJECT}, where the text itself forms the shape — bold and playful lettering style that fills the entire silhouette — letters adapt fluidly to the curves and contours of the object — vibrant and contrasting color palette that fits the theme — background is solid and enhances the focus on the main shape — vector-style, clean, high resolution, poster format, 1:1 aspect ratio.",
+    "inputRequirement": "",
+    "notes": [
+      "Replace the text inside [brackets] with your desired object"
+    ],
+    "author": "@aziz4ai",
+    "authorUrl": "https://x.com/aziz4ai",
+    "sourceLinks": [
+      "https://x.com/IqraSaifiii/status/1969868863522423034",
+      "https://x.com/aziz4ai"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case104/output.jpg",
+        "alt": "AI image prompt – Typography Logo Design output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-105",
+    "caseNumber": 105,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-105",
+    "title": "RPG Character Status UI",
+    "prompt": "Use the character in the original image to create a character status screen for an RPG game.\nKeep the character design and style from the original image, but change the costume to one from a fantasy RPG. Also, change the pose to suit the situation.\nDisplay the character from the original image and the status screen side by side.\nThe status screen will list various parameters, skills, icons, etc.\nThe background should be a fantasy background that matches the style of the original image.\nThe status screen should be rich and stylish, like a game from 2025.",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [],
+    "author": "@AI_Kei75",
+    "authorUrl": "https://x.com/AI_Kei75",
+    "sourceLinks": [
+      "https://x.com/AI_Kei75/status/1969358521356742756",
+      "https://x.com/AI_Kei75"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case105/input.jpg",
+        "alt": "AI image prompt – RPG Character Status UI input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case105/output.jpg",
+        "alt": "AI image prompt – RPG Character Status UI output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-106",
+    "caseNumber": 106,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-106",
+    "title": "Convert Text Diagram to Pictograms",
+    "prompt": "Convert this explanatory diagram into pictograms.",
+    "inputRequirement": "A reference image containing text must be uploaded.",
+    "notes": [],
+    "author": "@nobisiro_2023",
+    "authorUrl": "https://x.com/nobisiro_2023",
+    "sourceLinks": [
+      "https://x.com/nobisiro_2023/status/1968677481486914022",
+      "https://x.com/nobisiro_2023"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case106/input.jpg",
+        "alt": "AI image prompt – Convert Text Diagram to Pictograms input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case106/output.jpg",
+        "alt": "AI image prompt – Convert Text Diagram to Pictograms output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-107",
+    "caseNumber": 107,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-107",
+    "title": "Drawing on a Pen Display",
+    "prompt": "Photorealistic pen tablet screen. Realistic first-person hand holding the pen tablet and pen.\nThe original image is reproduced on the pen tablet in an unfinished state. The line art has been extracted from the original image. Portions of the line art have been colored with the same coloring as the original image. Unfinished coloring. Must not be monochrome. About 70% of the coloring is done.\nClose-up. The pen tip is touching the tablet screen.",
+    "inputRequirement": "A reference image must be uploaded.",
+    "notes": [],
+    "author": "@AI_Kei75",
+    "authorUrl": "https://x.com/AI_Kei75",
+    "sourceLinks": [
+      "https://x.com/AI_Kei75/status/1968607362576708042",
+      "https://x.com/AI_Kei75"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case107/input.jpg",
+        "alt": "AI image prompt – Drawing on a Pen Display input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case107/output.jpg",
+        "alt": "AI image prompt – Drawing on a Pen Display output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-108",
+    "caseNumber": 108,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-108",
+    "title": "Create LINE Stamp Image",
+    "prompt": "Character sheet, facial expressions, joy, anger, sadness, happiness",
+    "inputRequirement": "Upload a facial expression reference and a character reference image.",
+    "notes": [],
+    "author": "@emakiscroll",
+    "authorUrl": "https://x.com/emakiscroll",
+    "sourceLinks": [
+      "https://x.com/emakiscroll/status/1969959850676253016",
+      "https://x.com/emakiscroll"
+    ],
+    "inputImages": [
+      {
+        "src": "/assets/nano-banana/case108/input1.jpg",
+        "alt": "AI image prompt – Create LINE Stamp Image input reference"
+      },
+      {
+        "src": "/assets/nano-banana/case108/input2.jpg",
+        "alt": "AI image prompt – Create LINE Stamp Image 2 input reference"
+      }
+    ],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case108/output.jpg",
+        "alt": "AI image prompt – Create LINE Stamp Image output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-109",
+    "caseNumber": 109,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-109",
+    "title": "Therapy for Childhood Self",
+    "prompt": "Photorealistic minimalist therapy room; light walls, grey sofa, wooden coffee table with a tissue box, notebook and a glass of water, simple frame and floor lamp, soft natural daylight. The same person at two ages sits side-by-side: adult on the left speaking with open hands; child on the right listening with head slightly down. Both wear matching [OUTFIT] (same color & style). Clean studio vibe, centered composition, shallow depth of field, 50mm look, 4K, vertical 3:4. No extra people, no text, no watermark.",
+    "inputRequirement": "A reference portrait must be uploaded.",
+    "notes": [
+      "Replace the text inside [brackets] with your desired outfit"
+    ],
+    "author": "@samann_ai",
+    "authorUrl": "https://x.com/samann_ai",
+    "sourceLinks": [
+      "https://x.com/samann_ai/status/1969743981157265867",
+      "https://x.com/samann_ai"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case109/output.jpg",
+        "alt": "AI image prompt – Therapy for Childhood Self output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-110",
+    "caseNumber": 110,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-110",
+    "title": "Pixar-Style Portrait",
+    "prompt": "3D avatar of the young man in the image attached, smiling happily, clean white background, conceptual digital art in Pixar-style, high quality, soft lighting, smooth textures, vibrant colors, realistic proportions with a cartoon touch & studio render look.",
+    "inputRequirement": "A character reference image must be uploaded.",
+    "notes": [],
+    "author": "@NanoBanana_labs",
+    "authorUrl": "https://x.com/NanoBanana_labs",
+    "sourceLinks": [
+      "https://x.com/NanoBanana_labs/status/1969824645743587519",
+      "https://x.com/NanoBanana_labs"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case110/output.jpg",
+        "alt": "AI image prompt – Pixar-Style Portrait output image"
+      }
+    ]
+  }
+]

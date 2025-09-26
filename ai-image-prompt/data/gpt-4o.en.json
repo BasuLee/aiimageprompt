@@ -1,0 +1,2303 @@
+[
+  {
+    "id": "gpt4o-1",
+    "caseNumber": 1,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-1",
+    "title": "3D Chibi Proposal Scene",
+    "prompt": "Transform the two people in the photo into chibi-style 3D cartoon characters. Change the scene to a proposal setting, with a soft pastel-colored floral arch in the background. Use romantic tones for the overall background. Rose petals are scattered on the ground. While the characters are rendered in cute chibi 3D style, the environment—including the arch, lighting, and textures—should be realistic and photorealistic.",
+    "inputRequirement": "A couple's photo.",
+    "referenceNote": "A couple's photo.",
+    "notes": [],
+    "author": "@balconychy",
+    "authorUrl": "https://x.com/balconychy",
+    "sourceLinks": [
+      "https://x.com/balconychy/status/1909417750587486469"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/1/example_proposal_scene_q_realistic.png",
+        "alt": "AI image prompt – 3D Chibi Proposal Scene output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-2",
+    "caseNumber": 2,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-2",
+    "title": "3D Polaroid Breakout Effect",
+    "prompt": "Convert the character in the scene into a 3D chibi-style figure, placed inside a Polaroid photo. The photo paper is being held by a human hand. The character is stepping out of the Polaroid frame, creating a visual effect of breaking through the two-dimensional photo border and entering the real-world 3D space.",
+    "inputRequirement": "A half-body or full-body single person photo.",
+    "referenceNote": "A half-body or full-body single person photo.",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1908238003169903060"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/2/example_polaroid_breakout.png",
+        "alt": "AI image prompt – 3D Polaroid Breakout Effect output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-3",
+    "caseNumber": 3,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-3",
+    "title": "Retro Style Promotional Poster",
+    "prompt": "A retro-style promotional poster emphasizing bold Chinese text. The background features a red-and-yellow radial burst pattern. In the center of the composition is a beautiful young woman illustrated in a refined vintage art style—she smiles warmly with a graceful, approachable presence. The poster advertises GPT’s latest AI image generation service with key slogans in Chinese, such as: “Shocking price: 9.9 per image”, “Supports all scenes, image blending, partial redrawing”, “3 revisions per image”, and “Direct AI output with no need for manual edits”. At the bottom, prominently display the call-to-action: “If you’re interested, click ‘I want this’ in the bottom-right corner”. Illustrate a hand pressing a button in the bottom-right, and place the OpenAI logo in the bottom-left.",
+    "inputRequirement": "",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1905251524248248650"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/3/example_vintage_poster.png",
+        "alt": "AI image prompt – Retro Style Promotional Poster output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-4",
+    "caseNumber": 4,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-4",
+    "title": "3D Chibi Chinese Wedding Scene",
+    "prompt": "Transform the two people in the photo into chibi-style 3D cartoon characters, dressed in traditional Chinese wedding attire. The overall theme is a festive red Chinese-style wedding. The background features a decorative “囍” (double happiness) paper-cut pattern in a classic folk style. \nClothing (realistic texture, traditional details):\nMale: Wearing a red changpao and magua (traditional robe and jacket) embroidered with golden dragon motifs, symbolizing nobility and grandeur. A large red flower is tied on his chest, representing celebration and good fortune.\nFemale: Dressed in a red xiuhe wedding gown adorned with exquisite golden floral and phoenix embroidery, showcasing elegance and luxury. She wears delicate floral hair ornaments to enhance her gentle and graceful appearance.\nHeadwear:\nMale: A traditional red zhuangyuan (scholar) hat with golden patterns and a refined golden ornament at the top, exuding classic scholarly dignity.\nFemale: A phoenix crown adorned with a central red flower, gold 3D decorative elements, and hanging tassels—luxurious and full of classical charm.\nThis image should reflect the joy and blessing of a traditional Chinese wedding, with realistic textures for costumes and accessories, combined with stylized 3D chibi characters.",
+    "inputRequirement": "A couple's photo.",
+    "referenceNote": "A couple's photo.",
+    "notes": [],
+    "author": "@balconychy",
+    "authorUrl": "https://x.com/balconychy",
+    "sourceLinks": [
+      "https://x.com/balconychy/status/1909418699150237917"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/4/example_q_chinese_wedding.png",
+        "alt": "AI image prompt – 3D Chibi Chinese Wedding Scene output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-5",
+    "caseNumber": 5,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-5",
+    "title": "Ghibli Style",
+    "prompt": "Redraw this photo in Ghibli style",
+    "inputRequirement": "A photo of a person or other subject.",
+    "promptNote": "If encountering content policy violations, add this sentence to the prompt: If there is inappropriate (sensitive) content in the background, it can be modified or deleted.",
+    "referenceNote": "A photo of a person or other subject.",
+    "notes": [],
+    "author": "AnimeAI",
+    "authorUrl": "https://animeai.online",
+    "sourceLinks": [
+      "https://animeai.online/#demo-gallery"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/5/ghibli-style-mona-lisa.png",
+        "alt": "AI image prompt – Ghibli Style output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-6",
+    "caseNumber": 6,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-6",
+    "title": "Character Stepping Through Portal",
+    "prompt": "A 3D chibi-style version of the person in the photo is stepping through a glowing portal, reaching out and holding the viewer’s hand. As the character pulls the viewer forward, they turn back with a dynamic glance, inviting the viewer into their world.\nBehind the portal is the viewer’s real-life environment: a typical programmer’s study with a desk, monitor, and laptop, rendered in realistic detail. Inside the portal lies the character’s 3D chibi world, inspired by the photo, with a cool blue color scheme that sharply contrasts with the real-world surroundings.\nThe portal itself is a perfectly elliptical frame glowing with mysterious blue and purple light, positioned at the center of the image as a gateway between the two worlds.\nThe scene is captured from a third-person perspective, clearly showing the viewer’s hand being pulled into the character’s world. Use a 2:3 aspect ratio.",
+    "inputRequirement": "A clear half-body or full-body single person photo.",
+    "referenceNote": "A clear half-body or full-body single person photo.",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1908910838636765204"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/6/example_portal_crossing_handhold.png",
+        "alt": "AI image prompt – Character Stepping Through Portal output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-7",
+    "caseNumber": 7,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-7",
+    "title": "Personalized Room Design",
+    "prompt": "Design a cozy bedroom in a cute 3D style with C4D-quality rendering, presented in an isometric view. The room includes a bed, bookshelf, sofa, green plants, a computer desk, and a computer setup. A framed painting hangs on the wall. Outside the window, a nighttime cityscape is visible with glowing buildings and a dark sky. All furniture and objects should have a soft, rounded, stylized design to match the cute 3D aesthetic. Lighting should be warm and inviting, creating a comfortable nighttime indoor atmosphere.",
+    "inputRequirement": "",
+    "promptNote": "The original prompt generated the room based on ChatGPT's memory of the user. This version is slightly modified. Please refer to the original source.",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1910698005193515370"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/7/example_personalized_room.png",
+        "alt": "AI image prompt – Personalized Room Design output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-8",
+    "caseNumber": 8,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-8",
+    "title": "Lego Collectible Figure",
+    "prompt": "Generate a vertically-oriented image based on my uploaded photo, using the following prompt:\nClassic LEGO minifigure style in a miniature scene — an animal stands beside me. The color palette of the animal should match mine.\nPlease design the animal based on your understanding of me. You may choose any creature — real, surreal, or fantastical — that you feel best reflects my personality.\nThe entire scene is set within a transparent glass cube, with a minimalist interior design.\nThe base of the miniature is matte black with silver accents, following a clean and modern aesthetic.\nOn the base, there is an elegantly engraved nameplate in a refined serif font, displaying the name of the animal.\nThe lower part of the base subtly incorporates finely etched biological classification details, similar to a natural history museum display.\nThe overall composition should resemble a high-end collectible artwork: meticulously crafted, curated in style, and lit with refined lighting.\nBalance is key to the layout. The background should feature a smooth gradient transition from dark to light tones, selected to match the dominant color theme.",
+    "inputRequirement": "A half-body or full-body single person photo.",
+    "referenceNote": "A half-body or full-body single person photo.",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1910644499354968091"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/8/example_lego_collectible.png",
+        "alt": "AI image prompt – Lego Collectible Figure output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-9",
+    "caseNumber": 9,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-9",
+    "title": "Minimalist Futurist Poster",
+    "prompt": "A vertical (3:4) 4K-resolution minimalist futurist exhibition poster with an ultra-light cool gray background (#f4f4f4).\n\nAt the center of the poster is a fluid 3D metaball shaped like a classic Coca-Cola bottle in full form, rendered in frosted glass with delicate grainy noise.\nThe fluid gradient transitions from Coca-Cola Red (#E41C23) to Pearl White (#FFFFFF), giving it a silky glass-like appearance.\n\nHigh-position softbox lighting casts long, soft colored shadows and a subtle halo.\n\nThe fluid overlaps with the text: letters obscured by the frosted glass appear with a gentle Gaussian blur.\n•The main title, the classic red “Coca-Cola” logo, is centered and partially obscured by the fluid. The covered letters are slightly blurred through the frosted glass.\n•The subtitle, in bold all-caps modern sans-serif pure black font, reads: “TASTE THE FEELING”, placed below the main title. It is also partially overlapped by the fluid and blurred in those areas, while the rest remains sharp.\n\nThe overall layout is clean with generous whitespace, balanced composition, sharp focus, and HDR high dynamic range.",
+    "inputRequirement": "",
+    "promptNote": "The [Classic 3D Coca-Cola Bottle] in the prompt can be replaced with descriptions of other items to generate posters with different themes.",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1921906728763105394"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/9/minimalist_futurist_poster.png",
+        "alt": "AI image prompt – Minimalist Futurist Poster output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-10",
+    "caseNumber": 10,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-10",
+    "title": "Satirical Cartoon Generation",
+    "prompt": "An illustration in satirical comic style, rendered in a vintage American comic aesthetic. The background features a multi-tiered shelf stocked entirely with identical red baseball caps. The caps have a bold slogan on the front: “MAKE AMERICA GREAT AGAIN,” while a white side tag on each reads “MADE IN CHINA.” The composition uses a close-up perspective focusing on one specific red cap.\nAt the bottom of the image, a price label is shown: the original price “$50.00” is crossed out with a thick black X and replaced with “$77.00.” The overall color palette uses nostalgic ochre and deep red tones, with shading that mimics the textured print style of 1990s retro comics.\nThe composition is exaggerated and satirical, carrying a strong critique of political consumerism.",
+    "inputRequirement": "",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1910514811756065159"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/10/example_maga_hat_cartoon.png",
+        "alt": "AI image prompt – Satirical Cartoon Generation output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-11",
+    "caseNumber": 11,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-11",
+    "title": "PS2 Game Cover (GTA x Shrek)",
+    "prompt": "Can you create a PS2 video game case of \"Grand Theft Auto: Far Far Away\" a GTA based in the Shrek Universe.",
+    "inputRequirement": "",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1904978767090524372"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/11/example_ps2_gta_shrek.png",
+        "alt": "AI image prompt – PS2 Game Cover (GTA x Shrek) output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-12",
+    "caseNumber": 12,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-12",
+    "title": "3D Couple Jewelry Box Figurine",
+    "prompt": "Create a finely crafted, adorably charming 3D-rendered collectible figure based on the subjects in the photo, displayed inside a pastel-toned, warm and romantic presentation box. The box is designed in a soft cream color with gentle gold accents, resembling an elegant portable jewelry case.\n\nWhen opened, the box reveals a heartwarming romantic scene: two chibi-style characters gazing sweetly at each other. The lid is engraved with the words “FOREVER TOGETHER,” surrounded by delicate star and heart motifs.\n\nInside the box stands the female from the photo, holding a small bouquet of white flowers. Beside her is her partner, the male from the photo. Both characters have large, expressive, sparkling eyes and soft, warm smiles that radiate affection and charm.\n\nBehind them is a round window, through which a sunny skyline of a traditional Chinese town can be seen, along with gently drifting clouds. The interior is softly lit with warm ambient lighting, and petals float in the background to enhance the atmosphere.\n\nThe overall color scheme of both the display box and the characters is elegant and harmonious, creating a luxurious and dreamlike miniature keepsake.\n\nAspect ratio: 9:16",
+    "inputRequirement": "A couple's photo.",
+    "referenceNote": "A couple's photo.",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1909332895115714835"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/12/example_3d_collectible_couple_box.png",
+        "alt": "AI image prompt – 3D Couple Jewelry Box Figurine output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-13",
+    "caseNumber": 13,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-13",
+    "title": "Photo to 3D Q-version Style",
+    "prompt": "Transform the characters in the scene into 3D chibi-style figures, while keeping the original scene layout and their clothing exactly the same.",
+    "inputRequirement": "A photo.",
+    "referenceNote": "A photo.",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1908194518345678865"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/13/example_photo_to_3d_q.png",
+        "alt": "AI image prompt – Photo to 3D Q-version Style output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-14",
+    "caseNumber": 14,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-14",
+    "title": "One Piece Themed Figure Creation",
+    "prompt": "Transform the person in the photo into a One Piece-themed anime-style action figure, presented inside a collectible figure box designed in the visual style of the One Piece universe. The box is shown in an isometric view.\nInside the box, display the character reimagined in the One Piece anime art style, posed dynamically and accompanied by essential everyday items such as a pistol, a wristwatch, a suit, and leather shoes — all miniaturized and arranged like collectible accessories.\nNext to the box, include a realistic, fully rendered version of the actual figure itself, outside of the packaging. This figure should be rendered with high detail and realism, showcasing the material textures and craftsmanship, as if it were a professionally photographed product.",
+    "inputRequirement": "A half-body or full-body photo.",
+    "promptNote": "The list of essential items was slightly modified here. Please refer to the original source.",
+    "referenceNote": "A half-body or full-body photo.",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1909047547563213145"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/14/example_one_piece_figure_creation.png",
+        "alt": "AI image prompt – One Piece Themed Figure Creation output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-15",
+    "caseNumber": 15,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-15",
+    "title": "Satirical Poster Generation",
+    "prompt": "Satirical Poster Text (English):\nGPT-4o is taking over.\nForget working in image AI\nmaybe it’s time to deliver takeout instead.",
+    "inputRequirement": "",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1905287637084274742"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/15/example_gpt_involution_poster.png",
+        "alt": "AI image prompt – Satirical Poster Generation output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-16",
+    "caseNumber": 16,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-16",
+    "title": "Anime-style Badge",
+    "prompt": "Based on the person in the attachment, generate a photo of an anime-style badge. Requirements:\nMaterial: Tassel\nShape: Circular\nMain subject: A hand holding the badge",
+    "inputRequirement": "A photo of a person needs to be uploaded as a reference for the badge design.",
+    "referenceNote": "A photo of a person needs to be uploaded as a reference for the badge design.",
+    "notes": [],
+    "author": "@Alittlefatwhale",
+    "authorUrl": "https://x.com/Alittlefatwhale",
+    "sourceLinks": [
+      "https://x.com/Alittlefatwhale/status/1922512847030124905"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/16/anime_style_badge.png",
+        "alt": "AI image prompt – Anime-style Badge output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-17",
+    "caseNumber": 17,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-17",
+    "title": "Retro CRT Computer Boot Screen",
+    "prompt": "Retro CRT computer boot screen that resolves into ASCII-art of [shape or logo]",
+    "inputRequirement": "",
+    "promptNote": "Replace [shape or logo] in the prompt with a specific shape or logo description, such as Shanghai skyline.",
+    "notes": [],
+    "author": "@Gdgtify",
+    "authorUrl": "https://x.com/Gdgtify",
+    "sourceLinks": [
+      "https://x.com/Gdgtify/status/1925176250626159053"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/17/retro_crt_computer_boot_screen.png",
+        "alt": "AI image prompt – Retro CRT Computer Boot Screen output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-18",
+    "caseNumber": 18,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-18",
+    "title": "Pixar 3D Style",
+    "prompt": "Redraw this photo in Pixar 3D style",
+    "inputRequirement": "A photo of a person or other subject.",
+    "referenceNote": "A photo of a person or other subject.",
+    "notes": [],
+    "author": "AnimeAI",
+    "authorUrl": "https://animeai.online",
+    "sourceLinks": [
+      "https://animeai.online/#demo-gallery"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/18/pixar-style-godfather-scene.png",
+        "alt": "AI image prompt – Pixar 3D Style output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-19",
+    "caseNumber": 19,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-19",
+    "title": "Country Diorama in a Toy Box",
+    "prompt": "An ultra-realistic top-down photograph of a 3D-printed diorama inside a beige cardboard box, with the lid being held open by two human hands. The interior of the box reveals a miniature landscape of [COUNTRY NAME], featuring iconic landmarks, terrain, buildings, rivers, vegetation, and crowds of tiny, detailed human figures. The diorama is filled with vibrant, geographically appropriate elements, all crafted in a tactile, toy-like style using matte 3D-printed textures with visible layer lines. At the top, the inside of the box lid displays the phrase “[COUNTRY NAME]” in large, colorful, raised plastic letters—each letter in a different bright color. The lighting is warm and cinematic, highlighting the textures and shadows to evoke a sense of realism and charm, as if the viewer is opening a magical miniature version of the nation",
+    "inputRequirement": "",
+    "promptNote": "Please replace `[COUNTRY NAME]` in the prompt with a specific country name.",
+    "notes": [],
+    "author": "@TheRelianceAI",
+    "authorUrl": "https://x.com/TheRelianceAI",
+    "sourceLinks": [
+      "https://x.com/TheRelianceAI/status/1925223613055017251"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/19/country_diorama_in_toy_box.png",
+        "alt": "AI image prompt – Country Diorama in a Toy Box output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-20",
+    "caseNumber": 20,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-20",
+    "title": "Action Figure and Real Person in the Same Frame",
+    "prompt": "In a casual, everyday style as if shot on a mobile phone, an anime figure of [Jackie Chan] is placed on a desk, striking an exaggerated and cool pose, fully equipped. Simultaneously, the corresponding real-life person also appears in the frame, striking a similar pose to the figure, creating an interesting visual contrast with the figure and the real person in the same frame. The overall composition is harmonious and natural, delivering a warm and vibrant, true-to-life visual experience.",
+    "inputRequirement": "",
+    "promptNote": "The [Jackie Chan] in the prompt can be replaced with the name of any figurine character you want, or other types of characters.",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1920994118580183316"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/20/action_figure_and_real_person_in_frame.png",
+        "alt": "AI image prompt – Action Figure and Real Person in the Same Frame output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-21",
+    "caseNumber": 21,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-21",
+    "title": "Chibi Character Sticker Pack",
+    "prompt": "Please create a set of 9 Chibi stickers featuring [the character in the reference image], arranged in a 3x3 grid.\nDesign requirements:\n- Transparent background.\n- 1:1 square aspect ratio.\n- Consistent Chibi Ghibli cartoon style with vibrant colors.\n- Each sticker must have a unique action, expression, and theme, reflecting diverse emotions like \"sassy, mischievous, cute, frantic\" (e.g., rolling eyes, laughing hysterically on the floor, soul leaving body, petrified, throwing money, foodie mode, social anxiety attack). Incorporate elements related to office workers and internet memes.\n- Each character depiction must be complete, with no missing parts.\n- Each sticker must have a uniform white outline, giving it a sticker-like appearance.\n- No extraneous or detached elements in the image.\n- Strictly no text, or ensure any text is 100% accurate (no text preferred).",
+    "inputRequirement": "A character image needs to be uploaded as the main reference for creating the sticker pack.",
+    "promptNote": "Please replace \"[the character in the reference image]\" in the prompt with a specific description of the character's features, or directly upload a reference image.",
+    "referenceNote": "A character image needs to be uploaded as the main reference for creating the sticker pack.",
+    "notes": [],
+    "author": "@leon_yuan2001",
+    "authorUrl": "https://x.com/leon_yuan2001",
+    "sourceLinks": [
+      "https://x.com/leon_yuan2001/status/1923712069209293014"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/21/chibi_character_sticker_pack.png",
+        "alt": "AI image prompt – Chibi Character Sticker Pack output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-22",
+    "caseNumber": 22,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-22",
+    "title": "Xiaohongshu Cover Image",
+    "prompt": "Draw an image: Create a cover for a Xiaohongshu (RED) post.\n\nRequirements:\n– It must be visually compelling enough to attract user clicks.\n– Use bold, characterful fonts.\n– Vary font sizes to reflect the hierarchy of information; emphasize the structure of the copy.\n– The main title should be at least twice the size of regular text.\n– Leave white space between text sections.\n– Only use bright accent colors to highlight key words and draw attention.\n– The background should feature an eye-catching pattern (such as paper texture, notebook, or a WeChat chat window—choose one).\n– Add appropriate icons or illustrations to enhance visual layers, but avoid visual clutter.\n\nCopy text:\nBREAKING: ChatGPT just got even better!\n– Superior multitasking ✨\n– Stronger coding ability 💪\n– Creativity off the charts 🎨\nTry it now!\n\nImage aspect ratio: 9:16",
+    "inputRequirement": "",
+    "notes": [],
+    "author": "@balconychy",
+    "authorUrl": "https://x.com/balconychy",
+    "sourceLinks": [
+      "https://x.com/balconychy/status/1905507936526627078"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/22/example_notebook_promo.png",
+        "alt": "AI image prompt – Xiaohongshu Cover Image output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-23",
+    "caseNumber": 23,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-23",
+    "title": "\"Titanic\" Pose Parody",
+    "prompt": "Transform the person in the attached image into a cute chibi-style 3D character.\nScene: On the pointed bow of a luxurious cruise ship.\nThe man stands behind the woman at the bow, holding her waist with both hands. The woman is wearing a dress, arms spread wide, facing the wind, with a joyful and liberated expression on her face—just like the iconic scene from Titanic.\nThe sky is painted in warm sunset tones, and the vast ocean stretches beneath the ship.\nOnly the characters should be in chibi 3D style; the rest of the environment should be realistic.",
+    "inputRequirement": "A couple's photo.",
+    "referenceNote": "A couple's photo.",
+    "notes": [],
+    "author": "@balconychy",
+    "authorUrl": "https://x.com/balconychy",
+    "sourceLinks": [
+      "https://x.com/balconychy/status/1909916265067557299"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/23/example_titanic_q_realistic.png",
+        "alt": "AI image prompt – \"Titanic\" Pose Parody output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-24",
+    "caseNumber": 24,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-24",
+    "title": "Funko Pop Figure Creation",
+    "prompt": "Transform the person in the photo into the style of a Funko Pop figure box, presented in isometric view.\nThe packaging is labeled with the title “JAMES BOND.”\nInside the box, display a chibi-style figure based on the person in the photo, along with their essential accessories: a pistol, a wristwatch, a suit, and other signature items.\nNext to the box, show a realistic rendering of the actual figure outside the packaging, with detailed textures and lighting to achieve a lifelike product display.",
+    "inputRequirement": "A clear half-body or full-body photo.",
+    "referenceNote": "A clear half-body or full-body photo.",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1909047283485671924"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/24/funko-pop-james-bond-figure-and-box.png",
+        "alt": "AI image prompt – Funko Pop Figure Creation output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-25",
+    "caseNumber": 25,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-25",
+    "title": "Minimalist 3D Illustration",
+    "prompt": "Generate a toilet with the following JSON profile:\n{\n  \"art_style_profile\": {\n    \"style_name\": \"Minimalist 3D Illustration\",\n    \"visual_elements\": {\n      \"shape_language\": \"Rounded edges, smooth and soft forms with simplified geometry\",\n      \"colors\": {\n        \"primary_palette\": [\"Soft beige, light gray, warm orange\"],\n        \"accent_colors\": [\"Warm orange for focal elements\"],\n        \"shading\": \"Soft gradients with smooth transitions, avoiding harsh shadows or highlights\"\n      },\n      \"lighting\": {\n        \"type\": \"Soft, diffused lighting\",\n        \"source_direction\": \"Above and slightly to the right\",\n        \"shadow_style\": \"Subtle and diffused, no sharp or high-contrast shadows\"\n      },\n      \"materials\": {\n        \"surface_texture\": \"Matte, smooth surfaces with subtle shading\",\n        \"reflectivity\": \"Low to none, avoiding glossiness\"\n      },\n      \"composition\": {\n        \"object_presentation\": \"Single, central object displayed in isolation with ample negative space\",\n        \"perspective\": \"Slightly angled, giving a three-dimensional feel without extreme depth\",\n        \"background\": \"Solid, muted color that complements the object without distraction\"\n      },\n      \"typography\": {\n        \"font_style\": \"Minimalistic, sans-serif\",\n        \"text_placement\": \"Bottom-left corner with small, subtle text\",\n        \"color\": \"Gray, low-contrast against the background\"\n      },\n      \"rendering_style\": {\n        \"technique\": \"3D render with simplified, low-poly aesthetics\",\n        \"detail_level\": \"Medium detail, focusing on form and color over texture or intricacy\"\n      }\n    },\n    \"purpose\": \"To create clean, aesthetically pleasing visuals that emphasize simplicity, approachability, and modernity.\"\n  }\n}",
+    "inputRequirement": "",
+    "promptNote": "原提示词以 JSON 格式给出，JSON部分未翻译，请参考原文。",
+    "notes": [],
+    "author": "@0xdlk",
+    "authorUrl": "https://x.com/0xdlk",
+    "sourceLinks": [
+      "https://x.com/0xdlk/status/1906843247432929642"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/25/example_minimalist_3d_toilet.png",
+        "alt": "AI image prompt – Minimalist 3D Illustration output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-26",
+    "caseNumber": 26,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-26",
+    "title": "Famous Painting Character Cereal Ad",
+    "prompt": "“Master Oats”: Based on the visual features of the person in the uploaded photo, generate a custom oatmeal mix that reflects their personality traits — for example, using vegetables, fruits, yogurt, whole grains, etc.\n\nDesign a unique cereal box and package aesthetic that aligns with this tailored mix.\n\nThen, create an advertising cover featuring the person as the mascot on the cereal box. The character should retain their recognizable features but be transformed into a cute chibi-style 3D figure with a C4D-quality rendering.\n\nThe oatmeal and packaging should be presented in a setting that matches the mood — such as a minimalist kitchen, a sleek supermarket display, or a clean design counter.\n\nThe process includes:\n– Character analysis and oat mix pairing\n– Cereal box concept and design\n– Display environment selection\n– Final image with mascot figure, packaging, and styled scene composition\n\nAll visuals should be balanced, modern, and appealing, reflecting a premium and fun oat brand identity.",
+    "inputRequirement": "[Image of 'Girl with a Pearl Earring'](https://commons.wikimedia.org/w/index.php?curid=55017931).",
+    "referenceNote": "[Image of 'Girl with a Pearl Earring'](https://commons.wikimedia.org/w/index.php?curid=55017931).",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1909542765857587310"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/26/example_master_oats_ad.png",
+        "alt": "AI image prompt – Famous Painting Character Cereal Ad output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-27",
+    "caseNumber": 27,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-27",
+    "title": "Q-version Emoji Sticker Pack Creation",
+    "prompt": "Create a brand-new set of chibi-style stickers featuring the user as the main character, with six unique poses:\n  1.\tMaking a playful peace sign with both hands and winking.\n  2.\tTearful eyes and slightly trembling lips, showing a cute crying expression.\n  3.\tArms wide open in a warm, enthusiastic hug pose.\n  4.\tLying on their side asleep, resting on a tiny pillow with a sweet smile.\n  5.\tPointing forward with confidence, surrounded by shining visual effects.\n  6.\tBlowing a kiss, with heart symbols floating around.\nMaintain the chibi aesthetic:\n– Exaggerated, expressive big eyes\n– Soft facial lines\n– Playful, short black hairstyle\n– A white outfit with a bold neckline design\nBackground: Vibrant red with star or colorful confetti elements for decoration. Leave some clean white space around each sticker.\nAspect ratio: 9:16",
+    "inputRequirement": "A clear profile photo.",
+    "referenceNote": "A clear profile photo.",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1909800530739679488"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/27/example_chibi_emoji_pack.png",
+        "alt": "AI image prompt – Q-version Emoji Sticker Pack Creation output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-28",
+    "caseNumber": 28,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-28",
+    "title": "Flat Sticker Design",
+    "prompt": "Turn this photo into a chibi-style sticker illustration in a minimalist flat design.\n– Keep the character’s recognizable features\n– Use a cute, simplified aesthetic\n– The sticker should have a thick white border\n– The character should break out of the circular frame, adding a playful touch\n– The circular base should be a solid flat color (no 3D or gradients)\n– Background should be transparent\nThe overall style should be clean, modern, and visually appealing for use as a fun Q-version sticker.",
+    "inputRequirement": "A clear profile photo.",
+    "referenceNote": "A clear profile photo.",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1908044836953108490"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/28/example_flat_sticker_pearl_earring.png",
+        "alt": "AI image prompt – Flat Sticker Design output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-29",
+    "caseNumber": 29,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-29",
+    "title": "Famous Painting Character OOTD",
+    "prompt": "Generate a Q-style 3D C4D-rendered character based on the person in the photo, dressed in a fashion-forward “outfit of the day” (OOTD) inspired by a specific profession.\nProfession: Fashion Designer\n– Keep the original facial features and character pose\n– Stylize the character with a cute, long-legged chibi proportion\n– Outfit and accessories should reflect the profession, including trendy designer wear, glasses, sketchbook or tablet, and stylish shoes\n– Match the outfit with fashion accessories to complete the look\n– Use a solid background color that complements the character’s overall color palette (no gradients or textures)\n\nComposition: Aspect ratio: 9:16\nTop text: “OOTD”\nLeft side: the full-body chibi character wearing the complete outfit\nRight side: individual clothing items and accessories laid out separately, as if in a style breakdown",
+    "inputRequirement": "[Image of 'Girl with a Pearl Earring'](https://commons.wikimedia.org/w/index.php?curid=55017931).",
+    "referenceNote": "[Image of 'Girl with a Pearl Earring'](https://commons.wikimedia.org/w/index.php?curid=55017931).",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1909892294217781714"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/29/example_pearl_earring_ootd.png",
+        "alt": "AI image prompt – Famous Painting Character OOTD output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-30",
+    "caseNumber": 30,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-30",
+    "title": "35mm Film Style Flying Island",
+    "prompt": "35 mm photo of Moscow floating in the sky on a flying islands.",
+    "inputRequirement": "",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1905020833451348283"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/30/example_35mm_moscow_flying_island.png",
+        "alt": "AI image prompt – 35mm Film Style Flying Island output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-31",
+    "caseNumber": 31,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-31",
+    "title": "Anime Sticker Collection",
+    "prompt": "Naruto stickers",
+    "inputRequirement": "",
+    "notes": [],
+    "author": "@richardchang",
+    "authorUrl": "https://x.com/richardchang",
+    "sourceLinks": [
+      "https://x.com/richardchang/status/1909086122959139312"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/31/example_naruto_stickers.png",
+        "alt": "AI image prompt – Anime Sticker Collection output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-32",
+    "caseNumber": 32,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-32",
+    "title": "3D Papercraft Pop-up Book",
+    "prompt": "Multi-layered foldable paper sculpture pop-up book, placed on a desk, with a clean background highlighting the main subject. The book presents a 3D flip-book style, with a 2:3 vertical aspect ratio. The open pages display the scene of [Nezha Demon Child version battling Ao Bing]. All elements are finely foldable and assembled, showcasing a realistic and delicate texture of folded paper. The composition uniformly adopts a frontal perspective, with an overall dreamy and beautiful visual style, vibrant and gorgeous colors, full of a fantastical and lively story atmosphere.",
+    "inputRequirement": "",
+    "promptNote": "Please modify the scene description within the square brackets 【】 as appropriate, and you can also add more details.",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1923264349050675329"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/32/3d_papercraft_popup_book.png",
+        "alt": "AI image prompt – 3D Papercraft Pop-up Book output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-33",
+    "caseNumber": 33,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-33",
+    "title": "Family Wedding Photo (Q-version)",
+    "prompt": "Transform the people in the photo into chibi-style 3D characters. The parents are dressed in Western wedding attire — the father in a formal suit, the mother in a wedding gown. The child is a beautiful flower girl holding a bouquet.\n\nThe background features a colorful floral arch.\nThe characters are in 3D chibi style, while the environment is photorealistic.\nThe entire scene is placed inside a photo frame.",
+    "inputRequirement": "A family photo.",
+    "referenceNote": "A family photo.",
+    "notes": [],
+    "author": "@balconychy",
+    "authorUrl": "https://x.com/balconychy",
+    "sourceLinks": [
+      "https://x.com/balconychy/status/1909426314643222595"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/33/example_family_wedding_photo_q.png",
+        "alt": "AI image prompt – Family Wedding Photo (Q-version) output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-34",
+    "caseNumber": 34,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-34",
+    "title": "Hand-drawn Infographic Card (Cognition)",
+    "prompt": "Create a hand-drawn style infographic card in vertical 9:16 ratio. The card should have a clear theme, with a beige or off-white paper-textured background. The overall design should convey a rustic, friendly, and handmade aesthetic.\n\nAt the top of the card, feature a bold, eye-catching title in large Chinese cursive brush calligraphy using contrasting red and black colors. All text content should be in Chinese cursive script, and the layout should be divided into 2 to 4 clear sections. Each section expresses a core idea with brief and concise Chinese phrases. The cursive font should retain a smooth, rhythmic flow, remaining legible while carrying artistic appeal.\n\nThe card should include simple, playful hand-drawn illustrations or icons, such as figures or symbolic elements, to enhance visual interest and spark reader reflection or emotional resonance.\n\nThe overall layout should maintain visual balance, with ample white space reserved to ensure clarity, simplicity, and ease of reading and understanding.\n<h1><span style=\"color:red\">“Cognition”</span> defines your ceiling  \n<span style=\"color:red\">“Circle”</span> defines your opportunities</h1>  \n– You can’t earn money beyond your level of cognition,  \n– Nor encounter opportunities beyond your social circle.",
+    "inputRequirement": "",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1907903480678985784"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/34/example_hand_drawn_infographic_cognition.png",
+        "alt": "AI image prompt – Hand-drawn Infographic Card (Cognition) output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-35",
+    "caseNumber": 35,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-35",
+    "title": "Fluffy Jack-o'-lantern",
+    "prompt": "Transform a simple flat vector icon of [🎃] into a soft, 3D fluffy object. The shape is fully covered in fur, with hyperrealistic hair texture and soft shadows. The object is centered on a clean, light gray background and floats gently in space. The style is surreal, tactile, and modern, evoking a sense of comfort and playfulness. Studio lighting, high-resolution render.",
+    "inputRequirement": "",
+    "promptNote": "中文提示词 by @dotey",
+    "notes": [],
+    "author": "gizakdag",
+    "authorUrl": "https://x.com/gizakdag",
+    "sourceLinks": [
+      "https://x.com/gizakdag/status/1911075302941622512",
+      "https://x.com/dotey/status/1912276883196039520"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/35/example_fluffy_pumpkin.png",
+        "alt": "AI image prompt – Fluffy Jack-o'-lantern output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-36",
+    "caseNumber": 36,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-36",
+    "title": "Minimalist 3D Illustration (Markdown Format)",
+    "prompt": "Draw a Toilet\n\n## 🎨 Art Style: Minimalist 3D Illustration\n\n### 🟢 Shape Language\n- Rounded edges and smooth, soft forms using simplified geometric shapes.\n\n### 🎨 Colors\n- **Primary palette:** soft beige, light gray, warm orange.  \n- **Accent color:** warm orange for focal elements.  \n- **Shading:** gentle gradients and smooth transitions, avoiding harsh shadows and highlights.\n\n### 💡 Lighting\n- **Type:** soft, diffuse lighting.  \n- **Light source direction:** from above, slightly to the right.  \n- **Shadow style:** subtle and diffused, without sharp or high-contrast shadows.\n\n### 🧱 Materials\n- **Surface texture:** matte and smooth with subtle light variation.  \n- **Reflectivity:** low to none, avoiding noticeable gloss.\n\n### 🖼️ Composition\n- **Object presentation:** a single, centered object with generous negative space around it.  \n- **Perspective:** slight tilt to suggest depth, but no strong depth-of-field effects.  \n- **Background:** flat color, low saturation, harmonious with the subject and non-distracting.\n\n### ✒️ Typography\n- **Font style:** minimalist sans-serif.  \n- **Text placement:** bottom left corner, small and unobtrusive.  \n- **Font color:** gray, low contrast with the background.\n\n### 🖥️ Rendering Style\n- **Technique:** 3D rendering in a simplified low-poly style.  \n- **Detail level:** medium — focus on shape and color, avoiding complex textures or fine details.\n\n## 🎯 Style Goal\n> Create a clean and aesthetically pleasing visual that emphasizes simplicity, approachability, and modernity.",
+    "inputRequirement": "",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1907131027253772399"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/36/example_minimalist_3d_toilet_txt.png",
+        "alt": "AI image prompt – Minimalist 3D Illustration (Markdown Format) output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-37",
+    "caseNumber": 37,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-37",
+    "title": "Pastel Power 3D ADS",
+    "prompt": "a soft 3D cartoon-style sculpture of [brand product], made of smooth clay-like textures and vibrant pastel colors, placed in a minimalist isometric scene that complements the product’s nature, clean composition, gentle lighting, subtle shadows, with the product’s logo and a 3-word slogan displayed clearly below",
+    "inputRequirement": "",
+    "promptNote": "Replace [brand product] in the prompt with a specific product description.",
+    "notes": [],
+    "author": "@aziz4ai",
+    "authorUrl": "https://x.com/aziz4ai",
+    "sourceLinks": [
+      "https://x.com/aziz4ai/status/1925301120252924356"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/37/pastel_power_3d_ads.png",
+        "alt": "AI image prompt – Pastel Power 3D ADS output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-38",
+    "caseNumber": 38,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-38",
+    "title": "Hand-drawn Infographic Card",
+    "prompt": "Create a hand-drawn style infographic card in a 9:16 vertical format. The card should have a clear theme, with a beige or off-white paper-textured background. The overall design should reflect a simple, warm, and handmade aesthetic.\n\nAt the top of the card, use large, eye-catching brush-style Chinese cursive calligraphy in red and black for the title, creating strong visual contrast. All text should be in Chinese cursive script. The layout should be divided into 2 to 4 clear sections, each conveying a core idea through concise and refined Chinese phrases. The calligraphy should maintain a fluid, rhythmic style that is both legible and artistically expressive. Leave appropriate blank space around the text.\n\nThe card should be accented with simple and fun hand-drawn illustrations or icons — such as figures or symbolic elements — to enhance visual appeal and spark thought or emotional resonance. The overall layout should emphasize visual balance and include ample whitespace, ensuring the design is clean, clear, and easy to read.\n\n“Building a personal brand (IP) is long-term compounding.\nKeep updating daily, and results will come — because 99% of people can’t keep it up!”",
+    "inputRequirement": "",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1907870919852179850"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/38/example_hand_drawn_infographic.png",
+        "alt": "AI image prompt – Hand-drawn Infographic Card output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-39",
+    "caseNumber": 39,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-39",
+    "title": "Fantasy Cartoon Illustration",
+    "prompt": "A cartoon-style character with a smiling computer monitor as its head, wearing gloves and boots, happily jumping through a glowing, blue, circular portal in a lush, fantasy forest landscape. The forest is detailed with large trees, mushrooms, flowers, a serene river, floating islands, and an atmospheric starry night sky with multiple moons. Bright, vibrant colors with soft lighting, fantasy illustration style.",
+    "inputRequirement": "",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1905103477879267823"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/39/example_fantasy_computer_head_portal.png",
+        "alt": "AI image prompt – Fantasy Cartoon Illustration output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-40",
+    "caseNumber": 40,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-40",
+    "title": "Japanese-style Two-Panel Manga (Angry Girl President)",
+    "prompt": "Create a two-panel vertical manga in a cute Japanese anime style, theme: “The Daily Work Life of a Girl President.”\n\nCharacter Design:\nTransform the person in the uploaded image into a cute, moe-style anime girl while preserving all key details from the photo — including the outfit (a suit), hairstyle (bright golden-yellow), and facial features.\n\nPanel 1:\n- Expression: Pouting, disappointed, resting her cheek on one hand\n- Text box: “What do I dooo?! He won’t take my call! (；´д｀)”\n- Scene: Warm-toned office, with the U.S. flag in the background. On the desk: a pile of hamburgers and a vintage red rotary phone. The character is on the left side of the frame, the phone on the right.\n\nPanel 2:\n- Expression: Furious, face red with anger, gritting teeth\n- Action: Slams the desk hard, making the hamburgers jump\n- Speech bubble: “Hmph! Double the tariffs! Ignoring me is their loss! ( `д´ )”\n- Scene: Same office, now a complete mess\n\nAdditional Notes:\n- Use a cute, casual handwritten font for all text\n- Keep the composition full and expressive, with adequate space for dialogue and intentional white space\n- Aspect ratio: 2:3\n- The overall visual tone should be colorful and energetic, with a distinctly cartoony style",
+    "inputRequirement": "A photo of a person is needed for reference.",
+    "referenceNote": "A photo of a person is needed for reference.",
+    "notes": [],
+    "author": "@hellokaton",
+    "authorUrl": "https://x.com/hellokaton",
+    "sourceLinks": [
+      "https://x.com/hellokaton/status/1910900979194646959"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/40/example_two_panel_manga_president.png",
+        "alt": "AI image prompt – Japanese-style Two-Panel Manga (Angry Girl President) output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-41",
+    "caseNumber": 41,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-41",
+    "title": "Miniature Three-dimensional Scene Presentation",
+    "prompt": "Miniature three-dimensional scene presentation using tilt-shift photography techniques, depicting a chibi-style version of the scene {Sun Wukong’s Three Battles with the White Bone Demon}",
+    "inputRequirement": "",
+    "promptNote": "The content in brackets can be replaced with Western scenes such as “Hercules Slaying the Hydra” or “King Arthur Pulls the Sword from the Stone.”",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1911609122547449886"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/41/example_miniature_journey_west.png",
+        "alt": "AI image prompt – Miniature Three-dimensional Scene Presentation output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-42",
+    "caseNumber": 42,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-42",
+    "title": "3D Q-version Couple Snow Globe",
+    "prompt": "Transform the person in the attached image into a snow globe scene.\nOverall environment: The snow globe is placed on a tabletop by the window, with a blurred, warm-toned background. Sunlight passes through the globe, casting golden sparkles that gently illuminate the surrounding darkness.\nInside the globe: The characters are in a cute chibi-style 3D design, gazing at each other with eyes full of love.",
+    "inputRequirement": "A photo of a couple or another person.",
+    "referenceNote": "A photo of a couple or another person.",
+    "notes": [],
+    "author": "@balconychy",
+    "authorUrl": "https://x.com/balconychy",
+    "sourceLinks": [
+      "https://x.com/balconychy/status/1909908568129655248"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/42/example_3d_q_snowglobe_couple.png",
+        "alt": "AI image prompt – 3D Q-version Couple Snow Globe output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-43",
+    "caseNumber": 43,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-43",
+    "title": "Cute Chibi Matryoshka Dolls (Girl with a Pearl Earring)",
+    "prompt": "Transform the person in the image into a set of cute chibi-style Russian nesting dolls (🪆), with a total of five dolls arranged from largest to smallest. Place them on an elegant wooden table. Horizontal aspect ratio: 3:2.",
+    "inputRequirement": "Requires uploading a person's image as the subject for transformation (The original post used ['Girl with a Pearl Earring'](https://commons.wikimedia.org/w/index.php?curid=55017931)).",
+    "referenceNote": "Requires uploading a person's image as the subject for transformation (The original post used ['Girl with a Pearl Earring'](https://commons.wikimedia.org/w/index.php?curid=55017931)).",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1911669883315818497"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/43/example_matryoshka_pearl_earring.png",
+        "alt": "AI image prompt – Cute Chibi Matryoshka Dolls (Girl with a Pearl Earring) output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-44",
+    "caseNumber": 44,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-44",
+    "title": "RPG-Style Character Card Creation",
+    "prompt": "Create a digital character card in RPG collectible style.\nThe subject is a {Programmer}, standing confidently with tools or symbols relevant to their job.\nRender it in 3D cartoon style, soft lighting, vivid personality.\nInclude skill bars or stats like [Skill1 +x], [Skill2 +x, e.g., Creativity +10, UI/UX +8].\nAdd a title banner on top and a nameplate on the bottom.\nFrame the card with clean edges like a real figure box.\nMake the background fit the profession's theme.\nColors: warm highlights, profession-matching hues.",
+    "inputRequirement": "Optional. Can be generated based on profession/role description or use an uploaded photo as reference.",
+    "promptNote": "Replace the {Programmer} placeholder in the prompt with specifics like \"Designer\", \"Doctor\", etc.",
+    "referenceNote": "Optional. Can be generated based on profession/role description or use an uploaded photo as reference.",
+    "notes": [],
+    "author": "@berryxia_ai",
+    "authorUrl": "https://x.com/berryxia_ai",
+    "sourceLinks": [
+      "https://x.com/berryxia_ai/status/1911334046724165905"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/44/example_rpg_card_designer.png",
+        "alt": "AI image prompt – RPG-Style Character Card Creation output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-45",
+    "caseNumber": 45,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-45",
+    "title": "3D Chibi-style University Anthropomorphic Mascot",
+    "prompt": "Create a personified 3D chibi-style anime girl character representing {Northwestern Polytechnical University}, embodying the school’s distinctive strengths in {aeronautics, astronautics, and marine engineering}.",
+    "inputRequirement": "",
+    "promptNote": "Replace the university name {Northwestern Polytechnical University} and characteristic description {Aeronautics, Astronautics, and Marine Technology - \"Three Ais\"} within the square brackets to generate anthropomorphic mascots for different universities.",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1911988003729203648"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/45/example_university_mascot_npu.png",
+        "alt": "AI image prompt – 3D Chibi-style University Anthropomorphic Mascot output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-46",
+    "caseNumber": 46,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-46",
+    "title": "Happy Capsule Creation",
+    "prompt": "Title (large text): Fast-Acting Happiness Capsule\nA capsule pill with a green top in Starbucks green and a transparent bottom, printed with the Starbucks logo. Inside the capsule are numerous coffee beans.\nDescription (small text): Take when feeling sad or down. Three times a day, two capsules per dose.\nBuy button: Same color as the capsule.\nBelow the button, display the price: $9.\nPlease follow medical advice and purchase as needed.",
+    "inputRequirement": "",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1911724629460455896"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/46/example_happy_capsule.png",
+        "alt": "AI image prompt – Happy Capsule Creation output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-47",
+    "caseNumber": 47,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-47",
+    "title": "ESC Keycap Miniature Diorama",
+    "prompt": "A hyper-realistic isometric 3D render of a miniature computer setup inside a translucent mechanical keyboard keycap, specifically placed on the ESC key of a real matte-finished mechanical keyboard. Inside the keycap, a tiny figure sits in a modern ergonomic chair, wearing a cozy textured hoodie, working at a glowing ultra-realistic computer screen. The environment is packed with lifelike miniature tech accessories: real-material desk lamps, monitors with reflections, tiny speaker grills, tangled cables, and ceramic mugs. The base of the scene is made of soil, rocks, and moss, with photorealistic textures and imperfections. The lighting inside the cap mimics natural morning sun, casting soft shadows and warm tones, while the outside has cold ambient reflections from the surrounding keyboard. The word “ESC” is subtly etched onto the top of the translucent keycap with a faint frosted glass effect — just barely visible depending on the angle. The surrounding keyboard keys like F1, Q, Shift, and CTRL are crisp, textured, and photorealistically lit. Shot as if taken with a high-end mobile phone camera, with shallow depth of field, perfect white balance, and cinematic detail.",
+    "inputRequirement": "",
+    "promptNote": "中文版本提示词由英文版本翻译而来，原提示词请查看英文版本",
+    "notes": [],
+    "author": "@egeberkina",
+    "authorUrl": "https://x.com/egeberkina",
+    "sourceLinks": [
+      "https://x.com/egeberkina/status/1911368319212408926"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/47/example_esc_keycap_diorama.png",
+        "alt": "AI image prompt – ESC Keycap Miniature Diorama output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-48",
+    "caseNumber": 48,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-48",
+    "title": "Voxel Style 3D Icon Conversion",
+    "prompt": "Take the icon on the right and transform it into a voxel 3d icon like the icons in the left image. Octane render. 8k.",
+    "inputRequirement": "The reference image for voxel style icons is obtained from the original link 1; and an original icon to be transformed.",
+    "promptNote": "The tweet author provides a reference image for best results, recommend downloading and using it. When uploading, upload the reference image first, then the icon to be converted.",
+    "referenceNote": "The reference image for voxel style icons is obtained from the original link 1; and an original icon to be transformed.",
+    "notes": [],
+    "author": "@BrettFromDJ",
+    "authorUrl": "https://x.com/BrettFromDJ",
+    "sourceLinks": [
+      "https://x.com/BrettFromDJ/status/1910387413404234076",
+      "https://x.com/ZHO_ZHO_ZHO/status/1910671581962985788"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/48/example_voxel_icon.png",
+        "alt": "AI image prompt – Voxel Style 3D Icon Conversion output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-49",
+    "caseNumber": 49,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-49",
+    "title": "Fashion Magazine Cover Style",
+    "prompt": "A beautiful woman wearing a pink qipao, adorned with delicate floral accessories on her head and colorful blossoms woven into her hair. Around her neck is an elegant white lace collar. One of her hands gently holds several large butterflies. The overall photography style features high-definition detail and texture, resembling a fashion magazine cover. The word “FASHION DESIGN” is placed at the top center of the image. The background is a minimalist light gray, designed to highlight the subject.",
+    "inputRequirement": "",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1912536019905233194"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/49/example_fashion_design_cover.png",
+        "alt": "AI image prompt – Fashion Magazine Cover Style output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-50",
+    "caseNumber": 50,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-50",
+    "title": "Physical Destruction Effect Card (Lara Croft)",
+    "prompt": "An ultra-photorealistic, cinematic-style illustration depicting Lara Croft dynamically bursting through the frame of an “Archaeological Adventure” trading card. She is caught mid-jump or swinging on a rope, wearing her iconic adventurer outfit and possibly firing dual pistols. The muzzle flashes help shatter the card’s ancient stone-carved border, creating a visible dimensional rupture with energy cracks and spatial distortions, scattering dust and debris outward.\n\nHer body lunges forward with powerful momentum, breaking through the card’s flat plane, emphasizing strong motion depth. Inside the card (the background) is a depiction of dense jungle ruins or a trap-filled ancient tomb. The shattered card fragments mix with crumbling stone, flying vines, broken ancient coins, and spent shell casings.\n\nThe title “Archaeological Adventure” and the name “Lara Croft” (accompanied by a stylized artifact icon) remain visible on the remaining cracked and weathered parts of the card. The scene is lit with adventurous, dynamic lighting that emphasizes her agility and the perilous environment.",
+    "inputRequirement": "",
+    "promptNote": "The original tweet mentioned key terms are \"dimensional break effects\" and \"motion depth\". The prompt above is a reconstruction based on the description.",
+    "notes": [],
+    "author": "@op7418",
+    "authorUrl": "https://x.com/op7418",
+    "sourceLinks": [
+      "https://x.com/op7418/status/1912782048160542886",
+      "https://x.com/hc_dsn/status/1912367201476309396"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/50/example_lara_croft_card_break.png",
+        "alt": "AI image prompt – Physical Destruction Effect Card (Lara Croft) output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-51",
+    "caseNumber": 51,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-51",
+    "title": "Passport Entry Stamp",
+    "prompt": "Create a realistic passport page with an entry stamp for [{City}, {Country}]. The stamp should say \"Welcome to {City}\" in bold English, designed in a round or oval shape with decorative borders. Include the word \"ARRIVAL\" and a fictional date like \"15 APR 2025\" Incorporate a subtle silhouette of {Main Landmark} as a background detail within the stamp. Use deep blue or red ink with light smudges for added realism. The stamp should appear slightly angled, as if hand-pressed. The passport page should show visible paper texture and security patterns.",
+    "inputRequirement": "",
+    "promptNote": "You can replace the city, country, landmark, and date placeholders. The example image uses \"Rome\", \"Italy\", \"Colosseum\", and \"13 APR 2025\" (date differs slightly from the base prompt structure). Prompt by [@M_w14_](https://x.com/M_w14_)",
+    "notes": [],
+    "author": "@M_w14_",
+    "authorUrl": "https://x.com/M_w14_",
+    "sourceLinks": [
+      "https://x.com/M_w14_/status/1912146666410459618",
+      "https://x.com/ZHO_ZHO_ZHO/status/1912188562944250035"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/51/example_passport_stamp_rome.png",
+        "alt": "AI image prompt – Passport Entry Stamp output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-52",
+    "caseNumber": 52,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-52",
+    "title": "Paper Craft Style Emoji Icon",
+    "prompt": "A paper craft-style \"🔥\" floating on a pure white background. The emoji is handcrafted from colorful cut paper with visible textures, creases, and layered shapes. It casts a soft drop shadow beneath, giving a sense of lightness and depth. The design is minimal, playful, and clean — centered in the frame with lots of negative space. Use soft studio lighting to highlight the paper texture and edges.",
+    "inputRequirement": "",
+    "promptNote": "The \"🔥\" emoji in the prompt can be replaced with other emojis.",
+    "notes": [],
+    "author": "@egeberkina",
+    "authorUrl": "https://x.com/egeberkina",
+    "sourceLinks": [
+      "https://x.com/egeberkina/status/1912521263085482464"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/52/example_paper_craft_emoji_fire.png",
+        "alt": "AI image prompt – Paper Craft Style Emoji Icon output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-53",
+    "caseNumber": 53,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-53",
+    "title": "Emoji Inflatable Cushion",
+    "prompt": "Create a high-resolution 3D render of [🥹] designed as an inflatable, puffy object. The shape should appear soft, rounded, and air-filled — like a plush balloon or blow-up toy. Use a smooth, matte texture with subtle fabric creases and stitching to emphasize the inflatable look. The form should be slightly irregular and squishy, with gentle shadows and soft lighting that highlight volume and realism. Place it on a clean, minimal background (light gray or pale blue), and maintain a playful, sculptural aesthetic.",
+    "inputRequirement": "",
+    "promptNote": "The [🥹] emoji in the prompt can be replaced with other emojis.",
+    "notes": [],
+    "author": "@gizakdag",
+    "authorUrl": "https://x.com/gizakdag",
+    "sourceLinks": [
+      "https://x.com/gizakdag/status/1912858535643197927"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/53/example_emoji_cushion_pleading.png",
+        "alt": "AI image prompt – Emoji Inflatable Cushion output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-54",
+    "caseNumber": 54,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-54",
+    "title": "Extremely Ordinary iPhone Selfie",
+    "prompt": "Please draw an extremely ordinary and unremarkable iPhone selfie, with no clear subject or sense of composition — just like a random snapshot taken casually. The photo should include slight motion blur, with uneven lighting caused by sunlight or indoor lights resulting in mild overexposure. The angle is awkward, the composition is messy, and the overall aesthetic is deliberately plain — as if it was accidentally taken while pulling the phone out of a pocket.\nThe subjects are Eason Chan and Nicholas Tse, taken at night, next to the Hong Kong Convention and Exhibition Centre, by Victoria Harbour in Hong Kong.",
+    "inputRequirement": "",
+    "promptNote": "This prompt aims to generate a photo that looks very casual, even slightly like an accidental snapshot.",
+    "notes": [],
+    "author": "@jiamimaodashu",
+    "authorUrl": "https://x.com/jiamimaodashu",
+    "sourceLinks": [
+      "https://x.com/jiamimaodashu/status/1912653073190879410"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/54/example_ordinary_selfie_eason_nicholas.png",
+        "alt": "AI image prompt – Extremely Ordinary iPhone Selfie output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-55",
+    "caseNumber": 55,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-55",
+    "title": "Cute Plant Planter",
+    "prompt": "A high-quality photo of a cute ceramic [object/animal]-shaped planter with a glossy finish, filled with a variety of vibrant succulents and greenery including a spiky Haworthia, a rosette-shaped Echeveria, and delicate white flowers. The planter has a friendly face and sits on a soft, neutral background with diffused natural lighting, showcasing fine textures and color contrast in a clean, minimalistic composition",
+    "inputRequirement": "",
+    "promptNote": "Replace [object/animal] in the prompt with a specific object, animal name, or emoji.",
+    "notes": [],
+    "author": "@azed_ai",
+    "authorUrl": "https://x.com/azed_ai",
+    "sourceLinks": [
+      "https://x.com/azed_ai/status/1923739813414568075"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/55/cute_plant_planter.png",
+        "alt": "AI image prompt – Cute Plant Planter output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-56",
+    "caseNumber": 56,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-56",
+    "title": "Miniature 3D Building",
+    "prompt": "3D chibi-style miniature design of a whimsical Starbucks café, shaped like an oversized takeaway coffee cup complete with a lid and straw. The building has two floors, with large glass windows that clearly reveal a cozy and refined interior: wooden furniture, warm lighting, and busy baristas at work. On the street, cute little figurines are strolling or sitting, surrounded by benches, street lamps, and potted plants, creating a charming corner of the city. The overall aesthetic follows a detailed and realistic miniature cityscape style, with soft lighting that evokes a relaxing afternoon atmosphere.",
+    "inputRequirement": "",
+    "promptNote": "You can ask the AI to generate similar prompts for other buildings by referencing the prompt above. For example: \"Referencing the prompt above, write a similar prompt for [Dunkin' Donuts], shaped like a [donut]\".",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1913759515700285569"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/56/example_miniature_starbucks_cup_building.png",
+        "alt": "AI image prompt – Miniature 3D Building output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-57",
+    "caseNumber": 57,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-57",
+    "title": "8-Bit Pixel Icon",
+    "prompt": "Create a minimalist 8-bit pixel logo of [🍔], centered on a pure white background. Use a limited retro color palette with pixelated detailing, sharp edges, and clean blocky forms. The logo should be simple, iconic, and clearly recognizable in pixel art style — inspired by classic arcade game aesthetics.",
+    "inputRequirement": "",
+    "promptNote": "The `[🍔]` emoji in the prompt can be replaced with other emojis or subjects.",
+    "notes": [],
+    "author": "@egeberkina",
+    "authorUrl": "https://x.com/egeberkina",
+    "sourceLinks": [
+      "https://x.com/egeberkina/status/1913654508330058064"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/57/example_8bit_pixel_beer.png",
+        "alt": "AI image prompt – 8-Bit Pixel Icon output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-58",
+    "caseNumber": 58,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-58",
+    "title": "Cloud Art",
+    "prompt": "Generate image: A photograph captures a daytime scene with a [SUBJECT/OBJECT] formed by scattered clouds in the sky, positioned above a [LOCATION]",
+    "inputRequirement": "",
+    "promptNote": "The `[SUBJECT/OBJECT]` (shape formed by clouds) and `[LOCATION]` placeholders in the prompt can be replaced. The example image uses 'chinese dragon' as the subject and 'The Great Wall' as the location.",
+    "notes": [],
+    "author": "@umesh_ai",
+    "authorUrl": "https://x.com/umesh_ai",
+    "sourceLinks": [
+      "https://x.com/umesh_ai/status/1913628737872027805"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/58/example_cloud_art_dragon_great_wall.png",
+        "alt": "AI image prompt – Cloud Art output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-59",
+    "caseNumber": 59,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-59",
+    "title": "Colorful Vector Art Poster",
+    "prompt": "Barcelona Spain colourful summer vector art poster with big \"BARCELONA\" title at the top and smaller \"SPAIN\" title under",
+    "inputRequirement": "",
+    "promptNote": "Replace the city and country names in the prompt (e.g., replace \"Barcelona Spain\" and the titles with \"London United Kingdom\" to generate the example image). This style prompt also works for food, movies, music, etc.",
+    "notes": [],
+    "author": "@michaelrabone",
+    "authorUrl": "https://x.com/michaelrabone",
+    "sourceLinks": [
+      "https://x.com/michaelrabone/status/1913865394139316291"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/59/example_vector_poster_london.png",
+        "alt": "AI image prompt – Colorful Vector Art Poster output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-60",
+    "caseNumber": 60,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-60",
+    "title": "Emoji Tufted Rug",
+    "prompt": "Create an image of a colorful, hand-tufted rug in the shape of 🦖 emoji, placed on a simple floor background. The rug has a bold, playful design with soft, fluffy texture and thick yarn details. Shot from above, in natural daylight, with a slightly quirky, DIY aesthetic. Vibrant colors, cartoonish outlines, and tactile, cozy material—similar to handmade tufted art rugs.",
+    "inputRequirement": "",
+    "promptNote": "The 🦖 emoji in the prompt can be replaced with other emojis.",
+    "notes": [],
+    "author": "@gizakdag",
+    "authorUrl": "https://x.com/gizakdag",
+    "sourceLinks": [
+      "https://x.com/gizakdag/status/1913925062568144924"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/60/example_tufted_rug_star_emoji.png",
+        "alt": "AI image prompt – Emoji Tufted Rug output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-61",
+    "caseNumber": 61,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-61",
+    "title": "Fake Tweet Screenshot (Einstein)",
+    "prompt": "a hyper realistic twitter post by Albert Einstein right after finishing the theory of relativity. include a selfie where you can clearly see scribbled equations and a chalkboard in the background. have it visible that the post was liked by Nikola Tesla",
+    "inputRequirement": "",
+    "notes": [],
+    "author": "@egeberkina",
+    "authorUrl": "https://x.com/egeberkina",
+    "sourceLinks": [
+      "https://x.com/egeberkina/status/1914299716394778713"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/61/example_fake_tweet_einstein.png",
+        "alt": "AI image prompt – Fake Tweet Screenshot (Einstein) output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-62",
+    "caseNumber": 62,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-62",
+    "title": "Kawaii Enamel Pin",
+    "prompt": "Turn the subject in the attached image into a kawaii enamel pin. Use glossy metal outlines and vibrant enamel fill. No extra added features. Square mockup format. White background.",
+    "inputRequirement": "Needs a photo of a person or object as the subject for transformation.",
+    "referenceNote": "Needs a photo of a person or object as the subject for transformation.",
+    "notes": [],
+    "author": "@gnrlyxyz",
+    "authorUrl": "https://x.com/gnrlyxyz",
+    "sourceLinks": [
+      "https://x.com/gnrlyxyz/status/1914303110853583302"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/62/example_enamel_pins_einstein.png",
+        "alt": "AI image prompt – Kawaii Enamel Pin output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-63",
+    "caseNumber": 63,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-63",
+    "title": "Emoji Cream Popsicle",
+    "prompt": "Generate an image: Transform the [🍓] into a creamy ice cream bar, with cream flowing in curved swirls on top, making it look delicious and tempting. The ice cream is floating at a 45-degree angle in mid-air, rendered in a cute chibi-style 3D aesthetic, set against a solid color background with a unified color palette.",
+    "inputRequirement": "",
+    "promptNote": "The 【🍓】 emoji in the prompt can be replaced with other emojis.",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1914574278911000967"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/63/example_ice_cream_emoji_strawberry.png",
+        "alt": "AI image prompt – Emoji Cream Popsicle output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-64",
+    "caseNumber": 64,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-64",
+    "title": "Steampunk Mechanical Fish",
+    "prompt": "A steampunk-style mechanical fish with a brass body and clearly visible gear mechanisms when in motion.\nIts mechanical teeth can be slightly seen, neatly arranged and closed, with both upper and lower teeth visible. Each tooth is triangular in shape and made of diamond material.\nThe tail fin has a metal wire mesh structure, while other fins are made of semi-transparent amber-colored glass with some subtle bubbles inside.\nThe eyes are multi-faceted rubies, with clearly visible reflective shine.\nThe fish has \"f-is-h\" text clearly visible on its body, with all lowercase letters and careful attention to the hyphen placement.\nThe image is square, showing the entire fish in the center of the frame, with its head pointing to the right. There is adequate white space around the fish, with more space on the left and right sides. The background has subtle steampunk-style gear patterns.\nThe entire fish looks very cool. This is a high-definition image with extremely rich details and unique texture and aesthetics. The image should not be too dark.",
+    "inputRequirement": "",
+    "promptNote": "This image showcases an excellent combination of steampunk style and metallic textures, presenting intricate mechanical details and a retro-futuristic aesthetic.",
+    "notes": [],
+    "author": "@f-is-h",
+    "authorUrl": "https://github.com/f-is-h",
+    "sourceLinks": [
+      "https://github.com/f-is-h/f-is-h/blob/main/images/streampank-fish-4.png"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/64/example_steampunk_fish.jpg",
+        "alt": "AI image prompt – Steampunk Mechanical Fish output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-65",
+    "caseNumber": 65,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-65",
+    "title": "Surreal Underwater Scene Popsicle",
+    "prompt": "Tilt POV shot of a hand holding a surreal popsicle with a transparent blue exterior, revealing an underwater scene inside: a tiny scuba diver with tiny fish floating with bubbles, ocean waves crashing, and a green popsicle stick running through the center. The popsicle is melting slightly, with a wooden stick at the bottom, hand is holding it by the wooden stick, soft focus new york street background, premium product photography",
+    "inputRequirement": "",
+    "notes": [],
+    "author": "@madpencil_",
+    "authorUrl": "https://x.com/madpencil_",
+    "sourceLinks": [
+      "https://x.com/madpencil_/status/1920037538372128998"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/65/surreal-underwater-scene-popsicle.png",
+        "alt": "AI image prompt – Surreal Underwater Scene Popsicle output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-66",
+    "caseNumber": 66,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-66",
+    "title": "Creative Silk Universe",
+    "prompt": "Transform the {❄️} into a soft 3D object with a silk texture. The entire surface of the object is wrapped in smooth and flowing silk fabric, featuring surreal wrinkle details, soft highlights, and shadows. The object gently floats in the center of a clean light gray background, creating a light and elegant atmosphere. The overall style is surreal, tactile, and modern, conveying a sense of comfort and refined playfulness. Studio lighting, high-resolution rendering.",
+    "inputRequirement": "",
+    "promptNote": "You can replace the {❄️} in the prompt words with your target value",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1914864217867608175"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/66/example_silk_creation_universe.png",
+        "alt": "AI image prompt – Creative Silk Universe output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-67",
+    "caseNumber": 67,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-67",
+    "title": "Ultra-realistic 3D Game",
+    "prompt": "Ultra-realistic 3D rendered image that replicates the character design of Natasha from Command & Conquer: Red Alert 3 in 2008, following the original model exactly. The scene is set in a dim and cluttered bedroom from the year 2008. The character is sitting on the carpet, facing an old-fashioned television that is playing Command & Conquer: Red Alert 3 and a game console controller.\nThe entire room is filled with a nostalgic atmosphere of the year 2008: snack packaging bags, soda cans, posters, and tangled wires are everywhere. Natasha Volkova is captured in the moment of turning her head, looking back at the camera over her shoulder. There is an innocent smile on her iconic ethereally beautiful face. Her upper body is slightly twisted, with a natural dynamic, as if she is reacting to being startled by the flash.\nThe flash slightly overexposes her face and clothes, making her silhouette stand out more prominently in the dimly lit room. The whole photo appears raw and natural. The strong contrast between light and dark casts deep shadows behind her. The image is full of tactile feel, with a simulated texture that resembles an authentic film snapshot from 2008.",
+    "inputRequirement": "",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1913648013144137840"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/67/example_Ultra_realistic_3D_game.png",
+        "alt": "AI image prompt – Ultra-realistic 3D Game output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-68",
+    "caseNumber": 68,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-68",
+    "title": "Futuristic Logo Trading Card",
+    "prompt": "{\n    \"prompt\": \"A futuristic trading card with a dark, moody neon aesthetic and soft sci-fi lighting. The card features a semi-transparent, rounded rectangle with slightly muted glowing edges, appearing as if made of holographic glass. At the center is a large glowing logo of {{logo}}, with no additional text or label, illuminated with a smooth gradient of {{colors}}, but not overly bright. The reflections on the card surface should be subtle, with a slight glossy finish catching ambient light. The background is a dark carbon fiber texture or deep gradient with soft ambient glows bleeding into the edges. Add subtle light rays streaming down diagonally from the top, giving the scene a soft cinematic glow. Apply light motion blur to the edges and reflections to give the scene a sense of depth and energy, as if it's part of a high-end tech animation still. Below the card, include realistic floor reflections that mirror the neon edges and logo—slightly diffused for a grounded, futuristic look. Text elements are minimal and softly lit: top-left shows '{{ticker}}', top-right has a stylized signature, and the bottom displays '{{company_name}}' with a serial number '{{card_number}}', a revenue badge reading '{{revenue}}', and the year '{{year}}'. Typography should have a faint glow with slight blurring, and all elements should feel premium, elegant, and softly illuminated—like a high-end cyberpunk collectible card.\",\n    \"style\": {\n        \"lighting\": \"Neon glow, soft reflections\",\n        \"font\": \"Modern sans-serif, clean and minimal\",\n        \"layout\": \"Centered, structured like a digital collectible card\",\n        \"materials\": \"Glass, holographic plastic, glowing metal edges\"\n    },\n    \"parameters\": {\n        \"logo\": \"Tesla logo\",\n        \"ticker\": \"TSLA\",\n        \"company_name\": \"Tesla Inc.\",\n        \"card_number\": \"#0006\",\n        \"revenue\": \"$96.8B\",\n        \"year\": \"2025\",\n        \"colors\": [\n            \"red\",\n            \"white\",\n            \"dark gray\"\n        ]\n    },\n    \"medium\": \"3D render, high-resolution digital art\",\n    \"size\": \"1080px by 1080px\"\n}",
+    "inputRequirement": "(Optional) Upload a custom logo image.",
+    "promptNote": "The prompt uses a JSON-like structure to describe card elements. Modify values in the `parameters` object (like logo, ticker, company_name, colors, etc.) to customize the card. For custom logos, specify in `parameters.logo` (e.g., \"Framer logo (attached image)\") and upload the image.",
+    "referenceNote": "(Optional) Upload a custom logo image.",
+    "notes": [],
+    "author": "@hewarsaber",
+    "authorUrl": "https://x.com/hewarsaber",
+    "sourceLinks": [
+      "https://x.com/hewarsaber/status/1912933875166171515"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/68/example_trading_card_logo_tesla.png",
+        "alt": "AI image prompt – Futuristic Logo Trading Card output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-69",
+    "caseNumber": 69,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-69",
+    "title": "Silhouette Art",
+    "prompt": "The silhouette of a basic outline of a [PROMPT]. The background is bright yellow, and the silhouette is solid black.",
+    "inputRequirement": "",
+    "promptNote": "Replace `[PROMPT]` with the specific subject, e.g., \"dragon on a castle\", \"woman's profile\", etc.",
+    "notes": [],
+    "author": "@umesh_ai",
+    "authorUrl": "https://x.com/umesh_ai",
+    "sourceLinks": [
+      "https://x.com/umesh_ai/status/1915417277953962048"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/69/example_silhouette_art.png",
+        "alt": "AI image prompt – Silhouette Art output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-70",
+    "caseNumber": 70,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-70",
+    "title": "Original Pokemon Creation",
+    "prompt": "Create an original creature inspired by this object (photo provided). The creature should look like it belongs in a fantasy monster-catching universe, with a cute or cool design influenced by retro Japanese RPG monster art. The image must include:\n– A full-body view of the creature, inspired by the shape, materials or purpose of the object.\n– A small orb or capsule (similar an a pokeball) at its feet, designed with patterns and colors matching the object’s look — not a standard Pokéball, but a custom design.\n– An invented name for the creature, displayed next to or below it. – Its elemental type (e.g., Fire, Water, Metal, Nature, Electric…), based on the object’s core properties. The illustration should look like it comes from a fantasy creature encyclopedia, with clean lines, soft shadows, and an expressive, character-driven design.",
+    "inputRequirement": "Needs a photo of an object, food, etc., as inspiration.",
+    "promptNote": "If the prompt doesn't work the first time, try a new conversation or ask him to work around the problem.",
+    "referenceNote": "Needs a photo of an object, food, etc., as inspiration.",
+    "notes": [],
+    "author": "@Anima_Labs",
+    "authorUrl": "https://x.com/Anima_Labs",
+    "sourceLinks": [
+      "https://x.com/Anima_Labs/status/1915044265895379166"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/70/example_pokemon_strawbit.png",
+        "alt": "AI image prompt – Original Pokemon Creation output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-71",
+    "caseNumber": 71,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-71",
+    "title": "Miniature Cyberpunk Tilt-Shift Landscape",
+    "prompt": "A highly detailed miniature [Cyberpunk] landscape viewed from above, using a tilt-shift lens effect. The scene is filled with toy-like elements, all rendered in high-resolution CG. Dramatic lighting creates a cinematic atmosphere, with vivid colors and strong contrast, emphasizing depth of field and a realistic micro-perspective, making the viewer feel as if overlooking a toy world. The image contains many visual jokes and details worth repeated viewing.",
+    "inputRequirement": "",
+    "promptNote": "You can replace [Cyberpunk] in the prompt with other styles or scenes, such as \"Futuristic City\", \"Steampunk\", \"Medieval Village\", etc.",
+    "notes": [],
+    "author": "terry623",
+    "authorUrl": "https://github.com/terry623",
+    "sourceLinks": [],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/71/example_cyberpunk_tilt_shift_miniature.jpg",
+        "alt": "AI image prompt – Miniature Cyberpunk Tilt-Shift Landscape output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-72",
+    "caseNumber": 72,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-72",
+    "title": "Gold Pendant Necklace",
+    "prompt": "A photorealistic close-up of a gold pendant necklace held by female hand. The pendant features a bas-relief engraving of [image /emoji]. The pendant hangs from a polished gold chain. The background is softly blurred with neutral beige tones, and natural lighting, realistic skin tones, Product photography, 16:9 aspect ratio.",
+    "inputRequirement": "(Optional) An image can be uploaded to be used as the bas-relief pattern.",
+    "promptNote": "Replace `[image /emoji]` in the prompt with a specific image description or an emoji.",
+    "referenceNote": "(Optional) An image can be uploaded to be used as the bas-relief pattern.",
+    "notes": [],
+    "author": "@azed_ai",
+    "authorUrl": "https://x.com/azed_ai",
+    "sourceLinks": [
+      "https://x.com/azed_ai/status/1915770501705925106"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/72/gold_pendant_necklace.png",
+        "alt": "AI image prompt – Gold Pendant Necklace output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-73",
+    "caseNumber": 73,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-73",
+    "title": "Cute Chibi Keychain",
+    "prompt": "A close-up photo of a cute, colorful keychain held by person's hand. The keychain features a chibi-style of the [attached image ]. The keychain is made of soft rubber with bold black outlines and attached to a small silver keyring, neutral background",
+    "inputRequirement": "A photo of a person or object as the subject for the keychain design.",
+    "promptNote": "The `[attached image]` part of the prompt needs to be used in conjunction with an uploaded image.",
+    "referenceNote": "A photo of a person or object as the subject for the keychain design.",
+    "notes": [],
+    "author": "@azed_ai",
+    "authorUrl": "https://x.com/azed_ai",
+    "sourceLinks": [
+      "https://x.com/azed_ai/status/1916521742052503804"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/73/example_keychain_chibi.png",
+        "alt": "AI image prompt – Cute Chibi Keychain output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-74",
+    "caseNumber": 74,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-74",
+    "title": "Creative Logo Shaped Bookshelf",
+    "prompt": "Create a photograph of a modern bookshelf inspired by the shape of [LOGO]. The bookshelf features flowing, interconnected curves forming multiple sections of varying sizes. It is made of sleek matte black metal with wooden shelves inside the loops. Soft, warm LED lighting outlines the inner curves. The bookshelf is mounted on a neutral-toned wall and holds a mix of colorful books, small plants, and minimalistic art pieces. The overall vibe is creative, elegant, and slightly futuristic",
+    "inputRequirement": "",
+    "promptNote": "Replace the `[LOGO]` placeholder in the prompt with a specific brand logo description (e.g., \"Apple logo\", \"McDonald's logo\").",
+    "notes": [],
+    "author": "@umesh_ai",
+    "authorUrl": "https://x.com/umesh_ai",
+    "sourceLinks": [
+      "https://x.com/umesh_ai/status/1916517976414495161"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/74/example_logo_bookshelves.png",
+        "alt": "AI image prompt – Creative Logo Shaped Bookshelf output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-75",
+    "caseNumber": 75,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-75",
+    "title": "Social Media Frame Integration",
+    "prompt": "Create a stylized 3D chibi character based on the attached photo, accurately preserving the subject’s facial features and clothing details. The character is making a finger heart with the left hand (with a red heart element above the fingers) and playfully sitting on the edge of a giant Instagram frame, with both legs hanging outside the frame. The top of the frame displays the username “Beauty,” and various social media icons (like, comment, share) float around the scene.",
+    "inputRequirement": "Yes, needs an image to be uploaded as reference.",
+    "promptNote": "The username \"Beauty\" and icons in the prompt can be replaced. Original image generated by Sora.",
+    "referenceNote": "Yes, needs an image to be uploaded as reference.",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1917042797506662560"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/75/example_instagram_frame_pearl_earring.png",
+        "alt": "AI image prompt – Social Media Frame Integration output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-76",
+    "caseNumber": 76,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-76",
+    "title": "Nostalgic Anime Film Poster",
+    "prompt": "{The Lord of the Rings} anime film poster, the anime is in the style of High School DXD. Visible even folds are seen across the poster as it’s been folded over time, and due to some creases over damaging the poster has caused some physical damage scuffing along the creases and the color has partially faded. Indiscriminate flaps and folds and scratches all around simply from moving back and forth causing subtle yet incremental damage with the ever expanding of entropy we cannot escape, but the loving memories in our hearts will forever be whole. Making the objects we collect along the way priceless is the essence you feel when looking at this nostalgic poster.",
+    "inputRequirement": "",
+    "promptNote": "You can replace the movie title \"{The Lord of the Rings}\" in the prompt with others. Be aware that some movie titles may trigger content moderation. The referenced anime style can also be modified.",
+    "notes": [],
+    "author": "photis (Sora)",
+    "authorUrl": "https://sora.com/explore?user=user-sydD5ZkXZsDaL0BriQa010dQ",
+    "sourceLinks": [
+      "https://sora.com/g/gen_01jsfxrdpjfpebnyed8yaz42nf"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/76/example_anime_nostalgic_poster.png",
+        "alt": "AI image prompt – Nostalgic Anime Film Poster output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-77",
+    "caseNumber": 77,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-77",
+    "title": "Story Scene in Crystal Ball",
+    "prompt": "A delicate crystal ball rests quietly on a warm, softly lit tabletop by the window. The background is blurred and hazy, with warm-toned sunlight gently passing through the crystal ball, refracting specks of golden light that softly illuminate the dim surroundings.\nInside the crystal ball, a miniature three-dimensional world themed around {Chang’e Flying to the Moon} is naturally displayed — a finely detailed, dreamlike 3D scene. All characters and objects are rendered in adorable chibi style, exquisitely crafted and visually charming, with vivid emotional interactions between them.\nThe overall atmosphere is rich with East Asian fantasy elements, full of intricate details and a surreal magical realism texture. The entire scene feels poetic and dreamy, luxurious yet elegant, radiating a gentle, comforting glow — as if imbued with life through the warm play of light and shadow.",
+    "inputRequirement": "",
+    "promptNote": "Replace the text within the square brackets {} in the prompt with a description of a story scene (idioms, stories, short tales all work).",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1916530529324699858"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/77/example_crystal_ball_chang_e.png",
+        "alt": "AI image prompt – Story Scene in Crystal Ball output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-78",
+    "caseNumber": 78,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-78",
+    "title": "Glass Retexturing",
+    "prompt": "retexture the image attached based on the json below:\n\n{\n  \"style\": \"photorealistic\",\n  \"material\": \"glass\",\n  \"background\": \"plain white\",\n  \"object_position\": \"centered\",\n  \"lighting\": \"soft, diffused studio lighting\",\n  \"camera_angle\": \"eye-level, straight-on\",\n  \"resolution\": \"high\",\n  \"aspect_ratio\": \"2:3\",\n  \"details\": {\n    \"reflections\": true,\n    \"shadows\": false,\n    \"transparency\": true\n  }\n}",
+    "inputRequirement": "Yes, needs an image of the object to be retextured.",
+    "promptNote": "This prompt uses a JSON structure to precisely control the output style.",
+    "referenceNote": "Yes, needs an image of the object to be retextured.",
+    "notes": [],
+    "author": "@egeberkina",
+    "authorUrl": "https://x.com/egeberkina",
+    "sourceLinks": [
+      "https://x.com/egeberkina/status/1917631056980721743"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/78/example_retexture_glass_phone.png",
+        "alt": "AI image prompt – Glass Retexturing output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-79",
+    "caseNumber": 79,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-79",
+    "title": "Lego Cityscape (Shanghai Bund)",
+    "prompt": "Create a highly detailed and vividly colored LEGO-style scene of the Shanghai Bund. The foreground features the iconic historical buildings of the Bund, meticulously recreated with LEGO bricks in Western and neoclassical architectural styles — including clock towers, domes, and colonnades. LEGO minifigures are seen strolling along the riverfront, taking photos, and sightseeing, with classic LEGO-style cars parked along the street.\nIn the background lies the spectacular Huangpu River, assembled with translucent blue LEGO bricks. On the water, LEGO ferries and tour boats sail along. Across the river stands the skyline of Lujiazui in Pudong, including the Oriental Pearl Tower, Shanghai Tower, Jin Mao Tower, and Shanghai World Financial Center — all rendered as vibrant, lifelike LEGO skyscrapers.\nThe sky is LEGO’s signature bright blue, adorned with a few white LEGO brick clouds, creating a visual full of energy and modernity.",
+    "inputRequirement": "",
+    "promptNote": "You can ask AI to generate similar prompts for other cityscapes based on this example. Original image generated by Sora.",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1917713810346872902"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/79/example_lego_shanghai_bund.png",
+        "alt": "AI image prompt – Lego Cityscape (Shanghai Bund) output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-80",
+    "caseNumber": 80,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-80",
+    "title": "Code Style Business Card",
+    "prompt": "A close-up shot of a hand holding a business card designed to look like a JSON file opened in VS Code. The card shows code formatted in realistic syntax-highlighted JSON code. The window includes typical toolbar icons and a title bar labeled Business Card.json, styled exactly like the interface of VS Code. Background is slightly blurred, keeping the focus on the card.\nThe card displays the following code formatted in JSON:\n{\n  \"name\": \"Jamez Bondos\",\n  \"title\": \"Your Title\",\n  \"email\": \"your@email.com\",\n  \"link\": \"yourwebsite\"\n}",
+    "inputRequirement": "",
+    "promptNote": "Replace the values of name, title, email, and link in the final JSON code. The prompt is a simplified version derived from the original source link.",
+    "notes": [],
+    "author": "@umesh_ai",
+    "authorUrl": "https://x.com/umesh_ai",
+    "sourceLinks": [
+      "https://x.com/umesh_ai/status/1915696926596415492",
+      "https://x.com/fr0gger_/status/1916743281339498760",
+      "https://x.com/dotey/status/1917412535130563006"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/80/example_business_card_code_style.png",
+        "alt": "AI image prompt – Code Style Business Card output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-81",
+    "caseNumber": 81,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-81",
+    "title": "3D Translucent Glass Transformation",
+    "prompt": "A soft, 3D translucent glass of the attached image with a frosty matte finish and detailed texture, original colors, centered on a light gray background, floats gently in space, soft shadows, natural lighting",
+    "inputRequirement": "Need to upload a reference image of a physical object",
+    "referenceNote": "Need to upload a reference image of a physical object",
+    "notes": [],
+    "author": "@azed_ai",
+    "authorUrl": "https://x.com/azed_ai",
+    "sourceLinks": [
+      "https://x.com/azed_ai/status/1917948899098243407"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/81/example.png",
+        "alt": "AI image prompt – 3D Translucent Glass Transformation output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-82",
+    "caseNumber": 82,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-82",
+    "title": "Signature City Weather Forecast",
+    "prompt": "Show a clear 45-degree bird’s-eye view of an isometric miniature city scene featuring Shanghai’s iconic buildings, such as the Oriental Pearl Tower and the Bund. The weather effect—cloudy—blends softly into the city, interacting gently with the architecture. Use physically based rendering (PBR) and realistic lighting. Solid color background, crisp and clean. Centered composition to highlight the precision and detail of the 3D model. Display “Shanghai Cloudy 20°C” and a cloudy weather icon at the top of the image.",
+    "inputRequirement": "",
+    "promptNote": "The city, weather, temperature, and building names can be replaced with the content in []. Generated with sora.",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1917988595228438771"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/82/example.png",
+        "alt": "AI image prompt – Signature City Weather Forecast output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-83",
+    "caseNumber": 83,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-83",
+    "title": "Glowing Lines Anatomy Diagram",
+    "prompt": "A digital illustration of a [SUBJECT], portrayed with a network of glowing clean pristine blue lines outlining its anatomy. The image is set against a dark background, highlighting the [SUBJECT] form and features. A specific area such as [PART] is emphasized with a red glow to indicate a point of interest or significance. The style is both educational and visually captivating, designed to resemble an advanced imaging technique",
+    "inputRequirement": "",
+    "promptNote": "Replace `[SUBJECT]` and `[PART]` in the prompt.",
+    "notes": [],
+    "author": "@umesh_ai",
+    "authorUrl": "https://x.com/umesh_ai",
+    "sourceLinks": [
+      "https://x.com/umesh_ai/status/1914644426334314545"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/83/case.png",
+        "alt": "AI image prompt – Glowing Lines Anatomy Diagram output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-84",
+    "caseNumber": 84,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-84",
+    "title": "Animal Silicone Wrist Rest",
+    "prompt": "Create an image of a cute chibi-style silicone wrist rest based on the {🐼} emoji. The wrist rest is made of soft, food-grade silicone with a skin-friendly matte surface. The interior is filled with slow-rebound foam. Designed in a personified cartoon style, the expression is lively, with both arms stretched out as if hugging the user’s wrist while lying on a desk. The overall shape is round, soft, and adorable, featuring the classic {🐼} color scheme. The design is comforting and cute, suitable for office use. The background is a solid white color with soft lighting. Rendered in a product photography style, the angle is either front-facing or at a 45-degree top-down view, showcasing high-definition details and emphasizing the silicone texture and comfort functionality.",
+    "inputRequirement": "",
+    "promptNote": "Replace the {🐼} emoji in the prompt with other animal emojis.",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1918525296577327574"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/84/case.png",
+        "alt": "AI image prompt – Animal Silicone Wrist Rest output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-85",
+    "caseNumber": 85,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-85",
+    "title": "Surreal Interaction Scene",
+    "prompt": "A pencil sketch of [Subject 1] interacting with [Subject 2], where [Subject 2] is rendered as a realistic, full-color object, creating a surreal contrast against the hand-drawn style of [Subject 1] and the background",
+    "inputRequirement": "",
+    "promptNote": "Replace [Subject 1] and [Subject 2] in the prompt with specific subject descriptions, such as \"a hand\" and \"a rose\".",
+    "notes": [],
+    "author": "@umesh_ai",
+    "authorUrl": "https://x.com/umesh_ai",
+    "sourceLinks": [
+      "https://x.com/umesh_ai/status/1917444534239191544"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/85/case.png",
+        "alt": "AI image prompt – Surreal Interaction Scene output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-86",
+    "caseNumber": 86,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-86",
+    "title": "Double Exposure",
+    "prompt": "Double exposure, Midjourney style, merging, blending, overlay double exposure image, Double Exposure style, An exceptional masterpiece by Yukisakura revealing a fantastic double exposure composition of Aragorn son of Arathorn's silhouette harmoniously intertwined with the visually striking, rugged landscapes of Middle Earth during a lively spring season. Sun-bathed pine forests, mountain peaks, and a lone horse cutting through the trail echo outward through the fabric of his figure, adding layers of narrative and solitude. Beautiful tension builds as the stark monochrome background maintains razor-sharp contrast, drawing all focus to the richly layered double exposure. Characterized by its vibrant full-color scheme within Aragorn's silhouette and crisp, deliberate lines that trace every contour with emotional precision. (Detailed:1.45). (Detailed background:1.4).",
+    "inputRequirement": "",
+    "promptNote": "中文提示词由英文原文翻译而来，基本能达到预期效果，不过使用英文提示词可能会获得更好的结果。",
+    "notes": [],
+    "author": "rezzycheck (Sora)",
+    "authorUrl": "https://sora.com/explore?user=rezzycheck",
+    "sourceLinks": [
+      "https://sora.com/g/gen_01jtc9btfzef080z31v8w9rtbw"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/86/double_exposure.png",
+        "alt": "AI image prompt – Double Exposure output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-87",
+    "caseNumber": 87,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-87",
+    "title": "Integrating Word Meaning into Letters",
+    "prompt": "Integrate the meaning of the word into the letters, cleverly blending graphics and letters.\nWord: {beautify}\nAdd a brief explanation of the word below.",
+    "inputRequirement": "",
+    "promptNote": "Replace the word { beautify } with the word you want to integrate",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1918529055340576812"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/87/case.png",
+        "alt": "AI image prompt – Integrating Word Meaning into Letters output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-88",
+    "caseNumber": 88,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-88",
+    "title": "Children's Coloring Page Illustration (with Color Reference)",
+    "prompt": "A black and white line drawing coloring illustration, suitable for direct printing on standard size (8.5x11 inch) paper, without paper borders. The overall illustration style is fresh and simple, using clear and smooth black outline lines, without shadows, grayscale, or color filling, with a pure white background for easy coloring.\n[At the same time, for the convenience of users who are not good at coloring, please generate a complete colored version in the lower right corner as a small image for reference]\nSuitable for: [6-9 year old children]\nScene description:\n[A unicorn is walking on the grass in the forest, with bright sunshine, blue sky and white clouds]",
+    "inputRequirement": "",
+    "promptNote": "The content within the brackets [] in the prompt can be replaced, such as the target audience and scene description.",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1919522110395080838"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/88/case.png",
+        "alt": "AI image prompt – Children's Coloring Page Illustration (with Color Reference) output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-89",
+    "caseNumber": 89,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-89",
+    "title": "Chrome Emoji Pin",
+    "prompt": "highly detailed 3D render of a single metallic {👍} emoji pin attached to a vertical product card, ultra-glossy chrome finish, smooth rounded 3D icon, stylized futuristic design, soft reflections, clean shadows, paper card has a die-cut euro hole at the top center, bold title “{Awesome}” above the pin, fun tagline “{Smash that ⭐ if you like it!}” below, soft gray background, soft studio lighting, minimal aesthetic",
+    "inputRequirement": "",
+    "promptNote": "Replace {👍} emoji with your emoji icon; Replace title and tagline.",
+    "notes": [],
+    "author": "@egeberkina",
+    "authorUrl": "https://x.com/egeberkina",
+    "sourceLinks": [
+      "https://x.com/egeberkina/status/1919398870867440124"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/89/case.png",
+        "alt": "AI image prompt – Chrome Emoji Pin output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-90",
+    "caseNumber": 90,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-90",
+    "title": "Branded Mechanical Keycaps",
+    "prompt": "ultra-realistic 3D render of four mechanical keyboard keycaps in a tight 2x2 grid, all keys touching. View from an isometric angle. One key is transparent with the word “{just}” printed in {white}. The other three colors are: {black, purple, and white}. One key features the {Github} logo. The other two say \"{fork}\" and \"{it}\". Realistic plastic texture, rounded sculpted keycaps, soft shadows, clean light-gray background.",
+    "inputRequirement": "",
+    "promptNote": "Replace brand name, slogan, keycap colors",
+    "notes": [],
+    "author": "@egeberkina",
+    "authorUrl": "https://x.com/egeberkina",
+    "sourceLinks": [
+      "https://x.com/egeberkina/status/1918291652210311278"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/90/case.png",
+        "alt": "AI image prompt – Branded Mechanical Keycaps output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-91",
+    "caseNumber": 91,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-91",
+    "title": "Google Maps to Ancient Treasure Map",
+    "prompt": "Transform the image to an ancient treasure map drawn on aged parchment. The map includes detailed elements like sailing ships on the ocean, old ports or castles on the coastline, a dotted path leading to a large 'X' marking the treasure spot, mountains, palm trees, and a decorative compass rose. The overall style is reminiscent of old pirate adventure films.",
+    "inputRequirement": "A Google Maps screenshot or other map image needs to be uploaded as the basis for the transformation.",
+    "referenceNote": "A Google Maps screenshot or other map image needs to be uploaded as the basis for the transformation.",
+    "notes": [],
+    "author": "@umesh_ai",
+    "authorUrl": "https://x.com/umesh_ai",
+    "sourceLinks": [
+      "https://x.com/umesh_ai/status/1919701229363466328"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/91/case.png",
+        "alt": "AI image prompt – Google Maps to Ancient Treasure Map output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-92",
+    "caseNumber": 92,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-92",
+    "title": "Perspective 3D Pop-Out Effect",
+    "prompt": "Hyperrealistic, top-down bird's-eye view shot, a beautiful Instagram model [Anne Hathaway / see reference image], with exquisite and beautiful makeup and fashionable styling, standing on the screen of a smartphone held up by someone. The image creates a strong perspective illusion. Emphasize the 3D effect of the girl standing out from the phone. She wears black-rimmed glasses, high-street fashion, and strikes a cute, playful pose. The phone screen is treated as a dark floor, like a small stage. The scene uses strong forced perspective to show the proportional difference between the hand, the phone, and the girl. The background is clean gray, using soft indoor light, shallow depth of field, and the overall style is surrealistic photorealistic compositing. Very strong perspective.",
+    "inputRequirement": "You can use a photo of a person as a reference image. This example image uses [\"Girl with a Pearl Earring\"](https://commons.wikimedia.org/w/index.php?curid=55017931) as a reference image.",
+    "promptNote": "You can replace [Anne Hathaway] in the prompt with other character names. Or use a photo of a person as a reference image.",
+    "referenceNote": "You can use a photo of a person as a reference image. This example image uses [\"Girl with a Pearl Earring\"](https://commons.wikimedia.org/w/index.php?curid=55017931) as a reference image.",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1920355982703509588"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/92/perspective-3d-pop-out-effect.png",
+        "alt": "AI image prompt – Perspective 3D Pop-Out Effect output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-93",
+    "caseNumber": 93,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-93",
+    "title": "Glass Retexturing",
+    "prompt": "retexture the image attached based on the JSON aesthetic below\n{\n  \"style\": \"photorealistic 3D render\",\n  \"material\": \"glass with transparent and iridescent effects\",\n  \"surface_texture\": \"smooth, polished with subtle reflections and refractive effects\",\n  \"lighting\": {\n    \"type\": \"studio HDRI\",\n    \"intensity\": \"high\",\n    \"direction\": \"angled top-left key light and ambient fill\",\n    \"accent_colors\": [\"blue\", \"green\", \"purple\"],\n    \"reflections\": true,\n    \"refractions\": true,\n    \"dispersion_effects\": true,\n    \"bloom\": true\n  },\n  \"color_scheme\": {\n    \"primary\": \"transparent with iridescent blue, green, and purple hues\",\n    \"secondary\": \"crystal-clear with subtle chromatic shifts\",\n    \"highlights\": \"soft, glowing accents reflecting rainbow-like effects\",\n    \"rim_light\": \"soft reflective light around edges\"\n  },\n  \"background\": {\n    \"color\": \"black\",\n    \"vignette\": true,\n    \"texture\": \"none\"\n  },\n  \"post_processing\": {\n    \"chromatic_aberration\": true,\n    \"glow\": true,\n    \"high_contrast\": true,\n    \"sharp_details\": true\n  }\n}",
+    "inputRequirement": "An image needs to be uploaded as the base for retexturing.",
+    "promptNote": "Please use GPT-4o to generate images with this prompt; using Sora may not produce the correct style.",
+    "referenceNote": "An image needs to be uploaded as the base for retexturing.",
+    "notes": [],
+    "author": "@egeberkina",
+    "authorUrl": "https://x.com/egeberkina",
+    "sourceLinks": [
+      "https://x.com/egeberkina/status/1920448389960909085"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/93/glass_retexturing.png",
+        "alt": "AI image prompt – Glass Retexturing output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-94",
+    "caseNumber": 94,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-94",
+    "title": "Three Animals Selfie at Landmark",
+    "prompt": "A close-up selfie of three [animal type] with different expressions in front of the iconic [landmark], taken at golden hour with cinematic lighting. The animals are positioned close to the camera with their heads touching, mimicking a selfie pose, showing joyful, surprised, and calm expressions. The background features the full architectural detail of [landmark], softly illuminated, with a warm ambient atmosphere. Shot in a photographic, realistic cartoon style, high detail, 1:1 aspect ratio.",
+    "inputRequirement": "",
+    "promptNote": "Replace [animal type] and [landmark] in the prompt with specific descriptions.",
+    "notes": [],
+    "author": "@berryxia_ai",
+    "authorUrl": "https://x.com/berryxia_ai",
+    "sourceLinks": [
+      "https://x.com/berryxia_ai/status/1920795648946782583"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/94/three_animals_selfie_at_landmark.png",
+        "alt": "AI image prompt – Three Animals Selfie at Landmark output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-95",
+    "caseNumber": 95,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-95",
+    "title": "Bobblehead Generator from Selfie",
+    "prompt": "Turn this photo into a bobblehead: enlarge the head slightly, keep the face accurate and cartoonify the body. [Place it on a bookshelf].",
+    "inputRequirement": "A selfie needs to be uploaded as the basis for generating the bobblehead.",
+    "promptNote": "Please replace [Place it on a bookshelf] in the prompt with your desired specific scene or background, for example \"Place it on a bookshelf\" or \"Place it on an office desk\", or \"Place it on a neutral background\" or \"Generate with a transparent background\".",
+    "referenceNote": "A selfie needs to be uploaded as the basis for generating the bobblehead.",
+    "notes": [],
+    "author": "@thisdudelikesAI",
+    "authorUrl": "https://x.com/thisdudelikesAI",
+    "sourceLinks": [
+      "https://x.com/thisdudelikesAI/status/1920433372243136730"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/95/selfie-to-bobblehead-generator.png",
+        "alt": "AI image prompt – Bobblehead Generator from Selfie output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-96",
+    "caseNumber": 96,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-96",
+    "title": "Custom Anime Figure",
+    "prompt": "Generate an anime-style figure photo placed on a desktop, presented from a casual, everyday snapshot perspective as if taken with a mobile phone. The figure model is based on the attached character photo, accurately reproducing the full body posture, facial expression, and clothing style of the person in the photo, ensuring the entire figure is fully rendered. The overall design is exquisite and detailed, with hair and clothing featuring natural, soft gradient colors and fine textures. The style leans towards Japanese anime, rich in detail, with realistic textures and a beautiful appearance.",
+    "inputRequirement": "Please upload a photo showing the person's full body posture, facial expression, and clothing style to be used as the basis for the figure model.",
+    "referenceNote": "Please upload a photo showing the person's full body posture, facial expression, and clothing style to be used as the basis for the figure model.",
+    "notes": [],
+    "author": "@dotey",
+    "authorUrl": "https://x.com/dotey",
+    "sourceLinks": [
+      "https://x.com/dotey/status/1920851135516082246"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/96/custom-anime-figure-from-photo.png",
+        "alt": "AI image prompt – Custom Anime Figure output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-97",
+    "caseNumber": 97,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-97",
+    "title": "Cute and Cozy Knitted Doll",
+    "prompt": "A close-up, professionally composed photograph showcasing a hand-crocheted yarn doll gently cradled by two hands. The doll has a rounded shape, featuring the cute chibi image of the [upload image] character, with vivid contrasting colors and rich details. The hands holding the doll are natural and gentle, with clearly visible finger postures, and natural skin texture and light/shadow transitions, conveying a warm and realistic touch. The background is slightly blurred, depicting an indoor environment with a warm wooden tabletop and natural light streaming in from a window, creating a comfortable and intimate atmosphere. The overall image conveys a sense of exquisite craftsmanship and cherished warmth.",
+    "inputRequirement": "Upload a photo as a reference to generate its cute chibi knitted doll image.",
+    "referenceNote": "Upload a photo as a reference to generate its cute chibi knitted doll image.",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1921148024861938077"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/97/cute_cozy_knitted_doll.png",
+        "alt": "AI image prompt – Cute and Cozy Knitted Doll output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-98",
+    "caseNumber": 98,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-98",
+    "title": "Blurred Silhouette Behind Frosted Glass",
+    "prompt": "A black and white photograph shows the blurred silhouette of a [SUBJECT] behind a frosted or translucent surface. The [PART] is sharply defined and pressed against the surface, creating a stark contrast with the rest of the hazy, indistinct figure. The background is a soft gradient of gray tones, enhancing the mysterious and artistic atmosphere.",
+    "inputRequirement": "",
+    "promptNote": "Replace [SUBJECT] and [PART] with vivid, visually striking details that emphasize the “blurred subject + sharply defined part” contrast. For example, set [SUBJECT] to “a Sith Lord wielding a red lightsaber in one hand” and [PART] to “the other hand channeling the dark side of the Force.”",
+    "notes": [],
+    "author": "@umesh_ai",
+    "authorUrl": "https://x.com/umesh_ai",
+    "sourceLinks": [
+      "https://x.com/umesh_ai/status/1921487841634156999"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/98/blurred-silhouette-frosted-glass.png",
+        "alt": "AI image prompt – Blurred Silhouette Behind Frosted Glass output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-99",
+    "caseNumber": 99,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-99",
+    "title": "Black and White Portrait Art",
+    "prompt": "A high-resolution black and white portrait artwork, in an editorial and fine art photography style. The background features a soft gradient, transitioning from mid-gray to almost pure white, creating a sense of depth and tranquility. Fine film grain adds a tactile, analog-like softness to the image, reminiscent of classic black and white photography.\n\nOn the right side of the frame, a blurred yet striking face of Harry Potter subtly emerges from the shadows, not in a traditional pose, but as if caught in a moment of thought or breath. Only a part of his face is visible: perhaps an eye, a cheekbone, the contour of his lips, evoking a sense of mystery, intimacy, and elegance. His features are delicate yet profound, exuding a melancholic and poetic beauty without being overly dramatic.\n\nA gentle, directional light, softly diffused, caresses the curve of his cheek or glints in his eye—this is the emotional core of the image. The rest of the composition is dominated by ample negative space, intentionally kept simple, allowing the image to breathe. There are no texts, no logos in the image—only an interplay of light, shadow, and emotion.\n\nThe overall atmosphere is abstract yet deeply human, like a fleeting glance or a half-remembered dream: intimate, timeless, and poignantly beautiful.",
+    "inputRequirement": "",
+    "notes": [],
+    "author": "@ZHO_ZHO_ZHO",
+    "authorUrl": "https://x.com/ZHO_ZHO_ZHO",
+    "sourceLinks": [
+      "https://x.com/ZHO_ZHO_ZHO/status/1922150692145283299"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/99/harry-potter-black-white-portrait-art.png",
+        "alt": "AI image prompt – Black and White Portrait Art output image"
+      }
+    ]
+  },
+  {
+    "id": "gpt4o-100",
+    "caseNumber": 100,
+    "model": "gpt-4o",
+    "slug": "gpt-4o-case-100",
+    "title": "Creative Ad with Real Object and Hand-Drawn Doodle",
+    "prompt": "A minimalist and creative advertisement set on a clean white background.\nA real [Real Object] is integrated into a hand-drawn black ink doodle, using loose, playful lines. The [Doodle Concept] interacts with the object in a clever, imaginative way. Include bold black [Ad Copy] text at the top or center. Place the [Brand Logo] clearly at the bottom. The visual should be clean, fun, high-contrast, and conceptually smart.",
+    "inputRequirement": "",
+    "promptNote": "Replace [Real Object], [Doodle Concept], [Ad Copy], and [Brand Logo] in the prompt with specific details. For example: [Real Object]: coffee bean [Doodle Concept]: The giant coffee bean becomes a space planet, with a small astronaut planting a flag on its surface [Ad Copy]: \"Explore Bold Flavor\" [Brand Logo]: Starbucks logo",
+    "notes": [],
+    "author": "@azed_ai",
+    "authorUrl": "https://x.com/azed_ai",
+    "sourceLinks": [
+      "https://x.com/azed_ai/status/1923016036120658122"
+    ],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/gpt-4o/100/creative-ad-real-object-hand-drawn-doodle.png",
+        "alt": "AI image prompt – Creative Ad with Real Object and Hand-Drawn Doodle output image"
+      }
+    ]
+  }
+]
