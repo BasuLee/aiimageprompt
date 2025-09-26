@@ -1,19 +1,28 @@
-import fs from "fs";
-import path from "path";
 import { CaseRecord, CaseWithTags, SupportedLanguage } from "@/types/case";
 import { applyTagMapping, enrichWithTags } from "@/lib/tagging";
+import gpt4oEn from "@/data/gpt-4o.en.json";
+import gpt4oZh from "@/data/gpt-4o.zh.json";
+import nanoBananaEn from "@/data/nano-banana.en.json";
+import nanoBananaZh from "@/data/nano-banana.zh.json";
 
 const MODELS = ["gpt-4o", "nano-banana"] as const;
 
 type ModelKey = (typeof MODELS)[number];
 
-const dataDir = path.join(process.cwd(), "data");
+const MODEL_DATA: Record<ModelKey, Record<SupportedLanguage, CaseRecord[]>> = {
+  "gpt-4o": {
+    en: gpt4oEn as CaseRecord[],
+    zh: gpt4oZh as CaseRecord[],
+  },
+  "nano-banana": {
+    en: nanoBananaEn as CaseRecord[],
+    zh: nanoBananaZh as CaseRecord[],
+  },
+};
 
 function readModelData(model: ModelKey, language: SupportedLanguage): CaseRecord[] {
-  const filePath = path.join(dataDir, `${model}.${language}.json`);
-  const raw = fs.readFileSync(filePath, "utf-8");
-  const parsed = JSON.parse(raw) as CaseRecord[];
-  return parsed.map((item) => ({ ...item, model }));
+  const dataset = MODEL_DATA[model][language] ?? [];
+  return dataset.map((item) => ({ ...item, model }));
 }
 
 export interface LoadOptions {
