@@ -29,19 +29,16 @@ export default function SiteLayout({ language, navItems, footerItems, children }
   const [showScrollTop, setShowScrollTop] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setShowScrollTop(window.scrollY > 300);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    function handleScroll() {
+      setShowScrollTop(window.scrollY > 320);
+    }
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   useEffect(() => {
@@ -318,18 +315,29 @@ export default function SiteLayout({ language, navItems, footerItems, children }
       </footer>
       
       {/* 回到顶部按钮 */}
-      {showScrollTop && (
-        <button
-          onClick={scrollToTop}
-          className="fixed bottom-8 right-8 z-50 group relative rounded-full border border-cyan-400/60 bg-slate-950/90 p-3 text-cyan-300 backdrop-blur-sm transition-all duration-300 hover:border-cyan-300 hover:bg-cyan-500/20 hover:text-cyan-100 hover:shadow-lg hover:shadow-cyan-400/40 hover:scale-110"
-          aria-label={language === "en" ? "Back to top" : "回到顶部"}
+      <button
+        type="button"
+        onClick={scrollToTop}
+        className={`fixed bottom-8 right-8 z-40 group flex h-14 w-14 items-center justify-center overflow-hidden rounded-2xl border-2 border-cyan-400/70 bg-slate-950/80 text-cyan-200 transition-all duration-300 hover:-translate-y-1 hover:border-cyan-200 hover:text-cyan-50 hover:shadow-lg hover:shadow-cyan-400/50 ${
+          showScrollTop ? "pointer-events-auto opacity-100 translate-y-0" : "pointer-events-none opacity-0 translate-y-4"
+        }`}
+        aria-label={language === "en" ? "Back to top" : "回到顶部"}
+      >
+        <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_30%_30%,rgba(94,234,212,0.35),transparent_60%)] opacity-80 transition-opacity duration-300 group-hover:opacity-100" />
+        <div className="absolute inset-[3px] rounded-[1.1rem] border border-cyan-400/30 blur-sm group-hover:border-cyan-200/50"></div>
+        <span className="cyber-text text-[10px] tracking-[0.2em]">TOP</span>
+        <svg
+          className="absolute -top-1 h-5 w-5 text-cyan-300 opacity-70 transition-transform duration-300 group-hover:-translate-y-1"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="1.6"
         >
-          <svg className="h-5 w-5 transition-transform duration-300 group-hover:-translate-y-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 11l5-5m0 0l5 5m-5-5v12" />
-          </svg>
-          <div className="absolute inset-0 rounded-full border border-cyan-400/20 animate-pulse"></div>
-        </button>
-      )}
+          <path strokeLinecap="round" strokeLinejoin="round" d="M6 14l6-6 6 6" />
+        </svg>
+        <div className="absolute inset-0 -z-10 animate-pulse rounded-2xl border border-cyan-400/20"></div>
+        <div className="absolute inset-0 -z-20 animate-[spin_6s_linear_infinite] bg-[conic-gradient(from_90deg,transparent_0deg,rgba(8,145,178,0.35)_120deg,transparent_240deg)]"></div>
+      </button>
     </div>
   );
 }
