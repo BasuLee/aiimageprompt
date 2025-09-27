@@ -67,7 +67,7 @@ export function CaseCard({ record, language, onOpen, onPreview }: CaseCardProps)
   const primaryOutput = record.outputImages[0];
 
   return (
-    <article className="mb-6 break-inside-avoid rounded-xl border border-cyan-500/40 bg-slate-900/80 shadow-lg shadow-cyan-500/10">
+    <article className="rounded-xl border border-cyan-500/40 bg-slate-900/80 shadow-lg shadow-cyan-500/10">
       <div className="space-y-5 p-5">
         {hasInput && primaryOutput ? (
           <div className="flex flex-col gap-3 sm:flex-row">

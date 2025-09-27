@@ -8,6 +8,12 @@ import { ImagePreviewModal, ImagePreviewContext } from "@/components/ImagePrevie
 
 const PAGE_SIZE = 30;
 
+function getColumnCount(width: number): number {
+  if (width >= 1280) return 3; // xl breakpoint
+  if (width >= 768) return 2; // md breakpoint
+  return 1;
+}
+
 interface ModelOption {
   id: string;
   label: string;
@@ -64,6 +70,7 @@ export function HomeView({ language, cases, models, styles, themes }: HomeViewPr
   const [previewContext, setPreviewContext] = useState<ImagePreviewContext | undefined>(undefined);
   const [visibleCount, setVisibleCount] = useState<number>(PAGE_SIZE);
   const sentinelRef = useRef<HTMLDivElement | null>(null);
+  const [columnCount, setColumnCount] = useState<number>(1);
 
   const filtered = useMemo(() => {
     const term = searchValue.trim().toLowerCase();
@@ -80,6 +87,21 @@ export function HomeView({ language, cases, models, styles, themes }: HomeViewPr
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
   }, [cases, searchValue, selectedModels, selectedStyles, selectedThemes]);
+
+  useEffect(() => {
+    const updateColumns = () => {
+      if (typeof window === "undefined") {
+        return;
+      }
+      setColumnCount(getColumnCount(window.innerWidth));
+    };
+
+    updateColumns();
+    window.addEventListener("resize", updateColumns);
+    return () => {
+      window.removeEventListener("resize", updateColumns);
+    };
+  }, []);
 
   useEffect(() => {
     setVisibleCount((current) => Math.min(current, Math.max(filtered.length, 0)));
@@ -115,6 +137,14 @@ export function HomeView({ language, cases, models, styles, themes }: HomeViewPr
 
   const visibleCases = useMemo(() => filtered.slice(0, visibleCount), [filtered, visibleCount]);
   const hasMore = visibleCount < filtered.length;
+  const columns = useMemo(() => {
+    const count = Math.max(Math.min(columnCount, visibleCases.length || 1), 1);
+    const cols: CaseWithTags[][] = Array.from({ length: count }, () => []);
+    visibleCases.forEach((item, index) => {
+      cols[index % count].push(item);
+    });
+    return cols;
+  }, [visibleCases, columnCount]);
 
   function resetFilters() {
     setSelectedModels(models.map((model) => model.id));
@@ -170,23 +200,27 @@ export function HomeView({ language, cases, models, styles, themes }: HomeViewPr
         <div className="mb-6 flex items-center justify-between text-sm text-slate-300">
           <p>{texts.results(filtered.length)}</p>
         </div>
-        {filtered.length === 0 ? (
-          <p className="rounded-2xl border border-cyan-500/30 bg-slate-900/60 p-10 text-center text-slate-300">
-            {texts.empty}
-          </p>
-        ) : (
-          <div className="columns-1 gap-6 md:columns-2 xl:columns-3">
-            {visibleCases.map((item) => (
-              <CaseCard
-                key={item.id}
-                record={item}
-                language={language}
-                onOpen={setActiveCase}
-                onPreview={(payload) => setPreviewContext(payload)}
-              />
-            ))}
-          </div>
-        )}
+      {filtered.length === 0 ? (
+        <p className="rounded-2xl border border-cyan-500/30 bg-slate-900/60 p-10 text-center text-slate-300">
+          {texts.empty}
+        </p>
+      ) : (
+        <div className="flex gap-6">
+          {columns.map((columnItems, columnIndex) => (
+            <div key={columnIndex} className="flex-1 space-y-6">
+              {columnItems.map((item) => (
+                <CaseCard
+                  key={item.id}
+                  record={item}
+                  language={language}
+                  onOpen={setActiveCase}
+                  onPreview={(payload) => setPreviewContext(payload)}
+                />
+              ))}
+            </div>
+          ))}
+        </div>
+      )}
         {filtered.length > 0 && (
           <div className="mt-6 flex flex-col items-center gap-3">
             {hasMore && (

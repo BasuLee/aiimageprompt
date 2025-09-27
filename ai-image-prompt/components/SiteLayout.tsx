@@ -1,4 +1,6 @@
-import { ReactNode } from "react";
+"use client";
+
+import { ReactNode, useEffect, useRef, useState } from "react";
 import { SupportedLanguage } from "@/types/case";
 
 interface NavItem {
@@ -14,17 +16,31 @@ interface SiteLayoutProps {
   children: ReactNode;
 }
 
-const LANGUAGE_SWITCH: Record<SupportedLanguage, { label: string; href: string }> = {
-  en: { label: "中文", href: "/zh" },
-  zh: { label: "English", href: "/" },
-};
+const LANGUAGE_OPTIONS: Array<{ id: SupportedLanguage; label: string; href: string }> = [
+  { id: "en", label: "English", href: "/" },
+  { id: "zh", label: "中文", href: "/zh" },
+];
 
 export default function SiteLayout({ language, navItems, footerItems, children }: SiteLayoutProps) {
-  const languageSwitch = LANGUAGE_SWITCH[language];
+  const [isLangOpen, setIsLangOpen] = useState(false);
+  const langRef = useRef<HTMLDetailsElement | null>(null);
+
+  useEffect(() => {
+    if (!isLangOpen) return;
+    function handleClick(event: MouseEvent) {
+      if (!langRef.current) return;
+      if (langRef.current.contains(event.target as Node)) return;
+      setIsLangOpen(false);
+    }
+    document.addEventListener("mousedown", handleClick);
+    return () => {
+      document.removeEventListener("mousedown", handleClick);
+    };
+  }, [isLangOpen]);
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100">
-      <div className="relative overflow-hidden">
+      <div className="relative">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(56,189,248,0.25),transparent_55%)]" />
         <header className="relative z-10 border-b border-cyan-500/40 bg-slate-950/80 backdrop-blur">
           <div className="mx-auto flex max-w-7xl flex-col gap-6 px-6 py-6 md:flex-row md:items-center md:justify-between">
@@ -48,12 +64,48 @@ export default function SiteLayout({ language, navItems, footerItems, children }
                   {item.label}
                 </a>
               ))}
-              <a
-                href={languageSwitch.href}
-                className="rounded-full border border-pink-500/40 px-4 py-2 text-pink-200 transition hover:border-pink-200 hover:text-pink-100"
+              <details
+                ref={langRef}
+                className="relative"
+                open={isLangOpen}
+                onToggle={(event) => {
+                  const target = event.currentTarget;
+                  setIsLangOpen(target.open);
+                }}
               >
-                {languageSwitch.label}
-              </a>
+                <summary
+                  className="flex cursor-pointer items-center gap-2 rounded-full border border-pink-500/40 px-4 py-2 text-sm text-pink-200 transition hover:border-pink-200 hover:text-pink-100"
+                  style={{ listStyle: "none" }}
+                  onClick={(event) => {
+                    event.preventDefault();
+                    setIsLangOpen((prev) => !prev);
+                  }}
+                >
+                  {LANGUAGE_OPTIONS.find((option) => option.id === language)?.label ?? "Language"}
+                  <span className="text-xs text-pink-300">▾</span>
+                </summary>
+                {isLangOpen && (
+                  <div className="absolute left-1/2 z-20 mt-2 w-36 -translate-x-1/2 overflow-hidden rounded-xl border border-pink-400/40 bg-slate-950/95 shadow-lg shadow-pink-500/10">
+                    {LANGUAGE_OPTIONS.map((option) => {
+                      const isActive = option.id === language;
+                      const baseStyles = "block px-4 py-2 text-sm transition";
+                      const activeStyles = "bg-pink-500/20 text-pink-100";
+                      const inactiveStyles = "text-pink-200 hover:bg-pink-500/10 hover:text-pink-100";
+                      return (
+                        <a
+                          key={option.id}
+                          href={option.href}
+                          className={`${baseStyles} ${isActive ? activeStyles : inactiveStyles}`}
+                          aria-current={isActive ? "page" : undefined}
+                          onClick={() => setIsLangOpen(false)}
+                        >
+                          {option.label}
+                        </a>
+                      );
+                    })}
+                  </div>
+                )}
+              </details>
             </nav>
           </div>
         </header>
