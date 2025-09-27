@@ -31,6 +31,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://ai-image-prompt.com/blog/celebrating-our-creators</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://ai-image-prompt.com/blog/writing-precision-prompts-nano-banana</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1122,6 +1127,11 @@
   </url>
   <url>
     <loc>https://ai-image-prompt.com/zh/contact</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ai-image-prompt.com/zh/blog/celebrating-our-creators</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
