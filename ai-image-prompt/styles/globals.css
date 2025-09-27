@@ -17,3 +17,352 @@ body {
   color: var(--foreground);
   font-family: var(--font-geist-sans), "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
+
+/* 赛博朋克动画效果 */
+@keyframes scan {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes digitalRain {
+  0% {
+    transform: translateY(-100vh);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
+
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+@keyframes neon-pulse {
+  0%, 100% {
+    text-shadow: 
+      0 0 5px currentColor,
+      0 0 10px currentColor,
+      0 0 15px currentColor,
+      0 0 20px currentColor;
+  }
+  50% {
+    text-shadow: 
+      0 0 2px currentColor,
+      0 0 5px currentColor,
+      0 0 8px currentColor,
+      0 0 12px currentColor;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes dataFlow {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(500%);
+  }
+}
+
+/* 网格背景 */
+.cyber-grid {
+  background-image: 
+    linear-gradient(rgba(0, 255, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+/* 科技感字体效果 */
+.cyber-text {
+  font-family: 'Courier New', monospace;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  animation: neon-pulse 2s ease-in-out infinite alternate;
+}
+
+.glitch-effect {
+  position: relative;
+  animation: glitch 0.3s ease-in-out infinite;
+}
+
+.glitch-effect::before,
+.glitch-effect::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.glitch-effect::before {
+  color: #ff00ff;
+  animation: glitch 0.3s ease-in-out infinite reverse;
+  clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+}
+
+.glitch-effect::after {
+  color: #00ffff;
+  animation: glitch 0.3s ease-in-out infinite;
+  clip-path: polygon(0 55%, 100% 55%, 100% 100%, 0 100%);
+}
+
+/* HUD 数据条 */
+.hud-bar {
+  position: relative;
+  background: transparent;
+  height: 2px;
+  overflow: hidden;
+}
+
+.hud-bar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    transparent 20%,
+    rgba(0, 255, 255, 0.3) 35%,
+    rgba(0, 255, 255, 0.8) 50%,
+    rgba(0, 255, 255, 0.3) 65%,
+    transparent 80%,
+    transparent 100%
+  );
+  animation: dataFlow 60s ease-in-out infinite;
+}
+
+@keyframes floatParticle1 {
+  0%, 100% {
+    transform: translate(10vw, 20vh);
+  }
+  25% {
+    transform: translate(80vw, 10vh);
+  }
+  50% {
+    transform: translate(90vw, 70vh);
+  }
+  75% {
+    transform: translate(20vw, 80vh);
+  }
+}
+
+@keyframes floatParticle2 {
+  0%, 100% {
+    transform: translate(70vw, 30vh);
+  }
+  33% {
+    transform: translate(30vw, 60vh);
+  }
+  66% {
+    transform: translate(85vw, 40vh);
+  }
+}
+
+@keyframes floatParticle3 {
+  0%, 100% {
+    transform: translate(40vw, 10vh);
+  }
+  50% {
+    transform: translate(60vw, 90vh);
+  }
+}
+
+@keyframes floatParticle4 {
+  0%, 100% {
+    transform: translate(90vw, 50vh);
+  }
+  25% {
+    transform: translate(10vw, 30vh);
+  }
+  50% {
+    transform: translate(50vw, 10vh);
+  }
+  75% {
+    transform: translate(80vw, 90vh);
+  }
+}
+
+@keyframes floatParticle5 {
+  0%, 100% {
+    transform: translate(25vw, 80vh);
+  }
+  50% {
+    transform: translate(75vw, 20vh);
+  }
+}
+
+@keyframes floatParticle6 {
+  0%, 100% {
+    transform: translate(60vw, 70vh);
+  }
+  33% {
+    transform: translate(20vw, 40vh);
+  }
+  66% {
+    transform: translate(90vw, 80vh);
+  }
+}
+
+@keyframes moveLine1 {
+  0% {
+    transform: translate(-100px, 20vh);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(100vw, 80vh);
+    opacity: 0;
+  }
+}
+
+@keyframes moveLine2 {
+  0% {
+    transform: translate(100vw, 60vh);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-100px, 30vh);
+    opacity: 0;
+  }
+}
+
+@keyframes moveLine3 {
+  0% {
+    transform: translate(-100px, 70vh);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(100vw, 40vh);
+    opacity: 0;
+  }
+}
+
+@keyframes moveLineVertical1 {
+  0% {
+    transform: translate(30vw, -100px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(70vw, 100vh);
+    opacity: 0;
+  }
+}
+
+@keyframes moveLineVertical2 {
+  0% {
+    transform: translate(80vw, 100vh);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(40vw, -100px);
+    opacity: 0;
+  }
+}
+
+@keyframes moveLineDiagonal1 {
+  0% {
+    transform: translate(-50px, 30vh) rotate(-60deg);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(100vw, 60vh) rotate(-60deg);
+    opacity: 0;
+  }
+}
+
+@keyframes moveLineDiagonal2 {
+  0% {
+    transform: translate(100vw, 20vh) rotate(75deg);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50px, 80vh) rotate(75deg);
+    opacity: 0;
+  }
+}
+
+@keyframes moveLineDiagonal3 {
+  0% {
+    transform: translate(-50px, 70vh) rotate(-45deg);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(100vw, 25vh) rotate(-45deg);
+    opacity: 0;
+  }
+}
+
+/* 切角边框 */
+.cut-corner {
+  position: relative;
+  background: linear-gradient(135deg, transparent 10px, var(--bg-color) 10px);
+}
+
+.cut-corner-both {
+  position: relative;
+  background: linear-gradient(135deg, transparent 10px, var(--bg-color) 10px),
+              linear-gradient(-135deg, transparent 10px, var(--bg-color) 10px);
+  background-position: top left, top right;
+  background-size: 51% 100%, 51% 100%;
+  background-repeat: no-repeat;
+}

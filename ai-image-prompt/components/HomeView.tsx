@@ -71,10 +71,16 @@ export function HomeView({ language, cases, models, styles, themes }: HomeViewPr
   const [visibleCount, setVisibleCount] = useState<number>(PAGE_SIZE);
   const sentinelRef = useRef<HTMLDivElement | null>(null);
   const [columnCount, setColumnCount] = useState<number>(1);
+  const [isFiltersExpanded, setIsFiltersExpanded] = useState<boolean>(false);
+
+  const orderedCases = useMemo(
+    () => [...cases].sort((a, b) => b.caseNumber - a.caseNumber),
+    [cases],
+  );
 
   const filtered = useMemo(() => {
     const term = searchValue.trim().toLowerCase();
-    return cases.filter((item) => {
+    return orderedCases.filter((item) => {
       const matchModel = selectedModels.length === 0 || selectedModels.includes(item.model);
       const matchStyle = selectedStyles.length === 0 || selectedStyles.some((style) => item.styleTags.includes(style));
       const matchTheme = selectedThemes.length === 0 || selectedThemes.some((theme) => item.themeTags.includes(theme));
@@ -82,7 +88,7 @@ export function HomeView({ language, cases, models, styles, themes }: HomeViewPr
       const matchSearch = term.length === 0 || searchable.includes(term) || item.keywords.some((kw) => kw.includes(term));
       return matchModel && matchStyle && matchTheme && matchSearch;
     });
-  }, [cases, searchValue, selectedModels, selectedStyles, selectedThemes]);
+  }, [orderedCases, searchValue, selectedModels, selectedStyles, selectedThemes]);
 
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
@@ -155,44 +161,63 @@ export function HomeView({ language, cases, models, styles, themes }: HomeViewPr
 
   return (
     <div className="space-y-10">
-      <section className="rounded-2xl border border-cyan-500/40 bg-slate-900/70 p-6 shadow-lg shadow-cyan-500/10">
-        <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+      <section className="relative rounded-2xl border border-purple-500/30 bg-gradient-to-br from-slate-900/80 via-slate-900/70 to-purple-900/30 p-4 md:p-6 shadow-lg shadow-purple-500/10 backdrop-blur-sm overflow-hidden">
+        {/* 额外的霓虹装饰 */}
+        <div className="absolute top-0 left-0 h-full w-1 bg-gradient-to-b from-cyan-400 via-purple-400 to-pink-400 opacity-50"></div>
+        <div className="absolute top-0 right-0 h-full w-1 bg-gradient-to-b from-pink-400 via-orange-400 to-emerald-400 opacity-50"></div>
+        
+        <div className="relative z-10 flex flex-col gap-4 md:gap-6 md:flex-row md:items-center md:justify-between">
           <input
             value={searchValue}
             onChange={(event) => setSearchValue(event.target.value)}
             placeholder={texts.searchPlaceholder}
-            className="w-full rounded-xl border border-cyan-400/40 bg-slate-950/80 px-4 py-3 text-sm text-slate-100 placeholder:text-slate-500 focus:border-cyan-200 focus:outline-none focus:ring-2 focus:ring-cyan-400/40 md:max-w-md"
+            className="w-full rounded-xl border border-cyan-400/40 bg-slate-950/80 px-4 py-3 text-sm text-slate-100 placeholder:text-slate-500 focus:border-cyan-200 focus:outline-none focus:ring-2 focus:ring-cyan-400/40 focus:shadow-cyan-400/20 focus:shadow-lg transition-all duration-300 md:max-w-md"
           />
-          <button
-            type="button"
-            onClick={resetFilters}
-            className="self-start rounded-full border border-pink-400/60 px-4 py-2 text-sm text-pink-200 transition hover:border-pink-200 hover:text-pink-100"
-          >
-            {texts.reset}
-          </button>
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+            <button
+              type="button"
+              onClick={() => setIsFiltersExpanded(!isFiltersExpanded)}
+              className="relative flex items-center justify-center gap-2 rounded-full border border-orange-400/60 bg-orange-500/10 px-4 py-2 text-sm text-orange-200 backdrop-blur transition-all duration-300 hover:border-orange-300 hover:bg-orange-500/20 hover:text-orange-100 hover:shadow-lg hover:shadow-orange-400/40"
+            >
+              <span>{language === "en" ? "FILTERS" : "筛选"}</span>
+              <span className={`text-xs transition-transform duration-300 ${isFiltersExpanded ? "rotate-180" : ""}`}>▾</span>
+              <div className="absolute inset-0 rounded-full border border-orange-400/20 animate-pulse"></div>
+            </button>
+            <button
+              type="button"
+              onClick={resetFilters}
+              className="relative rounded-full border border-pink-400/60 bg-pink-500/10 px-4 py-2 text-sm text-pink-200 backdrop-blur transition-all duration-300 hover:border-pink-300 hover:bg-pink-500/20 hover:text-pink-100 hover:shadow-lg hover:shadow-pink-400/40"
+            >
+              <span>{texts.reset}</span>
+              <div className="absolute inset-0 rounded-full border border-pink-400/20 animate-pulse"></div>
+            </button>
+          </div>
         </div>
-        <div className="mt-6 space-y-6 text-sm">
-          <FilterGroup
-            label={texts.modelGroup}
-            language={language}
-            options={models.map((model) => ({ id: model.id, label: model.label }))}
-            selected={selectedModels}
-            onToggle={(value) => setSelectedModels(toggleValue(selectedModels, value))}
-          />
-          <FilterGroup
-            label={texts.styleGroup}
-            language={language}
-            options={styles.map((style) => ({ id: style, label: style }))}
-            selected={selectedStyles}
-            onToggle={(value) => setSelectedStyles(toggleValue(selectedStyles, value))}
-          />
-          <FilterGroup
-            label={texts.themeGroup}
-            language={language}
-            options={themes.map((theme) => ({ id: theme, label: theme }))}
-            selected={selectedThemes}
-            onToggle={(value) => setSelectedThemes(toggleValue(selectedThemes, value))}
-          />
+        
+        <div className={`overflow-hidden transition-all duration-300 ${isFiltersExpanded ? "mt-4 md:mt-6 max-h-96 opacity-100" : "mt-0 max-h-0 opacity-0"}`}>
+          <div className="space-y-4 md:space-y-6 text-sm">
+            <FilterGroup
+              label={texts.modelGroup}
+              language={language}
+              options={models.map((model) => ({ id: model.id, label: model.label }))}
+              selected={selectedModels}
+              onToggle={(value) => setSelectedModels(toggleValue(selectedModels, value))}
+            />
+            <FilterGroup
+              label={texts.styleGroup}
+              language={language}
+              options={styles.map((style) => ({ id: style, label: style }))}
+              selected={selectedStyles}
+              onToggle={(value) => setSelectedStyles(toggleValue(selectedStyles, value))}
+            />
+            <FilterGroup
+              label={texts.themeGroup}
+              language={language}
+              options={themes.map((theme) => ({ id: theme, label: theme }))}
+              selected={selectedThemes}
+              onToggle={(value) => setSelectedThemes(toggleValue(selectedThemes, value))}
+            />
+          </div>
         </div>
       </section>
 
@@ -205,9 +230,9 @@ export function HomeView({ language, cases, models, styles, themes }: HomeViewPr
           {texts.empty}
         </p>
       ) : (
-        <div className="flex gap-6">
+        <div className="flex gap-4 md:gap-6">
           {columns.map((columnItems, columnIndex) => (
-            <div key={columnIndex} className="flex-1 space-y-6">
+            <div key={columnIndex} className="flex-1 space-y-4 md:space-y-6">
               {columnItems.map((item) => (
                 <CaseCard
                   key={item.id}
@@ -267,9 +292,33 @@ function FilterGroup({ label, language, options, selected, onToggle }: FilterGro
     return null;
   }
 
+  const getGroupColor = (label: string) => {
+    if (label.toLowerCase().includes("model") || label.includes("模型")) {
+      return {
+        labelColor: "text-cyan-400/90 font-semibold tracking-wider",
+        activeStyles: "border-cyan-300 bg-cyan-500/25 text-cyan-100 shadow-cyan-400/50 shadow-lg",
+        inactiveStyles: "border-cyan-500/50 text-slate-300 hover:border-cyan-300 hover:text-cyan-100 hover:shadow-cyan-400/40 hover:shadow-md"
+      };
+    } else if (label.toLowerCase().includes("style") || label.includes("风格")) {
+      return {
+        labelColor: "text-purple-400/90 font-semibold tracking-wider",
+        activeStyles: "border-purple-300 bg-purple-500/25 text-purple-100 shadow-purple-400/50 shadow-lg",
+        inactiveStyles: "border-purple-500/50 text-slate-300 hover:border-purple-300 hover:text-purple-100 hover:shadow-purple-400/40 hover:shadow-md"
+      };
+    } else {
+      return {
+        labelColor: "text-emerald-400/90 font-semibold tracking-wider",
+        activeStyles: "border-emerald-300 bg-emerald-500/25 text-emerald-100 shadow-emerald-400/50 shadow-lg",
+        inactiveStyles: "border-emerald-500/50 text-slate-300 hover:border-emerald-300 hover:text-emerald-100 hover:shadow-emerald-400/40 hover:shadow-md"
+      };
+    }
+  };
+
+  const colors = getGroupColor(label);
+
   return (
     <div className="space-y-3">
-      <p className="text-xs uppercase tracking-[0.3em] text-cyan-400/70">{label}</p>
+      <p className={`text-xs uppercase tracking-[0.3em] ${colors.labelColor}`}>{label}</p>
       <div className="flex flex-wrap gap-3">
         {options.map((option) => {
           const isActive = selected.includes(option.id);
@@ -278,10 +327,10 @@ function FilterGroup({ label, language, options, selected, onToggle }: FilterGro
               key={option.id}
               type="button"
               onClick={() => onToggle(option.id)}
-              className={`rounded-full border px-4 py-2 text-xs transition ${
+              className={`rounded-full border px-4 py-2 text-xs transition-all duration-200 shadow-sm ${
                 isActive
-                  ? "border-cyan-200 bg-cyan-500/20 text-cyan-100"
-                  : "border-cyan-500/40 text-slate-300 hover:border-cyan-200 hover:text-cyan-100"
+                  ? colors.activeStyles
+                  : colors.inactiveStyles
               }`}
             >
               {option.label}
