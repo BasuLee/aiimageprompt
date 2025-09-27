@@ -1,7 +1,7 @@
-import Head from "next/head";
 import { GetServerSideProps } from "next";
 import SiteLayout from "@/components/SiteLayout";
 import { HomeView } from "@/components/HomeView";
+import { SeoMeta } from "@/components/SeoMeta";
 import { buildTagMap, loadCases } from "@/lib/dataLoader";
 import { getModelLabel } from "@/lib/models";
 import { CaseWithTags } from "@/types/case";
@@ -57,15 +57,12 @@ export default function HomePageZh({ cases, models, styles, themes }: HomeProps)
 
   return (
     <>
-      <Head>
-        <title>AI 提示词画廊 – Nano Banana 与 GPT-4o 精选</title>
-        <meta
-          name="description"
-          content="#1 AI 提示词画廊，精选 Nano Banana 与 GPT-4o 案例，呈现赛博朋克灵感。"
-        />
-        <link rel="canonical" href="https://ai-image-prompt.com/zh/" />
-        <link rel="icon" href="/favicon.ico" type="image/png" />
-      </Head>
+      <SeoMeta
+        title="AI 提示词画廊 – Nano Banana 与 GPT-4o 精选案例"
+        description="#1 AI 提示词画廊，精选 Nano Banana 与 GPT-4o 案例，呈现赛博朋克灵感。"
+        url="/zh/"
+        locale="zh_CN"
+      />
       <SiteLayout language="zh" navItems={navItems} footerItems={footerItems}>
         <HomeView language="zh" cases={cases} models={models} styles={styles} themes={themes} />
       </SiteLayout>

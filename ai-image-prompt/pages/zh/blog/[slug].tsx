@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
-import Head from "next/head";
 import { GetServerSideProps } from "next";
 import SiteLayout from "@/components/SiteLayout";
 import { ZH_BLOG_POSTS } from "@/content/blog/zh/posts";
 import { BlogPost } from "@/types/blog";
+import { SeoMeta } from "@/components/SeoMeta";
 
 interface BlogDetailProps {
   post: BlogPost;
@@ -33,16 +33,18 @@ export default function BlogDetailPageZh({ post }: BlogDetailProps) {
     { label: "联系我们", href: "/zh/contact" },
   ];
 
-  const canonicalUrl = `https://ai-image-prompt.com/zh/blog/${post.slug}`;
+  const canonicalUrl = `/zh/blog/${post.slug}`;
+  const title = `${post.title} | 提示词指南`;
 
   return (
     <>
-      <Head>
-        <title>{post.title} – Prompt Craft 工作日志</title>
-        <meta name="description" content={`#1 ${post.excerpt}`} />
-        <link rel="canonical" href={canonicalUrl} />
-        <link rel="icon" href="/favicon.ico" type="image/png" />
-      </Head>
+      <SeoMeta
+        title={title}
+        description={`#1 ${post.excerpt}`}
+        url={canonicalUrl}
+        type="article"
+        locale="zh_CN"
+      />
       <SiteLayout language="zh" navItems={navItems} footerItems={footerItems}>
         <article className="mx-auto max-w-3xl space-y-10">
           <header className="space-y-4">

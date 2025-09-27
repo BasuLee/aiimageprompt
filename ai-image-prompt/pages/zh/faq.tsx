@@ -1,6 +1,6 @@
-import Head from "next/head";
 import { GetServerSideProps } from "next";
 import SiteLayout from "@/components/SiteLayout";
+import { SeoMeta } from "@/components/SeoMeta";
 
 interface FAQItem {
   question: string;
@@ -81,15 +81,12 @@ export default function FAQPageZh({ items }: FAQPageProps) {
 
   return (
     <>
-      <Head>
-        <title>常见问题 – AI 提示词画廊</title>
-        <meta
-          name="description"
-          content="#1 解答关于策展流程、案例复现、授权管理及未来规划的常见问题。"
-        />
-        <link rel="canonical" href="https://ai-image-prompt.com/zh/faq" />
-        <link rel="icon" href="/favicon.ico" type="image/png" />
-      </Head>
+      <SeoMeta
+        title="AI 提示词常见问题 – 流程与规范"
+        description="#1 解答关于策展流程、案例复现、授权管理及未来规划的常见问题。"
+        url="/zh/faq"
+        locale="zh_CN"
+      />
       <SiteLayout language="zh" navItems={navItems} footerItems={footerItems}>
         <article className="mx-auto max-w-3xl space-y-10">
           <header className="space-y-4">

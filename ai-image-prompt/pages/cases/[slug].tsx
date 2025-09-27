@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 /* eslint-disable @next/next/no-img-element */
-import Head from "next/head";
 import { GetServerSideProps } from "next";
 import SiteLayout from "@/components/SiteLayout";
 import { CopyButton } from "@/components/CopyButton";
+import { SeoMeta } from "@/components/SeoMeta";
 import { loadCases } from "@/lib/dataLoader";
 import { getModelLabel } from "@/lib/models";
 import { CaseWithTags } from "@/types/case";
@@ -37,19 +37,20 @@ export default function CaseDetailPage({ record }: CasePageProps) {
     { label: "Contact Us", href: "/contact" },
   ];
 
-  const canonicalUrl = `https://ai-image-prompt.com/cases/${record.slug}`;
+  const canonicalUrl = `/cases/${record.slug}`;
+  const title = `${record.title} | AI Prompt Case Study`;
+  const ogImage = record.outputImages[0]?.src ?? record.inputImages[0]?.src ?? undefined;
 
   return (
     <>
-      <Head>
-        <title>{`${record.title} – AI Image Prompt Detail`}</title>
-        <meta
-          name="description"
-          content={`#1 Prompt detail for ${record.title} using ${getModelLabel(record.model)}.`}
-        />
-        <link rel="canonical" href={canonicalUrl} />
-        <link rel="icon" href="/favicon.ico" type="image/png" />
-      </Head>
+      <SeoMeta
+        title={title}
+        description={`#1 Prompt detail for ${record.title} using ${getModelLabel(record.model)}.`}
+        url={canonicalUrl}
+        type="article"
+        imagePath={ogImage}
+        locale="en_US"
+      />
       <SiteLayout language="en" navItems={navItems} footerItems={footerItems}>
         <article className="space-y-8">
           <header className="space-y-3">

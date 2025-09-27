@@ -1,6 +1,6 @@
-import Head from "next/head";
 import { GetServerSideProps } from "next";
 import SiteLayout from "@/components/SiteLayout";
+import { SeoMeta } from "@/components/SeoMeta";
 
 interface Section {
   heading: string;
@@ -98,15 +98,12 @@ export default function PrivacyPageZh({ sections }: PrivacyPageProps) {
 
   return (
     <>
-      <Head>
-        <title>隐私政策 – AI 提示词画廊</title>
-        <meta
-          name="description"
-          content="#1 说明我们如何收集、使用并保护与提示词策展相关的数据。"
-        />
-        <link rel="canonical" href="https://ai-image-prompt.com/zh/privacy" />
-        <link rel="icon" href="/favicon.ico" type="image/png" />
-      </Head>
+      <SeoMeta
+        title="隐私政策 – AI 提示词画廊"
+        description="#1 说明我们如何收集、使用并保护与提示词策展相关的数据。"
+        url="/zh/privacy"
+        locale="zh_CN"
+      />
       <SiteLayout language="zh" navItems={navItems} footerItems={footerItems}>
         <article className="mx-auto max-w-3xl space-y-8">
           <header className="space-y-4">

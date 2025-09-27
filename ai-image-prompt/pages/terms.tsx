@@ -1,6 +1,6 @@
-import Head from "next/head";
 import { GetServerSideProps } from "next";
 import SiteLayout from "@/components/SiteLayout";
+import { SeoMeta } from "@/components/SeoMeta";
 
 interface Section {
   heading: string;
@@ -86,15 +86,12 @@ export default function TermsPage({ sections }: TermsPageProps) {
 
   return (
     <>
-      <Head>
-        <title>Terms of Service – AI Image Prompt Gallery</title>
-        <meta
-          name="description"
-          content="#1 Terms governing use of the AI Image Prompt gallery, curated data, and contributor submissions."
-        />
-        <link rel="canonical" href="https://ai-image-prompt.com/terms" />
-        <link rel="icon" href="/favicon.ico" type="image/png" />
-      </Head>
+      <SeoMeta
+        title="Terms of Service – AI Image Prompt Gallery"
+        description="#1 Terms governing use of the AI Image Prompt gallery, curated data, and contributor submissions."
+        url="/terms"
+        locale="en_US"
+      />
       <SiteLayout language="en" navItems={navItems} footerItems={footerItems}>
         <article className="mx-auto max-w-3xl space-y-8">
           <header className="space-y-4">

@@ -2,6 +2,56 @@ import { BlogPost } from "@/types/blog";
 
 export const EN_BLOG_POSTS: BlogPost[] = [
   {
+    slug: "celebrating-our-creators",
+    title: "Celebrating Our Creators and Keeping Credits Accurate",
+    excerpt: "A thank-you note to every artist whose work powers the gallery, plus guidance on fixing credits or requesting removals.",
+    author: "AI Image Prompt Team",
+    publishDate: "2025-09-28",
+    tags: ["community", "attribution", "policy"],
+    sections: [
+      {
+        paragraphs: [
+          "Every image, prompt, and annotation in the AI Image Prompt gallery exists because a creator decided to share their craft. Some contributors send full prompt breakdowns the moment they finish a Nano Banana hair swap, while others open their notebooks so fellow artists can see how a single phrase shifts lighting or fabric response. This post is our thank-you note. Without that generosity there would be no waterfall grid to explore, no bilingual case studies to learn from, and no living record of how GPT-4o continues to evolve in production.",
+          "We treat that trust as a responsibility. Curators cross-check metadata against the links you provide, confirm author handles, and capture the alt text that travels with each asset. The goal is to meet you where you are--whether you publish under Creative Commons, retain all rights, or experiment anonymously. When we describe the site as a community-built gallery, we mean it in the most literal sense."
+        ]
+      },
+      {
+        heading: "How creator credits make the gallery stronger",
+        paragraphs: [
+          "Attribution is more than a polite nod. For a production designer comparing prompts, a clear credit trail answers vital questions: Where did this approach originate? How do I reach the author if I want to collaborate? What context shaped the original request? Each case page lists the creator handle, social link, and the parameters that were shared with us. When we inherit material from public channels, we verify that the original post remains accessible and that any licensing notes still apply. If either condition changes, we revise the entry or park it in our research archive until clarity returns.",
+          "The same diligence powers our translations. The English dataset acts as the canonical source, but every Chinese case mirrors the same credits and link structure. That duplication prevents a correction in one language from silently drifting away in the other. It also reminds teams across time zones that prompt craft is a shared effort."
+        ]
+      },
+      {
+        heading: "Requesting corrections is simple",
+        paragraphs: [
+          "Even with multiple review passes, mistakes happen: a handle spelled with the wrong capitalization, an outdated portfolio link, or a prompt that should be tagged as experimental instead of production ready. When that occurs, we want to hear from you immediately. Email firenull52@gmail.com with the subject line \"Credit Update - [Case ID]\" so the message routes straight to the curator on call. Include a short summary of what needs to change and any supporting screenshots or links.",
+          "Behind the scenes we track every update in a change log. Once a correction request arrives, we reproduce the scenario, adjust the JSON data, regenerate the sitemap, and redeploy the site. Those steps keep the English and Chinese views synced and ensure RSS feeds or API consumers inherit the revised metadata. To help you prepare a request efficiently, here is the checklist we run internally:"
+        ],
+        bullets: [
+          "Identify the case number, model, and current credit string that needs revision.",
+          "Share the correct spelling, preferred handle, or new link destination.",
+          "Confirm whether supporting assets such as thumbnails or alt text should change as well.",
+          "Let us know if the case should be temporarily hidden while we investigate."
+        ]
+      },
+      {
+        heading: "Responding to takedown or privacy concerns",
+        paragraphs: [
+          "We know artistic careers evolve. Perhaps an image that once lived in a permissive thread now belongs to a paid collection, or a client project enters a confidential phase. Whatever the reason, if you need a case removed or redacted, contact us and mark the subject line \"Takedown - [Case ID]\". We begin by confirming ownership, then we schedule a removal window so cached pages update in one sweep. The associated assets leave our CDN, the JSON entries are pruned, and the sitemap updates within the same deployment cycle.",
+          "In parallel we log the action in our provenance tracker. That ledger stops deprecated files from resurfacing in later curation rounds and provides transparency if another researcher asks why the case disappeared. We are comfortable erring on the side of the creator--if there is doubt, we pull the content while we resolve the conversation."
+        ]
+      },
+      {
+        heading: "A shared roadmap",
+        paragraphs: [
+          "The gallery will keep improving because of your feedback. Next on our roadmap is a contributor dashboard where verified authors can adjust bios, link additional portfolios, and flag entries for review without waiting for email triage. We are also documenting best practices for co-writing prompts between multiple artists so collaborative credits feel natural.",
+          "Until those features land, this post stands as our promise: we are listening, we are grateful, and we are ready to fix anything that is out of date. Thank you again for trusting us with your work. Your prompts teach the community how to ask better questions, and your visuals remind us why the answers matter."
+        ]
+      }
+    ]
+  },
+  {
     slug: "writing-precision-prompts-nano-banana",
     title: "Writing Precision Prompts for Nano Banana",
     excerpt: "A field-tested playbook for sculpting Nano Banana prompts that stay consistent across complex editing tasks.",

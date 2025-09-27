@@ -1,6 +1,6 @@
-import Head from "next/head";
 import { GetServerSideProps } from "next";
 import SiteLayout from "@/components/SiteLayout";
+import { SeoMeta } from "@/components/SeoMeta";
 
 interface FAQItem {
   question: string;
@@ -81,15 +81,12 @@ export default function FAQPage({ items }: FAQPageProps) {
 
   return (
     <>
-      <Head>
-        <title>FAQ – AI Image Prompt Gallery</title>
-        <meta
-          name="description"
-          content="#1 Frequently asked questions about curation, replication, licensing, and future plans for the AI Image Prompt gallery."
-        />
-        <link rel="canonical" href="https://ai-image-prompt.com/faq" />
-        <link rel="icon" href="/favicon.ico" type="image/png" />
-      </Head>
+      <SeoMeta
+        title="AI Image Prompt FAQ – Policies & Workflow"
+        description="#1 Frequently asked questions about curation, replication, licensing, and future plans for the AI Image Prompt gallery."
+        url="/faq"
+        locale="en_US"
+      />
       <SiteLayout language="en" navItems={navItems} footerItems={footerItems}>
         <article className="mx-auto max-w-3xl space-y-10">
           <header className="space-y-4">

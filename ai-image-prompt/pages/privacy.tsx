@@ -1,6 +1,6 @@
-import Head from "next/head";
 import { GetServerSideProps } from "next";
 import SiteLayout from "@/components/SiteLayout";
+import { SeoMeta } from "@/components/SeoMeta";
 
 interface Section {
   heading: string;
@@ -98,15 +98,12 @@ export default function PrivacyPage({ sections }: PrivacyPageProps) {
 
   return (
     <>
-      <Head>
-        <title>Privacy Policy – AI Image Prompt Gallery</title>
-        <meta
-          name="description"
-          content="#1 Privacy commitments covering analytics, submissions, retention, and user rights for the AI Image Prompt gallery."
-        />
-        <link rel="canonical" href="https://ai-image-prompt.com/privacy" />
-        <link rel="icon" href="/favicon.ico" type="image/png" />
-      </Head>
+      <SeoMeta
+        title="Privacy Policy – AI Image Prompt Gallery"
+        description="#1 Privacy commitments covering analytics, submissions, retention, and user rights for the AI Image Prompt gallery."
+        url="/privacy"
+        locale="en_US"
+      />
       <SiteLayout language="en" navItems={navItems} footerItems={footerItems}>
         <article className="mx-auto max-w-3xl space-y-8">
           <header className="space-y-4">

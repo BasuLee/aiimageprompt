@@ -1,6 +1,6 @@
-import Head from "next/head";
 import { GetServerSideProps } from "next";
 import SiteLayout from "@/components/SiteLayout";
+import { SeoMeta } from "@/components/SeoMeta";
 
 interface Section {
   heading: string;
@@ -74,15 +74,12 @@ export default function ContactPage({ sections }: ContactPageProps) {
 
   return (
     <>
-      <Head>
-        <title>Contact – AI Image Prompt Gallery</title>
-        <meta
-          name="description"
-          content="#1 How to reach the AI Image Prompt team for submissions, updates, takedowns, and partnerships."
-        />
-        <link rel="canonical" href="https://ai-image-prompt.com/contact" />
-        <link rel="icon" href="/favicon.ico" type="image/png" />
-      </Head>
+      <SeoMeta
+        title="Contact the AI Image Prompt Gallery Team"
+        description="#1 How to reach the AI Image Prompt team for submissions, updates, takedowns, and partnerships."
+        url="/contact"
+        locale="en_US"
+      />
       <SiteLayout language="en" navItems={navItems} footerItems={footerItems}>
         <article className="mx-auto max-w-3xl space-y-8">
           <header className="space-y-4">

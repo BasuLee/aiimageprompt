@@ -1,6 +1,6 @@
-import Head from "next/head";
 import { GetServerSideProps } from "next";
 import SiteLayout from "@/components/SiteLayout";
+import { SeoMeta } from "@/components/SeoMeta";
 
 interface Section {
   heading: string;
@@ -95,15 +95,12 @@ export default function TermsPageZh({ sections }: TermsPageProps) {
 
   return (
     <>
-      <Head>
-        <title>服务条款 – AI 提示词画廊</title>
-        <meta
-          name="description"
-          content="#1 说明使用 AI 提示词画廊及投稿须遵守的条款。"
-        />
-        <link rel="canonical" href="https://ai-image-prompt.com/zh/terms" />
-        <link rel="icon" href="/favicon.ico" type="image/png" />
-      </Head>
+      <SeoMeta
+        title="服务条款 – AI 提示词画廊"
+        description="#1 说明使用 AI 提示词画廊及投稿须遵守的条款。"
+        url="/zh/terms"
+        locale="zh_CN"
+      />
       <SiteLayout language="zh" navItems={navItems} footerItems={footerItems}>
         <article className="mx-auto max-w-3xl space-y-8">
           <header className="space-y-4">

@@ -1,6 +1,6 @@
-import Head from "next/head";
 import { GetServerSideProps } from "next";
 import SiteLayout from "@/components/SiteLayout";
+import { SeoMeta } from "@/components/SeoMeta";
 
 interface Section {
   heading: string;
@@ -74,15 +74,12 @@ export default function ContactPageZh({ sections }: ContactPageProps) {
 
   return (
     <>
-      <Head>
-        <title>联系我们 – AI 提示词画廊</title>
-        <meta
-          name="description"
-          content="#1 说明投稿、更新、下架与合作请求的联系渠道与处理流程。"
-        />
-        <link rel="canonical" href="https://ai-image-prompt.com/zh/contact" />
-        <link rel="icon" href="/favicon.ico" type="image/png" />
-      </Head>
+      <SeoMeta
+        title="联系 AI 提示词画廊团队"
+        description="#1 说明投稿、更新、下架与合作请求的联系渠道与处理流程。"
+        url="/zh/contact"
+        locale="zh_CN"
+      />
       <SiteLayout language="zh" navItems={navItems} footerItems={footerItems}>
         <article className="mx-auto max-w-3xl space-y-8">
           <header className="space-y-4">

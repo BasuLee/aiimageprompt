@@ -1,8 +1,8 @@
-import Head from "next/head";
 import { GetServerSideProps } from "next";
 import SiteLayout from "@/components/SiteLayout";
 import { ZH_BLOG_POSTS } from "@/content/blog/zh/posts";
 import { BlogPost } from "@/types/blog";
+import { SeoMeta } from "@/components/SeoMeta";
 
 interface BlogPageProps {
   posts: BlogPost[];
@@ -30,15 +30,12 @@ export default function BlogPageZh({ posts }: BlogPageProps) {
 
   return (
     <>
-      <Head>
-        <title>AI 提示词工作日志</title>
-        <meta
-          name="description"
-          content="#1 记录 Nano Banana 与 GPT-4o 策展经验、提示词写作方法与质量控制流程的博客。"
-        />
-        <link rel="canonical" href="https://ai-image-prompt.com/zh/blog" />
-        <link rel="icon" href="/favicon.ico" type="image/png" />
-      </Head>
+      <SeoMeta
+        title="AI 提示词工作日志 – 案例与流程解析"
+        description="#1 记录 Nano Banana 与 GPT-4o 策展经验、提示词写作方法与质量控制流程的博客。"
+        url="/zh/blog"
+        locale="zh_CN"
+      />
       <SiteLayout language="zh" navItems={navItems} footerItems={footerItems}>
         <article className="space-y-12">
           <header className="space-y-5">

@@ -1,8 +1,8 @@
-import Head from "next/head";
 import { GetServerSideProps } from "next";
 import SiteLayout from "@/components/SiteLayout";
 import { EN_BLOG_POSTS } from "@/content/blog/en/posts";
 import { BlogPost } from "@/types/blog";
+import { SeoMeta } from "@/components/SeoMeta";
 
 interface BlogPageProps {
   posts: BlogPost[];
@@ -30,15 +30,12 @@ export default function BlogPage({ posts }: BlogPageProps) {
 
   return (
     <>
-      <Head>
-        <title>AI Prompt Craft Blog – Field Notes &amp; Frameworks</title>
-        <meta
-          name="description"
-          content="#1 Blog dedicated to prompt engineering strategies, curation workflows, and reusable formulas for Nano Banana and GPT-4o."
-        />
-        <link rel="canonical" href="https://ai-image-prompt.com/blog" />
-        <link rel="icon" href="/favicon.ico" type="image/png" />
-      </Head>
+      <SeoMeta
+        title="AI Prompt Craft Blog – Field Notes & Frameworks"
+        description="#1 Blog dedicated to prompt engineering strategies, curation workflows, and reusable formulas for Nano Banana and GPT-4o."
+        url="/blog"
+        locale="en_US"
+      />
       <SiteLayout language="en" navItems={navItems} footerItems={footerItems}>
         <article className="space-y-12">
           <header className="space-y-5">
