@@ -5,6 +5,7 @@ import SiteLayout from "@/components/SiteLayout";
 import { CopyButton } from "@/components/CopyButton";
 import { buildTagMap, loadCases } from "@/lib/dataLoader";
 import { getModelLabel } from "@/lib/models";
+import { ensurePromptPrefix } from "@/lib/promptPrefix";
 import { CaseWithTags } from "@/types/case";
 import { SeoMeta } from "@/components/SeoMeta";
 
@@ -40,6 +41,7 @@ export default function CaseDetailPageZh({ record }: CasePageProps) {
   ];
 
   const canonicalUrl = `/zh/cases/${record.slug}`;
+  const promptText = ensurePromptPrefix(record.prompt);
   const title = `${record.title} | 提示词案例研究`;
   const ogImage = record.outputImages[0]?.src ?? record.inputImages[0]?.src ?? undefined;
 
@@ -108,16 +110,16 @@ export default function CaseDetailPageZh({ record }: CasePageProps) {
           <section className="space-y-4 rounded-2xl border border-cyan-500/30 bg-slate-900/70 p-6 shadow-inner shadow-cyan-500/10">
             <div className="flex flex-wrap items-center gap-3">
               <h2 className="text-xl font-semibold text-cyan-200">提示词</h2>
-              <CopyButton text={record.prompt} label="复制提示词" copiedLabel="已复制" />
+              <CopyButton text={promptText} label="复制提示词" copiedLabel="已复制" />
               <CopyButton
-                text={[record.prompt, record.inputRequirement, record.promptNote, record.referenceNote]
+                text={[promptText, record.inputRequirement, record.promptNote, record.referenceNote]
                   .filter(Boolean)
                   .join("\n\n")}
                 label="复制提示词与说明"
                 copiedLabel="已复制"
               />
             </div>
-            <pre className="whitespace-pre-wrap text-sm text-slate-100">{record.prompt}</pre>
+            <pre className="whitespace-pre-wrap text-sm text-slate-100">{promptText}</pre>
             {record.inputRequirement && (
               <p className="rounded-xl border border-cyan-500/20 bg-slate-950/70 p-4 text-sm text-slate-200/90">
                 <strong className="text-cyan-200">输入要求：</strong> {record.inputRequirement}

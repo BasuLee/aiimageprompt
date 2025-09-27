@@ -3,6 +3,7 @@
 
 import { CaseWithTags, SupportedLanguage } from "@/types/case";
 import { getModelLabel } from "@/lib/models";
+import { ensurePromptPrefix } from "@/lib/promptPrefix";
 
 interface CaseCardProps {
   record: CaseWithTags;
@@ -73,6 +74,7 @@ export function CaseCard({ record, language, onOpen, onPreview }: CaseCardProps)
   const texts = TEXTS[language];
   const hasInput = record.inputImages.length > 0;
   const primaryOutput = record.outputImages[0];
+  const promptText = ensurePromptPrefix(record.prompt);
 
   return (
     <article className="group relative rounded-xl border border-slate-700/50 bg-gradient-to-br from-slate-900/90 to-slate-800/80 shadow-lg shadow-slate-900/50 backdrop-blur-sm transition-all duration-300 hover:border-cyan-400/40 hover:shadow-xl hover:shadow-cyan-500/10 hover:-translate-y-1 cut-corner-both" style={{'--bg-color': 'linear-gradient(135deg, rgba(15, 23, 42, 0.9), rgba(30, 41, 59, 0.8))'} as React.CSSProperties}>
@@ -154,7 +156,7 @@ export function CaseCard({ record, language, onOpen, onPreview }: CaseCardProps)
             </span>
           </div>
 
-          <p className="line-clamp-4 text-sm text-slate-200/90 leading-relaxed font-mono">{record.prompt}</p>
+          <p className="line-clamp-4 text-sm text-slate-200/90 leading-relaxed font-mono">{promptText}</p>
         </div>
 
         <div className="flex flex-wrap gap-3 pt-2">

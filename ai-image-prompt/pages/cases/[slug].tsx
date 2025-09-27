@@ -6,6 +6,7 @@ import { CopyButton } from "@/components/CopyButton";
 import { SeoMeta } from "@/components/SeoMeta";
 import { loadCases } from "@/lib/dataLoader";
 import { getModelLabel } from "@/lib/models";
+import { ensurePromptPrefix } from "@/lib/promptPrefix";
 import { CaseWithTags } from "@/types/case";
 
 interface CasePageProps {
@@ -38,6 +39,7 @@ export default function CaseDetailPage({ record }: CasePageProps) {
   ];
 
   const canonicalUrl = `/cases/${record.slug}`;
+  const promptText = ensurePromptPrefix(record.prompt);
   const title = `${record.title} | AI Prompt Case Study`;
   const ogImage = record.outputImages[0]?.src ?? record.inputImages[0]?.src ?? undefined;
 
@@ -106,16 +108,16 @@ export default function CaseDetailPage({ record }: CasePageProps) {
           <section className="space-y-4 rounded-2xl border border-cyan-500/30 bg-slate-900/70 p-6 shadow-inner shadow-cyan-500/10">
             <div className="flex flex-wrap items-center gap-3">
               <h2 className="text-xl font-semibold text-cyan-200">Prompt</h2>
-              <CopyButton text={record.prompt} label="Copy prompt" copiedLabel="Copied!" />
+              <CopyButton text={promptText} label="Copy prompt" copiedLabel="Copied!" />
               <CopyButton
-                text={[record.prompt, record.inputRequirement, record.promptNote, record.referenceNote]
+                text={[promptText, record.inputRequirement, record.promptNote, record.referenceNote]
                   .filter(Boolean)
                   .join("\n\n")}
                 label="Copy prompt + notes"
                 copiedLabel="Copied!"
               />
             </div>
-            <pre className="whitespace-pre-wrap text-sm text-slate-100">{record.prompt}</pre>
+            <pre className="whitespace-pre-wrap text-sm text-slate-100">{promptText}</pre>
             {record.inputRequirement && (
               <p className="rounded-xl border border-cyan-500/20 bg-slate-950/70 p-4 text-sm text-slate-200/90">
                 <strong className="text-cyan-200">Input requirement:</strong> {record.inputRequirement}

@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import { CaseWithTags, SupportedLanguage } from "@/types/case";
 import { CopyButton } from "@/components/CopyButton";
+import { ensurePromptPrefix } from "@/lib/promptPrefix";
 
 interface CaseModalProps {
   record?: CaseWithTags;
@@ -62,6 +63,8 @@ export function CaseModal({ record, language, onClose }: CaseModalProps) {
     return null;
   }
 
+  const promptText = ensurePromptPrefix(record.prompt);
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/70 px-4 py-10 backdrop-blur">
       <div className="max-h-full w-full max-w-3xl overflow-y-auto rounded-2xl border border-cyan-500/40 bg-slate-900/95 p-6 shadow-2xl shadow-cyan-500/20">
@@ -83,9 +86,9 @@ export function CaseModal({ record, language, onClose }: CaseModalProps) {
           <section>
             <div className="mb-3 flex flex-wrap items-center gap-3">
               <h3 className="text-base font-semibold text-cyan-200">{texts.prompt}</h3>
-              <CopyButton text={record.prompt} label={texts.copy} copiedLabel={texts.copied} />
+              <CopyButton text={promptText} label={texts.copy} copiedLabel={texts.copied} />
               <CopyButton
-                text={[record.prompt, record.inputRequirement, record.promptNote, record.referenceNote]
+                text={[promptText, record.inputRequirement, record.promptNote, record.referenceNote]
                   .filter(Boolean)
                   .join("\n\n")}
                 label={language === "en" ? "Copy prompt + notes" : "复制提示词与说明"}
@@ -93,7 +96,7 @@ export function CaseModal({ record, language, onClose }: CaseModalProps) {
               />
             </div>
             <pre className="whitespace-pre-wrap rounded-xl border border-cyan-500/30 bg-slate-950/70 p-4 text-slate-100 shadow-inner shadow-cyan-500/10">
-              {record.prompt}
+              {promptText}
             </pre>
           </section>
 
