@@ -26,6 +26,23 @@ export default function SiteLayout({ language, navItems, footerItems, children }
   const langRef = useRef<HTMLDetailsElement | null>(null);
   const summaryRef = useRef<HTMLElement | null>(null);
   const [menuWidth, setMenuWidth] = useState(0);
+  const [showScrollTop, setShowScrollTop] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowScrollTop(window.scrollY > 300);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
 
   useEffect(() => {
     if (!isLangOpen) return;
@@ -299,6 +316,20 @@ export default function SiteLayout({ language, navItems, footerItems, children }
           </nav>
         </div>
       </footer>
+      
+      {/* 回到顶部按钮 */}
+      {showScrollTop && (
+        <button
+          onClick={scrollToTop}
+          className="fixed bottom-8 right-8 z-50 group relative rounded-full border border-cyan-400/60 bg-slate-950/90 p-3 text-cyan-300 backdrop-blur-sm transition-all duration-300 hover:border-cyan-300 hover:bg-cyan-500/20 hover:text-cyan-100 hover:shadow-lg hover:shadow-cyan-400/40 hover:scale-110"
+          aria-label={language === "en" ? "Back to top" : "回到顶部"}
+        >
+          <svg className="h-5 w-5 transition-transform duration-300 group-hover:-translate-y-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 11l5-5m0 0l5 5m-5-5v12" />
+          </svg>
+          <div className="absolute inset-0 rounded-full border border-cyan-400/20 animate-pulse"></div>
+        </button>
+      )}
     </div>
   );
 }
