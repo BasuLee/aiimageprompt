@@ -67,7 +67,7 @@ const HEADINGS: Record<SupportedLanguage, {
   },
   zh: {
     title: "AI 提示词画廊",
-    subtitle: "精选 Nano Banana 与 GPT-4o 案例，提供可复现提示词、参考说明与赛博朋克质感。",
+    subtitle: "探索由 Nano Banana 和 GPT-4o 生成的惊艳视觉作品，涵盖流行示例和创意关键词。",
     filtersTitle: "筛选数据集",
     galleryTitle: "精选提示词合集",
   },
