@@ -33,7 +33,6 @@ const TEXTS: Record<SupportedLanguage, {
   styleGroup: string;
   themeGroup: string;
   reset: string;
-  results(count: number): string;
   empty: string;
 }> = {
   en: {
@@ -42,7 +41,6 @@ const TEXTS: Record<SupportedLanguage, {
     styleGroup: "Styles",
     themeGroup: "Themes",
     reset: "Reset filters",
-    results: (count) => `${count} curated prompts`,
     empty: "No matches yet. Try adjusting the filters or search term.",
   },
   zh: {
@@ -51,7 +49,6 @@ const TEXTS: Record<SupportedLanguage, {
     styleGroup: "风格",
     themeGroup: "主题",
     reset: "重置筛选",
-    results: (count) => `共 ${count} 条精选提示词`,
     empty: "暂无匹配结果，可尝试调整筛选条件或搜索词。",
   },
 };
@@ -222,9 +219,6 @@ export function HomeView({ language, cases, models, styles, themes }: HomeViewPr
       </section>
 
       <section>
-        <div className="mb-6 flex items-center justify-between text-sm text-slate-300">
-          <p>{texts.results(filtered.length)}</p>
-        </div>
       {filtered.length === 0 ? (
         <p className="rounded-2xl border border-cyan-500/30 bg-slate-900/60 p-10 text-center text-slate-300">
           {texts.empty}
