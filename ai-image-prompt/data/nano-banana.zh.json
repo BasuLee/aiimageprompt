@@ -1838,7 +1838,12 @@
       "https://x.com/Arminn_Ai"
     ],
     "inputImages": [],
-    "outputImages": []
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case93/output.jpg",
+        "alt": "AI 图像提示词 – 切割带有卡通爆炸效果的物体 输出图像"
+      }
+    ]
   },
   {
     "id": "nano-94",

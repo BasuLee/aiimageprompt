@@ -2457,7 +2457,12 @@
       "https://x.com/Arminn_Ai"
     ],
     "inputImages": [],
-    "outputImages": []
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case93/output.jpg",
+        "alt": "AI image prompt – Slice Object with Cartoon Explosion Effect output image"
+      }
+    ]
   },
   {
     "id": "nano-94",
