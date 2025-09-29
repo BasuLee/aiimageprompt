@@ -52,6 +52,12 @@ export default function HomePage({ cases, models, styles, themes }: HomeProps) {
     { label: "Contact Us", href: "/contact" },
   ];
 
+  const legalItems = [
+    { label: "Terms of Service", href: "/terms" },
+    { label: "Privacy Policy", href: "/privacy" },
+    { label: "Contact Us", href: "/contact" },
+  ];
+
   return (
     <>
       <SeoMeta
@@ -60,8 +66,8 @@ export default function HomePage({ cases, models, styles, themes }: HomeProps) {
         url="/"
         locale="en_US"
       />
-      <SiteLayout language="en" navItems={navItems} footerItems={footerItems}>
-        <HomeView language="en" cases={cases} models={models} styles={styles} themes={themes} />
+      <SiteLayout language="en" navItems={navItems} footerItems={footerItems} legalItems={legalItems}>
+        <HomeView language="en" cases={cases} models={models} styles={styles} themes={themes} legalItems={legalItems} />
       </SiteLayout>
     </>
   );

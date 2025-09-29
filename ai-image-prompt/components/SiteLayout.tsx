@@ -13,6 +13,7 @@ interface SiteLayoutProps {
   language: SupportedLanguage;
   navItems: NavItem[];
   footerItems: NavItem[];
+  legalItems?: NavItem[];
   children: ReactNode;
 }
 
@@ -21,11 +22,15 @@ const LANGUAGE_OPTIONS: Array<{ id: SupportedLanguage; label: string; href: stri
   { id: "zh", label: "中文", href: "/zh" },
 ];
 
-export default function SiteLayout({ language, navItems, footerItems, children }: SiteLayoutProps) {
+export default function SiteLayout({ language, navItems, footerItems, legalItems = [], children }: SiteLayoutProps) {
   const [isLangOpen, setIsLangOpen] = useState(false);
+  const [isLegalOpen, setIsLegalOpen] = useState(false);
   const langRef = useRef<HTMLDetailsElement | null>(null);
+  const legalRef = useRef<HTMLDetailsElement | null>(null);
   const summaryRef = useRef<HTMLElement | null>(null);
+  const legalSummaryRef = useRef<HTMLElement | null>(null);
   const [menuWidth, setMenuWidth] = useState(0);
+  const [legalMenuWidth, setLegalMenuWidth] = useState(0);
   const [showScrollTop, setShowScrollTop] = useState(false);
 
   useEffect(() => {
@@ -55,9 +60,24 @@ export default function SiteLayout({ language, navItems, footerItems, children }
   }, [isLangOpen]);
 
   useEffect(() => {
+    if (!isLegalOpen) return;
+    function handleClick(event: MouseEvent) {
+      if (!legalRef.current) return;
+      if (legalRef.current.contains(event.target as Node)) return;
+      setIsLegalOpen(false);
+    }
+    document.addEventListener("mousedown", handleClick);
+    return () => {
+      document.removeEventListener("mousedown", handleClick);
+    };
+  }, [isLegalOpen]);
+
+  useEffect(() => {
     function syncMenuWidth() {
       if (!summaryRef.current) return;
       setMenuWidth(summaryRef.current.offsetWidth);
+      if (!legalSummaryRef.current) return;
+      setLegalMenuWidth(legalSummaryRef.current.offsetWidth);
     }
     syncMenuWidth();
     window.addEventListener("resize", syncMenuWidth);
@@ -65,6 +85,7 @@ export default function SiteLayout({ language, navItems, footerItems, children }
   }, [language]);
 
   const dropdownWidth = Math.max(menuWidth, 148);
+  const legalDropdownWidth = Math.max(legalMenuWidth, 120);
 
   return (
     <div className="min-h-screen text-slate-100 relative">
@@ -223,6 +244,57 @@ export default function SiteLayout({ language, navItems, footerItems, children }
                   <span className={`uppercase ${item.active ? "text-sm" : "text-xs"}`}>{item.label}</span>
                 </a>
               ))}
+              {legalItems.length > 0 && (
+                <details
+                  ref={legalRef}
+                  className="relative"
+                  open={isLegalOpen}
+                  onToggle={(event) => {
+                    const target = event.currentTarget;
+                    setIsLegalOpen(target.open);
+                  }}
+                >
+                  <summary
+                    ref={legalSummaryRef}
+                    className={`flex cursor-pointer items-center gap-2 px-2 py-1 text-sm transition-all duration-300 focus:outline-none ${
+                      isLegalOpen
+                        ? "text-emerald-300 transform scale-110 font-semibold"
+                        : "text-slate-300 hover:text-emerald-200 hover:transform hover:scale-105"
+                    }`}
+                    style={{ listStyle: "none", minWidth: "5rem" }}
+                    onClick={(event) => {
+                      event.preventDefault();
+                      setIsLegalOpen((prev) => !prev);
+                    }}
+                  >
+                    <span className="text-xs uppercase">{language === "en" ? "Legal" : "法律"}</span>
+                    <span
+                      className={`text-xs transition-transform duration-200 ${
+                        isLegalOpen ? "rotate-180" : ""
+                      }`}
+                    >
+                      ▾
+                    </span>
+                  </summary>
+                  {isLegalOpen && (
+                    <div
+                      className="absolute left-0 z-20 mt-2 overflow-hidden rounded-2xl border border-emerald-400/40 bg-slate-950/95 shadow-xl shadow-emerald-500/20 backdrop-blur"
+                      style={{ width: legalDropdownWidth }}
+                    >
+                      {legalItems.map((item) => (
+                        <a
+                          key={item.href}
+                          href={item.href}
+                          className="block px-4 py-2 text-sm text-emerald-200 transition-all duration-200 hover:bg-emerald-500/10 hover:text-emerald-100"
+                          onClick={() => setIsLegalOpen(false)}
+                        >
+                          <span className="text-xs uppercase">{item.label}</span>
+                        </a>
+                      ))}
+                    </div>
+                  )}
+                </details>
+              )}
               <details
                 ref={langRef}
                 className="relative"

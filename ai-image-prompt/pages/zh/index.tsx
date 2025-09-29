@@ -55,6 +55,12 @@ export default function HomePageZh({ cases, models, styles, themes }: HomeProps)
     { label: "联系我们", href: "/zh/contact" },
   ];
 
+  const legalItems = [
+    { label: "服务条款", href: "/zh/terms" },
+    { label: "隐私政策", href: "/zh/privacy" },
+    { label: "联系我们", href: "/zh/contact" },
+  ];
+
   return (
     <>
       <SeoMeta
@@ -63,8 +69,8 @@ export default function HomePageZh({ cases, models, styles, themes }: HomeProps)
         url="/zh/"
         locale="zh_CN"
       />
-      <SiteLayout language="zh" navItems={navItems} footerItems={footerItems}>
-        <HomeView language="zh" cases={cases} models={models} styles={styles} themes={themes} />
+      <SiteLayout language="zh" navItems={navItems} footerItems={footerItems} legalItems={legalItems}>
+        <HomeView language="zh" cases={cases} models={models} styles={styles} themes={themes} legalItems={legalItems} />
       </SiteLayout>
     </>
   );

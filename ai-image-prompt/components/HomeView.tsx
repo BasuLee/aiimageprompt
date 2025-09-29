@@ -25,6 +25,7 @@ interface HomeViewProps {
   models: ModelOption[];
   styles: string[];
   themes: string[];
+  legalItems?: Array<{ label: string; href: string }>;
 }
 
 const TEXTS: Record<SupportedLanguage, {
@@ -77,7 +78,7 @@ function toggleValue(list: string[], value: string): string[] {
   return list.includes(value) ? list.filter((item) => item !== value) : [...list, value];
 }
 
-export function HomeView({ language, cases, models, styles, themes }: HomeViewProps) {
+export function HomeView({ language, cases, models, styles, themes, legalItems = [] }: HomeViewProps) {
   const texts = TEXTS[language];
   const [searchValue, setSearchValue] = useState("");
   const [selectedModels, setSelectedModels] = useState<string[]>(models.map((model) => model.id));
@@ -250,6 +251,27 @@ export function HomeView({ language, cases, models, styles, themes }: HomeViewPr
           </div>
         </div>
       </section>
+
+      {/* 快捷链接 */}
+      {legalItems.length > 0 && (
+        <div className="flex justify-center">
+          <div className="flex flex-wrap items-center gap-2 text-xs text-slate-400">
+            {legalItems.map((item, index) => (
+              <span key={item.href} className="flex items-center gap-2">
+                <a
+                  href={item.href}
+                  className="transition-colors duration-200 hover:text-cyan-300 hover:underline"
+                >
+                  {item.label}
+                </a>
+                {index < legalItems.length - 1 && (
+                  <span className="text-slate-600">|</span>
+                )}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
 
       <section aria-labelledby="gallery-heading">
         <div className="mb-6 text-left">
