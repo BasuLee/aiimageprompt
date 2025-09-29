@@ -78,6 +78,11 @@ export default function FAQPageZh({ items }: FAQPageProps) {
     { label: "隐私政策", href: "/zh/privacy" },
     { label: "联系我们", href: "/zh/contact" },
   ];
+  const legalItems = [
+    { label: "服务条款", href: "/zh/terms" },
+    { label: "隐私政策", href: "/zh/privacy" },
+    { label: "联系我们", href: "/zh/contact" },
+  ];
 
   return (
     <>
@@ -87,7 +92,7 @@ export default function FAQPageZh({ items }: FAQPageProps) {
         url="/zh/faq"
         locale="zh_CN"
       />
-      <SiteLayout language="zh" navItems={navItems} footerItems={footerItems}>
+      <SiteLayout language="zh" navItems={navItems} footerItems={footerItems} legalItems={legalItems}>
         <article className="mx-auto max-w-3xl space-y-10">
           <header className="space-y-4">
             <h1 className="text-3xl font-semibold text-cyan-100">常见问题</h1>

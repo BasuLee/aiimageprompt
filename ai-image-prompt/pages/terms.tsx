@@ -83,6 +83,11 @@ export default function TermsPage({ sections }: TermsPageProps) {
     { label: "Privacy Policy", href: "/privacy" },
     { label: "Contact Us", href: "/contact" },
   ];
+  const legalItems = [
+    { label: "Terms of Service", href: "/terms" },
+    { label: "Privacy Policy", href: "/privacy" },
+    { label: "Contact Us", href: "/contact" },
+  ];
 
   return (
     <>
@@ -92,7 +97,7 @@ export default function TermsPage({ sections }: TermsPageProps) {
         url="/terms"
         locale="en_US"
       />
-      <SiteLayout language="en" navItems={navItems} footerItems={footerItems}>
+      <SiteLayout language="en" navItems={navItems} footerItems={footerItems} legalItems={legalItems}>
         <article className="mx-auto max-w-3xl space-y-8">
           <header className="space-y-4">
             <h1 className="text-3xl font-semibold text-cyan-100">Terms of Service</h1>

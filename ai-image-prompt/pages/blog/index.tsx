@@ -27,6 +27,11 @@ export default function BlogPage({ posts }: BlogPageProps) {
     { label: "Privacy Policy", href: "/privacy" },
     { label: "Contact Us", href: "/contact" },
   ];
+  const legalItems = [
+    { label: "Terms of Service", href: "/terms" },
+    { label: "Privacy Policy", href: "/privacy" },
+    { label: "Contact Us", href: "/contact" },
+  ];
 
   return (
     <>
@@ -36,7 +41,7 @@ export default function BlogPage({ posts }: BlogPageProps) {
         url="/blog"
         locale="en_US"
       />
-      <SiteLayout language="en" navItems={navItems} footerItems={footerItems}>
+      <SiteLayout language="en" navItems={navItems} footerItems={footerItems} legalItems={legalItems}>
         <article className="space-y-12">
           <header className="space-y-5">
             <h1 className="text-3xl font-semibold text-cyan-100">Prompt Craft Journal</h1>

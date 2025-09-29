@@ -95,6 +95,11 @@ export default function PrivacyPage({ sections }: PrivacyPageProps) {
     { label: "Privacy Policy", href: "/privacy", active: true },
     { label: "Contact Us", href: "/contact" },
   ];
+  const legalItems = [
+    { label: "Terms of Service", href: "/terms" },
+    { label: "Privacy Policy", href: "/privacy" },
+    { label: "Contact Us", href: "/contact" },
+  ];
 
   return (
     <>
@@ -104,7 +109,7 @@ export default function PrivacyPage({ sections }: PrivacyPageProps) {
         url="/privacy"
         locale="en_US"
       />
-      <SiteLayout language="en" navItems={navItems} footerItems={footerItems}>
+      <SiteLayout language="en" navItems={navItems} footerItems={footerItems} legalItems={legalItems}>
         <article className="mx-auto max-w-3xl space-y-8">
           <header className="space-y-4">
             <h1 className="text-3xl font-semibold text-cyan-100">Privacy Policy</h1>

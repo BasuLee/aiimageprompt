@@ -2285,5 +2285,137 @@
         "alt": "AI image prompt – Pixar-Style Portrait output image"
       }
     ]
+  },
+  {
+    "id": "nano-111",
+    "caseNumber": 111,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-111",
+    "title": "照片级真实感人像摄影",
+    "prompt": "一张照片级的特写肖像，主角是一位年迈的日本陶艺家，他脸上布满被阳光雕刻出的深深皱纹，带着温暖而会意的微笑。他正在仔细端详一个刚上釉的茶碗。背景是他那间充满阳光的乡村风格工作室。柔和的金色黄昏光线从窗户射入，照亮了黏土的细腻纹理。使用 85mm 人像镜头拍摄，背景柔和模糊（焦外成像）。整体氛围宁静而充满大师风范。竖向构图",
+    "inputRequirement": "",
+    "notes": [
+      "模板：一张照片级的[拍摄类型]照片，主体是[主体]，正在[动作或表情]，场景位于[环境]。由[光线描述]照亮，营造出[氛围]的氛围。使用[相机/镜头细节]拍摄，突出了[关键纹理和细节]。图像应为[宽高比]格式"
+    ],
+    "author": "",
+    "authorUrl": "",
+    "sourceLinks": [],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case111/output.jpg",
+        "alt": "AI 图像提示词 – 照片级真实感人像摄影 输出图像"
+      }
+    ]
+  },
+  {
+    "id": "nano-112",
+    "caseNumber": 112,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-112",
+    "title": "卡哇伊风格贴纸设计",
+    "prompt": "一张卡哇伊风格的贴纸，画的是一只快乐的小熊猫，戴着一顶小小的竹帽，正在咀嚼一片绿色的竹叶。设计采用粗大、清晰的轮廓线，赛璐璐风格的简单着色，以及鲜艳的调色板。背景必须为白色",
+    "inputRequirement": "",
+    "notes": [
+      "模板：一张[风格]风格的贴纸，主体是[主体]，具有[关键特征]和[调色板]。设计应采用[线条风格]和[阴影风格]。背景必须为白色"
+    ],
+    "author": "",
+    "authorUrl": "",
+    "sourceLinks": [],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case112/output.jpg",
+        "alt": "AI 图像提示词 – 卡哇伊风格贴纸设计 输出图像"
+      }
+    ]
+  },
+  {
+    "id": "nano-113",
+    "caseNumber": 113,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-113",
+    "title": "现代极简标志设计",
+    "prompt": "为一家名为\"The Daily Grind\"的咖啡店设计一个现代、极简的标志。文字应采用干净、粗体的无衬线字体。设计中包含一个与文字无缝融合的、简约风格化的咖啡豆图标。配色方案为黑白。",
+    "inputRequirement": "",
+    "notes": [
+      "模板：为[品牌/概念]创建一个[图像类型]，包含文字\"[要渲染的文本]\"，字体为[字体风格]。整体设计应为[风格描述]，配色方案为[配色方案]"
+    ],
+    "author": "",
+    "authorUrl": "",
+    "sourceLinks": [],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case113/output.jpg",
+        "alt": "AI 图像提示词 – 现代极简标志设计 输出图像"
+      }
+    ]
+  },
+  {
+    "id": "nano-114",
+    "caseNumber": 114,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-114",
+    "title": "影棚产品摄影",
+    "prompt": "一张高分辨率、影棚光拍摄的产品照片，主体是一个极简主义风格的哑光黑陶瓷咖啡杯，放在一个抛光的混凝土地面上。灯光采用三点式柔光箱设置，旨在创造柔和、漫射的高光并消除刺眼的阴影。相机采用略微俯视的45度角拍摄，以展示其简洁的线条。效果超逼真，焦点清晰地对准从咖啡中升起的热气。方形图像",
+    "inputRequirement": "",
+    "notes": [
+      "模板：一张高分辨率、影棚光拍摄的产品照片，主体是[产品描述]，放置在[背景表面/描述]上。灯光采用[布光设置，如三点式柔光箱]，以实现[灯光目的]。相机角度为[角度类型]，以展示[特定功能]。效果超逼真，焦点清晰地对准[关键细节]。[宽高比]"
+    ],
+    "author": "",
+    "authorUrl": "",
+    "sourceLinks": [],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case114/output.jpg",
+        "alt": "AI 图像提示词 – 影棚产品摄影 输出图像"
+      }
+    ]
+  },
+  {
+    "id": "nano-115",
+    "caseNumber": 115,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-115",
+    "title": "极简主义留白构图",
+    "prompt": "一幅极简主义构图，画面中只有一片精致的红色枫叶，位于画面的右下角。背景是一块巨大的、空白的米白色画布，为文字留下充足的留白空间。柔和的漫射光从左上方照来。方形图像。",
+    "inputRequirement": "",
+    "notes": [
+      "模板：一幅极简主义构图，画面中只有一个[主体]，位于画面的[右下角/左上角等位置]。背景是一块巨大的、空白的[颜色]画布，创造出大量的留白空间。光线柔和而微妙。[宽高比]。"
+    ],
+    "author": "",
+    "authorUrl": "",
+    "sourceLinks": [],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case115/output.jpg",
+        "alt": "AI 图像提示词 – 极简主义留白构图 输出图像"
+      }
+    ]
+  },
+  {
+    "id": "nano-116",
+    "caseNumber": 116,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-116",
+    "title": "黑色电影风格漫画格",
+    "prompt": "一个单格漫画，采用粗粝的黑色电影艺术风格，配以高对比度的黑白墨水画。前景中，一名身穿风衣的侦探站在一盏闪烁的路灯下，雨水浸湿了他的肩膀。背景中，一家荒凉酒吧的霓虹灯招牌倒映在水坑里。顶部的标题框写着：\"这座城市，秘密无处藏身。\" 光线刺眼，营造出一种戏剧化而阴郁的氛围。横向构图。",
+    "inputRequirement": "",
+    "notes": [
+      "模板：一个[艺术风格]的单格漫画。前景是[角色描述和动作]。背景是[场景细节]。画格中有一个[对话/标题框]，文字是\"[文本]\"。光线营造出[氛围]的氛围。[宽高比]。"
+    ],
+    "author": "",
+    "authorUrl": "",
+    "sourceLinks": [],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case116/output.jpg",
+        "alt": "AI 图像提示词 – 黑色电影风格漫画格 输出图像"
+      }
+    ]
   }
 ]

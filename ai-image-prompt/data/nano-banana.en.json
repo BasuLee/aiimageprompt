@@ -2904,5 +2904,137 @@
         "alt": "AI image prompt – Pixar-Style Portrait output image"
       }
     ]
+  },
+  {
+    "id": "nano-111",
+    "caseNumber": 111,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-111",
+    "title": "Photorealistic Portrait Photography",
+    "prompt": "A photorealistic close-up portrait of an elderly Japanese ceramicist with deep, sun-etched wrinkles and a warm, knowing smile. He is carefully inspecting a freshly glazed tea bowl. The setting is his rustic, sun-drenched workshop. The scene is illuminated by soft, golden hour light streaming through a window, highlighting the fine texture of the clay. Captured with an 85mm portrait lens, resulting in a soft, blurred background (bokeh). The overall mood is serene and masterful. Vertical portrait orientation.",
+    "inputRequirement": "",
+    "notes": [
+      "Template: A photorealistic [shot type] of [subject], [action or expression], set in [environment]. The scene is illuminated by [lighting description], creating a [mood] atmosphere. Captured with a [camera/lens details], emphasizing [key textures and details]. The image should be in a [aspect ratio] format."
+    ],
+    "author": "",
+    "authorUrl": "",
+    "sourceLinks": [],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case111/output.jpg",
+        "alt": "AI image prompt – Photorealistic Portrait Photography output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-112",
+    "caseNumber": 112,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-112",
+    "title": "Kawaii Style Sticker Design",
+    "prompt": "A kawaii-style sticker of a happy red panda wearing a tiny bamboo hat. It's munching on a green bamboo leaf. The design features bold, clean outlines, simple cel-shading, and a vibrant color palette. The background must be white.",
+    "inputRequirement": "",
+    "notes": [
+      "Template: A [style] sticker of a [subject], featuring [key characteristics] and a [color palette]. The design should have [line style] and [shading style]. The background must be white."
+    ],
+    "author": "",
+    "authorUrl": "",
+    "sourceLinks": [],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case112/output.jpg",
+        "alt": "AI image prompt – Kawaii Style Sticker Design output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-113",
+    "caseNumber": 113,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-113",
+    "title": "Modern Minimalist Logo Design",
+    "prompt": "Create a modern, minimalist logo for a coffee shop called 'The Daily Grind'. The text should be in a clean, bold, sans-serif font. The design should feature a simple, stylized icon of a coffee bean seamlessly integrated with the text. The color scheme is black and white.",
+    "inputRequirement": "",
+    "notes": [
+      "Template: Create a [image type] for [brand/concept] with the text \"[text to render]\" in a [font style]. The design should be [style description], with a [color scheme]."
+    ],
+    "author": "",
+    "authorUrl": "",
+    "sourceLinks": [],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case113/output.jpg",
+        "alt": "AI image prompt – Modern Minimalist Logo Design output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-114",
+    "caseNumber": 114,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-114",
+    "title": "Studio Product Photography",
+    "prompt": "A high-resolution, studio-lit product photograph of a minimalist ceramic coffee mug in matte black, presented on a polished concrete surface. The lighting is a three-point softbox setup designed to create soft, diffused highlights and eliminate harsh shadows. The camera angle is a slightly elevated 45-degree shot to showcase its clean lines. Ultra-realistic, with sharp focus on the steam rising from the coffee. Square image.",
+    "inputRequirement": "",
+    "notes": [
+      "Template: A high-resolution, studio-lit product photograph of a [product description] on a [background surface/description]. The lighting is a [lighting setup, e.g., three-point softbox setup] to [lighting purpose]. The camera angle is a [angle type] to showcase [specific feature]. Ultra-realistic, with sharp focus on [key detail]. [Aspect ratio]."
+    ],
+    "author": "",
+    "authorUrl": "",
+    "sourceLinks": [],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case114/output.jpg",
+        "alt": "AI image prompt – Studio Product Photography output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-115",
+    "caseNumber": 115,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-115",
+    "title": "Minimalist Composition with Negative Space",
+    "prompt": "A minimalist composition featuring a single, delicate red maple leaf positioned in the bottom-right of the frame. The background is a vast, empty off-white canvas, creating significant negative space for text. Soft, diffused lighting from the top left. Square image.",
+    "inputRequirement": "",
+    "notes": [
+      "Template: A minimalist composition featuring a single [subject] positioned in the [bottom-right/top-left/etc.] of the frame. The background is a vast, empty [color] canvas, creating significant negative space. Soft, subtle lighting. [Aspect ratio]."
+    ],
+    "author": "",
+    "authorUrl": "",
+    "sourceLinks": [],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case115/output.jpg",
+        "alt": "AI image prompt – Minimalist Composition with Negative Space output image"
+      }
+    ]
+  },
+  {
+    "id": "nano-116",
+    "caseNumber": 116,
+    "model": "nano-banana",
+    "slug": "nano-banana-case-116",
+    "title": "Comic Book Panel Noir Style",
+    "prompt": "A single comic book panel in a gritty, noir art style with high-contrast black and white inks. In the foreground, a detective in a trench coat stands under a flickering streetlamp, rain soaking his shoulders. In the background, the neon sign of a desolate bar reflects in a puddle. A caption box at the top reads \"The city was a tough place to keep secrets.\" The lighting is harsh, creating a dramatic, somber mood. Landscape.",
+    "inputRequirement": "",
+    "notes": [
+      "Template: A single comic book panel in a [art style] style. In the foreground, [character description and action]. In the background, [setting details]. The panel has a [dialogue/caption box] with the text \"[Text]\". The lighting creates a [mood] mood. [Aspect ratio]."
+    ],
+    "author": "",
+    "authorUrl": "",
+    "sourceLinks": [],
+    "inputImages": [],
+    "outputImages": [
+      {
+        "src": "/assets/nano-banana/case116/output.jpg",
+        "alt": "AI image prompt – Comic Book Panel Noir Style output image"
+      }
+    ]
   }
 ]

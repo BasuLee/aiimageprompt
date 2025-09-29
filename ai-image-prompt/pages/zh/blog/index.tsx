@@ -27,6 +27,11 @@ export default function BlogPageZh({ posts }: BlogPageProps) {
     { label: "隐私政策", href: "/zh/privacy" },
     { label: "联系我们", href: "/zh/contact" },
   ];
+  const legalItems = [
+    { label: "服务条款", href: "/zh/terms" },
+    { label: "隐私政策", href: "/zh/privacy" },
+    { label: "联系我们", href: "/zh/contact" },
+  ];
 
   return (
     <>
@@ -36,7 +41,7 @@ export default function BlogPageZh({ posts }: BlogPageProps) {
         url="/zh/blog"
         locale="zh_CN"
       />
-      <SiteLayout language="zh" navItems={navItems} footerItems={footerItems}>
+      <SiteLayout language="zh" navItems={navItems} footerItems={footerItems} legalItems={legalItems}>
         <article className="space-y-12">
           <header className="space-y-5">
             <h1 className="text-3xl font-semibold text-cyan-100">Prompt Craft 工作日志</h1>

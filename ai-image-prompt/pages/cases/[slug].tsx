@@ -37,6 +37,11 @@ export default function CaseDetailPage({ record }: CasePageProps) {
     { label: "Privacy Policy", href: "/privacy" },
     { label: "Contact Us", href: "/contact" },
   ];
+  const legalItems = [
+    { label: "Terms of Service", href: "/terms" },
+    { label: "Privacy Policy", href: "/privacy" },
+    { label: "Contact Us", href: "/contact" },
+  ];
 
   const canonicalUrl = `/cases/${record.slug}`;
   const promptText = ensurePromptPrefix(record.prompt);
@@ -53,7 +58,7 @@ export default function CaseDetailPage({ record }: CasePageProps) {
         imagePath={ogImage}
         locale="en_US"
       />
-      <SiteLayout language="en" navItems={navItems} footerItems={footerItems}>
+      <SiteLayout language="en" navItems={navItems} footerItems={footerItems} legalItems={legalItems}>
         <article className="space-y-8">
           <header className="space-y-3">
             <a

@@ -71,6 +71,11 @@ export default function ContactPage({ sections }: ContactPageProps) {
     { label: "Privacy Policy", href: "/privacy" },
     { label: "Contact Us", href: "/contact", active: true },
   ];
+  const legalItems = [
+    { label: "Terms of Service", href: "/terms" },
+    { label: "Privacy Policy", href: "/privacy" },
+    { label: "Contact Us", href: "/contact" },
+  ];
 
   return (
     <>
@@ -80,7 +85,7 @@ export default function ContactPage({ sections }: ContactPageProps) {
         url="/contact"
         locale="en_US"
       />
-      <SiteLayout language="en" navItems={navItems} footerItems={footerItems}>
+      <SiteLayout language="en" navItems={navItems} footerItems={footerItems} legalItems={legalItems}>
         <article className="mx-auto max-w-3xl space-y-8">
           <header className="space-y-4">
             <h1 className="text-3xl font-semibold text-cyan-100">Contact the Team</h1>

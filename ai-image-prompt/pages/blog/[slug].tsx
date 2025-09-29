@@ -32,6 +32,11 @@ export default function BlogDetailPage({ post }: BlogDetailProps) {
     { label: "Privacy Policy", href: "/privacy" },
     { label: "Contact Us", href: "/contact" },
   ];
+  const legalItems = [
+    { label: "Terms of Service", href: "/terms" },
+    { label: "Privacy Policy", href: "/privacy" },
+    { label: "Contact Us", href: "/contact" },
+  ];
 
   const canonicalUrl = `/blog/${post.slug}`;
   const title = `${post.title} | AI Prompt Guide`;
@@ -45,7 +50,7 @@ export default function BlogDetailPage({ post }: BlogDetailProps) {
         type="article"
         locale="en_US"
       />
-      <SiteLayout language="en" navItems={navItems} footerItems={footerItems}>
+      <SiteLayout language="en" navItems={navItems} footerItems={footerItems} legalItems={legalItems}>
         <article className="mx-auto max-w-3xl space-y-10">
           <header className="space-y-4">
             <a href="/blog" className="inline-flex items-center text-sm text-cyan-200 transition hover:text-cyan-100">
