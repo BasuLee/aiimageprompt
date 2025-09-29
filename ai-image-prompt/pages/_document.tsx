@@ -4,7 +4,11 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        
+        <script 
+          async 
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6250614423109003"
+          crossOrigin="anonymous"
+        />
       </Head>
       <body className="antialiased">
         <Main />
